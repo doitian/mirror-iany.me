@@ -1,9 +1,9 @@
-+++
-date = "2017-01-15T23:47:32+08:00"
-title = "关于"
-share = false
-description = "我是 Ian Yang, 软件开发者。目前在 Nervos 开发 CKB。我也曾在 虎牙游戏, Groupon, Intridea, 载信和群硕工作过。"
-+++
+---
+date: "2017-01-15T23:47:32+08:00"
+title: "关于"
+share: false
+description: "我是 Ian Yang, 软件开发者。目前在 Nervos 开发 CKB。我也曾在 虎牙游戏, Groupon, Intridea, 载信和群硕工作过。"
+---
 
 我是 Ian Yang, 软件开发者。目前在 [Nervos] 开发 CKB。我也曾在 [虎牙游戏][hooyagames], [Groupon], [Intridea], [载信][izenesoft]和[群硕][augmentum]工作过。
 
