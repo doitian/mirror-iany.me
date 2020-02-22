@@ -90,13 +90,6 @@ beian = '浙ICP备17004784号-1'
     url = "/tags/"
     weight = 3
 
-  [[languages.en.menu.main]]
-    identifier = "zh"
-    name = "中文首页"
-    title = "中文首页"
-    url = "/zh/"
-    weight = 999
-
   [[languages.en.menu.social]]
     identifier = "about"
     pre = '<i class="fas fa-user-circle"></i>'
@@ -131,13 +124,6 @@ beian = '浙ICP备17004784号-1'
     title = "标签"
     url = "/zh/tags/"
     weight = 3
-
-  [[languages.zh.menu.main]]
-    identifier = "en"
-    name = "English Home"
-    title = "English Home"
-    url = "/"
-    weight = 999
 
   [[languages.zh.menu.social]]
     identifier = "about"

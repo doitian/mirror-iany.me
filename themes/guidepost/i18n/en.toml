@@ -53,8 +53,8 @@ other = "Print This Page"
 [subscribeRSS]
 other = "Subscribe RSS"
 
-["openLang.zh"]
-other = "查看中文版本"
+["translatedTo.zh"]
+other = "查看本页面对应的中文版本"
 
 ["title.macOS"]
 other = "macOS"

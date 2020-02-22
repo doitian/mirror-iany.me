@@ -26,4 +26,21 @@
         {{ end -}}
     </div>
 </main>
+
+{{ if .Site.IsMultiLingual -}}
+<section class="language-list">
+    <div class="container">
+        <ul class="languages-list">
+            <li><i class="fas fa-globe"></i></li>
+            {{ range .Sites }}
+            <li{{ if eq .Language.Lang $.Lang }} class="nav-current"{{ end }}>
+                <a rel="alternate" href="{{ .Home.RelPermalink }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}">
+                    {{ .Language.LanguageName | default .Language.Lang }}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</section>
+{{ end -}}
 {{ end -}}

@@ -46,8 +46,8 @@ other = "打印此页"
 [subscribeRSS]
 other = "订阅 RSS"
 
-["openLang.en"]
-other = "View English Version"
+["translatedTo.en"]
+other = "Open the English Version of This Page"
 
 ["title.Posts"]
 other = "文章"

@@ -40,8 +40,8 @@
       {{ end -}}
       {{ if .IsTranslated }}
       {{ range .Translations }}
-      <li class="social-link tippy" data-tippy-content="{{ T (print "openLang." .Lang) | default .Language.LanguageName | default .Language }}">
-          <a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}"><i class="fas fa-globe"></i> {{ .Language.LanguageName | default .Language }}</a>
+      <li class="social-link tippy" data-tippy-content="{{ T (print "translatedTo." .Lang) | default .Language.LanguageName | default .Language }}">
+          <a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}"><i class="fas fa-globe"></i></a>
       </li>
       {{ end }}
   </ul>
