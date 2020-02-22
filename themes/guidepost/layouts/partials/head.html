@@ -53,23 +53,24 @@
     <link rel="stylesheet" href="{{ "css/styles.min.css" | relURL }}">
     {{ with .Params.feature }}
     <style>
-        {{ $feature := $.Resources.GetMatch . }}
+        {{- $feature := $.Resources.GetMatch . -}}
         {{/* $xl := $feature.Resize "1400x" */}}
-        {{ $l := $feature.Resize "1000x" }}
-        {{ $m := $feature.Resize "600x" }}
+        {{- $xl := $feature -}}
+        {{- $l := $feature.Resize "1000x" -}}
+        {{- $m := $feature.Resize "600x" -}}
         .responsive-title-img {
-            background-image: url({{ $feature.RelPermalink }});
+            background-image: url({{ $xl.RelPermalink }});
         }
         @media(max-width: 1000px) {
             .responsive-title-img {
                 background-image: url({{ $l.RelPermalink }});
                 background-image: -webkit-image-set(
                     url({{ $l.RelPermalink }}) 1x,
-                    url({{ $feature.RelPermalink }}) 2x
+                    url({{ $xl.RelPermalink }}) 2x
                 );
                 background-image: image-set(
                     url({{ $l.RelPermalink }}) 1x,
-                    url({{ $feature.RelPermalink }}) 2x
+                    url({{ $xl.RelPermalink }}) 2x
                 );
             }
         }
