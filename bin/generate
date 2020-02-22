@@ -4,4 +4,4 @@ set -e
 set -u
 [ -n "${DEBUG:-}" ] && set -x || true
 
-git push
+../blog-autobuild/x.py run
