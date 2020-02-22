@@ -20,8 +20,6 @@ IMAP is still the better choice. The real issue is indeed that Apple Mail uses r
 
 Following is the detailed instructions to setup a Gmail IMAP client which only downloads mails in the inbox.
 
-<!--more-->
-
 First go to the Gmail [label settings](https://mail.google.com/mail/u/0/#settings/labels). Disable all the "Show in IMAP" options except the one for inbox.
 
 Since Apple Mail does not allow configuring mailboxes for a Google account, I have to generate an [app password](https://myaccount.google.com/apppasswords) to add the Gmail as an IMAP account. Open Mail app, add account and choose IMAP from "Other mail account…".

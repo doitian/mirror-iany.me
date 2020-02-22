@@ -12,17 +12,18 @@ tags:
 title: 'Weekly Paper: Liberal Radicalism'
 ---
 
-https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656
+[paper source](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656)
 
-## Introduction
-
-> (LR is) as flexible and responsive as the market, but avoids free-rider problems.  
+> (LR is) as flexible and responsive as the market, but avoids free-rider problems.
 
 - Flexible and responsive: any one can propose a new public good project, and the project can get enough fundings even when only a small community funds it.
 - Subsidies create incentives for citizens to fund projects.
 
+<!--more-->
+
 ## Background
-> (Free-rider problem is) due to the expense or inefficiency involved in excluding individuals from access.  
+
+> (Free-rider problem is) due to the expense or inefficiency involved in excluding individuals from access.
 
 ### Cons of Existing Solutions
 

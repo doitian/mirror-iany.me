@@ -11,6 +11,9 @@ summaryLength = 33
 [markup.highlight]
 codeFences = false
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [permalinks]
 post = "/:year/:month/:filename/"
 page = "/:filename/"

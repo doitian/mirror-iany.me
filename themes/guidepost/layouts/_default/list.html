@@ -24,7 +24,8 @@
                     </header>
 
                     <div class="post-card-content">
-                        <p>{{ .Summary | plainify }}{{ if .Truncated }}&hellip;{{ end }}</p>
+                        {{- $summary := trim (.Summary | plainify) ".\n" | htmlUnescape -}}
+                        <p>{{ $summary }}{{ if .Truncated }}&hellip;{{ end }}</p>
                     </div>
 
                     <footer class="post-card-footer post-meta">

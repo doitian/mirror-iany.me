@@ -10,7 +10,6 @@
         {{- else -}}
         {{ $.Scratch.Set "title" (T (print "title." .Title) | default .Title) }}
         {{- end -}}
-        {{- if ne .Kind "home" }}{{ $.Scratch.Add "title" (print " «" .Site.Title "»") }}{{ end -}}
         {{- $title := $.Scratch.Get "title" }}{{ $title -}}
     </title>
 
@@ -35,7 +34,7 @@
     {{ with .Site.Author.name -}}
     <meta name="author" content="{{ . }}" />
     {{ end -}}
-    {{ $description := .Description | default (.Summary | plainify) -}}
+    {{ $description := .Description | default ((trim (.Summary | plainify) ".\n") | htmlUnescape) -}}
     {{ $.Scratch.Set "description" $description -}}
     <meta name="description" content="{{ $description }}" />
     <meta name="keywords" content="{{ delimit (.Params.keywords | default .Params.tags | default slice) ", " }}" />

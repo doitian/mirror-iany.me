@@ -2,6 +2,7 @@
 date: '2013-04-08'
 description: I like the feature to Insert all completions in bash, and I can get this feature in zsh now
 lastmod: '2017-01-19'
+summary: I like the feature to Insert all completions in bash, and I can get this feature in zsh now
 tags:
 - zsh
 - console
@@ -48,8 +49,6 @@ the current menu item without closing completing menu. So it is possible to
 select multiple items by navigating to wanted items, and type <kbd>M-a</kbd>
 to select them.
 
-<!--more-->
-
 ## Bash Sample to delete git branches ##
 
 1.  First enter following text.
@@ -60,7 +59,7 @@ to select them.
 
         $ git branch -D feature/
         feature/a feature/b
-    
+
 3.  Type <kbd>M-*</kbd> to insert all completions.
 
         $ git branch -D feature/a feature/b

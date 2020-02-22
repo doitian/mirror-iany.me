@@ -12,13 +12,13 @@ It is common to use Redis as read buffer。To read data, first check whether it 
 
 But if the system bottleneck is in writing, the solution above does not work. But it is easy to modify it into a write buffer.
 
+<!--more-->
+
 - Read: Check whether the data exists in Redis. Read from backend storage if not.
 - Write: Just write into Redis. Notify background worker via message queue to flush the cache into backend storage.
 - The background worker watches message queue, save data and delete from Redis.
 
 The message queue can be implemented using Redis LIST. Official [RPOPLPUSH – Redis](https://redis.io/commands/rpoplpush) command document already described how to implement a reliable queue. The remaining issue is how to safely delete saved data from Redis.
-
-<!--more-->
 
 The save step can be split into:
 

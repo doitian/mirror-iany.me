@@ -6,14 +6,17 @@ series:
 title: What I Touched This Week 2019-06-16
 ---
 
+* [Visual Studio Code Remote Development may change everything - Scott Hanselman](https://www.hanselman.com/blog/VisualStudioCodeRemoteDevelopmentMayChangeEverything.aspx)
+* [If you haven’t patched Vim or NeoVim text editors, you really, really should | Ars Technica](https://arstechnica.com/information-technology/2019/06/if-you-havent-patched-vim-or-neovim-text-editors-you-really-really-should/)
+
+<!--more-->
+
 * macOS » Uninstall GoogleSoftwareUpdate
 
     ```
     sudo /Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/Resources/GoogleSoftwareUpdateAgent.app/Contents/Resources/ksinstall --nuke
     ```
 
-* [Visual Studio Code Remote Development may change everything - Scott Hanselman](https://www.hanselman.com/blog/VisualStudioCodeRemoteDevelopmentMayChangeEverything.aspx)
-* [If you haven’t patched Vim or NeoVim text editors, you really, really should | Ars Technica](https://arstechnica.com/information-technology/2019/06/if-you-havent-patched-vim-or-neovim-text-editors-you-really-really-should/)
 
 ## Bookmarks
 
