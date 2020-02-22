@@ -1,0 +1,37 @@
+<figure class="kg-card kg-bookmark-card">
+    <a href="{{ .Get "href" }}" class="kg-bookmark-container">
+        <div class="kg-bookmark-content">
+            <div class="kg-bookmark-title">{{ .Get "title" }}</div>
+            <div class="kg-bookmark-description">{{ .Get "description" | markdownify }}</div>
+            <div class="kg-bookmark-metadata">
+                {{- with .Get "avatar" }}
+                {{- $src := . }}
+                {{- if or (in $src "://") (hasPrefix $src "/") -}}
+                <img src="{{ $src }}" class="kg-bookmark-icon">
+                {{- else }}
+                {{- $img := $.Page.Resources.GetMatch $src -}}
+                <img src="{{ $img.RelPermalink }}" class="kg-bookmark-icon">
+                {{- end }}
+                {{- end }}
+
+                {{- with .Get "author" }}
+                <span class="kg-bookmark-author">{{.}}</span>
+                {{- end }}
+                {{- with .Get "publisher" }}
+                <span class="kg-bookmark-publisher">{{.}}</span>
+                {{- end }}
+            </div>
+        </div>
+        <div class="kg-bookmark-thumbnail">
+            {{- with .Get "thumbnail" }}
+            {{- $src := . }}
+            {{- if or (in $src "://") (hasPrefix $src "/") -}}
+            <img src="{{ $src }}">
+            {{- else }}
+            {{- $img := $.Page.Resources.GetMatch $src -}}
+            <img src="{{ $img.RelPermalink }}">
+            {{- end }}
+            {{- end }}
+        </div>
+    </a>
+</figure> 

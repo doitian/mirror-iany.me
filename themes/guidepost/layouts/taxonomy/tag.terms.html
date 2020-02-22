@@ -1,0 +1,29 @@
+{{ define "main" }}
+<main id="site-main">
+    <div class="container">
+        {{- partial "breadcrumbs.html" . -}}
+        <div class="site-inner">
+            <article>
+                <header class="post-header">
+                    <h1 class="post-title">{{ T (print "title." .Title) | default .Title }}</h1>
+                </header>
+
+                <section class="tag-content">
+                    <aside><p>{{ .Description | default (T (print "aCollectionOf." .Title) (len .Pages)) | default (T "aCollectionOf" (len .Pages))  }}</p></aside>
+                    <ul class="post-tags">
+                        {{ range $.Site.Taxonomies.tags.ByCount }}
+                        <li class="post-tag">
+                            {{ $tag := $.Site.GetPage (printf "/%s/%s" $.Type .Name) }}
+                            <a href="{{ $tag.RelPermalink }}" rel="tag" class="tag-list-item">
+                                <span class="term">{{ T (print "title." $tag.LinkTitle) | default ($tag.LinkTitle | humanize | title) }}</span>
+                                <span class="count">{{ .Count }}</span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </section>
+            </article>
+        </div>
+    </div>
+</main>
+{{ end }}

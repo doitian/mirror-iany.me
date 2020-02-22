@@ -1,0 +1,49 @@
+<nav class="breadcrumbs">
+  <ol class="breadcrumbs-items">
+    <li class="breadcrumb-item"><a href="{{ "/" | relLangURL }}">{{ T "home" }}</a></li>
+    {{ if eq .Kind "taxonomy" -}}
+        {{ with .Parent -}}
+        <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ T (print "title." .Title) | default .Title }}</a></li>
+        {{ end -}}
+    {{ end -}}
+    {{ if .IsPage -}}
+    {{ if .Section -}}
+    <li class="breadcrumb-item">
+        <a href="{{ .CurrentSection.RelPermalink }}">
+            {{ T (print "title." .CurrentSection.Title) | default .CurrentSection.Title }}
+        </a>
+    </li>
+    {{ end -}}
+    {{ end }}
+    <li class="breadcrumb-item">
+        {{- if eq .Kind "taxonomy" -}}
+        {{- T (print "title." .LinkTitle) | default (.LinkTitle | humanize | title) -}}
+        {{- else -}}
+        {{ T (print "title." .Title) | default .Title }}
+        {{- end -}}
+    </li>
+  </ol>
+
+  <ul class="social-links">
+      {{ if and .IsPage (ne .Layout "search") (ne .Params.share false) -}}
+      {{ $title := $.Scratch.Get "title" }}
+      <li class="social-link tippy" data-tippy-content="{{ T "shareViaEmail" }}">
+        <a href="mailto:?subject={{ $title }}&body={{ .Permalink }}">
+          <i class="far fa-envelope"></i>
+        </a>
+      </li>
+      <li class="social-link tippy" data-tippy-content="{{ T "printThisPage" }}">
+        <a href="javascript:;" class="print-page">
+          <i class="fas fa-print"></i>
+        </a>
+      </li>
+      {{ end -}}
+      {{ if .IsTranslated }}
+      {{ range .Translations }}
+      <li class="social-link tippy" data-tippy-content="{{ T (print "openLang." .Lang) | default .Language.LanguageName | default .Language }}">
+          <a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}"><i class="fas fa-globe"></i> {{ .Language.LanguageName | default .Language }}</a>
+      </li>
+      {{ end }}
+  </ul>
+  {{ end }}
+</nav>

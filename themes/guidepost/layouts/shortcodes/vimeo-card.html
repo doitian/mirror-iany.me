@@ -1,0 +1,6 @@
+<figure class="kg-card kg-embed-card{{ with .Get "kg-width" }} kg-width-{{.}}{{ end }}">
+    <iframe src="https://player.vimeo.com/video/{{ .Get "id" }}" width="640" height="391" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    {{ with .Get "caption" -}}
+    <figcaption>{{ . | markdownify }}</figcaption>
+    {{ end -}}
+</figure>

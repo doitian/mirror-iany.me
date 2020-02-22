@@ -1,0 +1,24 @@
+{{ $src := .Get "src" -}}
+{{ $attrsBlacklist := slice "src" "kg-width" -}}
+<img {{ if or (in $src "://") (hasPrefix $src "/") -}}
+
+src="{{ $src }}"
+
+{{- else -}}
+
+{{- $srcParts := split $src "?" }}
+{{- $img := $.Page.Resources.GetMatch (index $srcParts 0) -}}
+{{- with (index $srcParts 1) -}}
+    {{- range $pair := split . "&" -}}
+        {{- $kv := split . "=" -}}
+        {{- if eq (index $kv 0) "resize" }}{{ $img = $img.Resize (index $kv 1) }}{{ end -}}
+        {{- if eq (index $kv 0) "fit" }}{{ $img = $img.Fit (index $kv 1) }}{{ end -}}
+        {{- if eq (index $kv 0) "fill" }}{{ $img = $img.FIll (index $kv 1) }}{{ end -}}
+    {{- end -}}
+{{- end -}}
+
+src="{{ $img.RelPermalink }}"
+
+{{- end }}{{ range $k, $v := .Params -}}
+{{- if not (in $attrsBlacklist $k) }} {{$k}}="{{$v}}"{{ end -}}
+{{ end }} />

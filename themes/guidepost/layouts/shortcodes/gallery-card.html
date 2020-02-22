@@ -1,0 +1,56 @@
+{{ $images := .Params -}}
+{{ $caption := "" -}}
+{{ $kgWidth := "kg-width-wide" -}}
+{{ with .Get 0 -}}
+{{ if in (slice "normal" "wide" "full") . -}}
+{{ $kgWidth = print "kg-width-" . -}}
+{{ $images = last (sub (len $images) 1) $images -}}
+{{ end -}}
+{{ end -}}
+<figure class="kg-card kg-gallery-card {{ $kgWidth }}">
+    <div class="kg-gallery-container">
+        <div class="kg-gallery-row">
+            {{ range $images -}}
+            {{ $src := . -}}
+
+            {{ if (eq $src "|") }}
+        </div>
+
+        <div class="kg-gallery-row">
+            {{ else if (hasPrefix $src "|") -}}
+            {{ $caption = strings.TrimPrefix "|" $src -}}
+
+            {{ else -}}
+            {{ $tooltipSplits := split $src "|" -}}
+            {{ $src = (index $tooltipSplits 0) -}}
+            <div class="kg-gallery-image">
+                <img {{ with (index $tooltipSplits 1) -}}
+                 class="tippy" data-tippy-content="{{.}}" {{ end }}{{ if or (in $src "://") (hasPrefix $src "/") -}}
+
+                 src="{{ $src }}"
+
+                 {{- else -}}
+
+                 {{- $srcParts := split $src "?" }}
+                 {{- $img := $.Page.Resources.GetMatch (index $srcParts 0) -}}
+                 {{- with (index $srcParts 1) -}}
+                 {{- range $pair := split . "&" -}}
+                 {{- $kv := split . "=" -}}
+                 {{- if eq (index $kv 0) "resize" }}{{ $img = $img.Resize (index $kv 1) }}{{ end -}}
+                 {{- if eq (index $kv 0) "fit" }}{{ $img = $img.Fit (index $kv 1) }}{{ end -}}
+                 {{- if eq (index $kv 0) "fill" }}{{ $img = $img.FIll (index $kv 1) }}{{ end -}}
+                 {{- end -}}
+                 {{- end -}}
+
+                 src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}"
+
+                 {{- end -}} />
+            </div>
+            {{ end -}}
+            {{ end }}
+        </div>
+    </div>
+    {{ if ne $caption "" }}
+    <figcaption>{{ $caption }}</figcaption>
+    {{ end }}
+</figure>

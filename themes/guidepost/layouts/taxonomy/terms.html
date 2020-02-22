@@ -1,0 +1,45 @@
+{{ define "main" }}
+<main id="site-main">
+    <div class="container">
+        {{- partial "breadcrumbs.html" . -}}
+        <div class="post-list-header">
+            <h1 class="post-list-header-title">
+                {{- if eq .Kind "taxonomy" -}}
+                {{- T (print "title." .Title) | default (.LinkTitle | humanize | title) -}}
+                {{- else -}}
+                {{ T (print "title." .Title) | default .Title }}
+                {{- end -}}
+            </h1>
+            <h2 class="post-list-header-description">
+                {{ .Description | default (T (print "aCollectionOf." .Title) (len .Pages)) | default (T "aCollectionOf" (len .Pages))  }}
+            </h2>
+        </div>
+
+        <div class="tag-list">
+            {{ range .Pages -}}
+            <article id="section-{{ .Section }}" class="tag-card">
+                <div class="tag-card-inner">
+                    <h3 class="tag-card-title"><a href="{{ .RelPermalink }}">{{ T (print "title." .Title) | default .Title }}</a></h3>
+
+                    <div class="tag-card-content">
+                        <ul>
+                            {{ range first 7 .Pages -}}
+                            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                            {{ end -}}
+                        </ul>
+                    </div>
+
+                    <a href="{{ .RelPermalink }}" class="tag-card-read-more">
+                        {{ if gt (len .Pages) 0 -}}
+                        {{ T "readMore" (len .Pages) }} →
+                        {{ else -}}
+                        {{ T "readMoreEmpty" }}
+                        {{ end -}}
+                    </a>
+                </div>
+            </article>
+            {{ end -}}
+        </div>
+    </div>
+</main>
+{{ end }}

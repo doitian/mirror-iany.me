@@ -1,0 +1,13 @@
+<ul class="author-list">
+    <li {{ with .Site.Author.name}}class="author-list-item tippy" data-tippy-content="{{ . }}"{{ else }}class="author-list-item"{{ end }}>
+        <div class="static-avatar">
+            {{ with .Site.Author.avatar }}
+            <img class="author-profile-image" src="{{ . | relURL }}"{{ with $.Site.Author.name }} alt="{{ . }}"{{ end }} />
+            {{ else }}
+            <svg height="200" width="200">
+                <circle cx="0" cy="0" r="100" stroke-width="0" fill="gray" />
+            </svg>
+            {{ end }}
+        </div>
+    </li>
+</ul>

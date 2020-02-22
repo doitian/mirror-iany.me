@@ -1,0 +1,31 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="copyright">
+            <p>&copy; {{ now.Format "2006" }} &nbsp;&bull;&nbsp; {{ .Site.Title }} {{ with .Site.Copyright }}&nbsp;&bull;&nbsp; {{ . | safeHTML }}{{ end }}</p>
+            {{ with .Site.Params.beian -}}
+            <p><a target="_blank" href="http://www.beian.miit.gov.cn/" style="font-size: 90%; text-decoration:none; color:#939393;">{{ . }}</a></p>
+            {{ end -}}
+        </div>
+
+        <nav class="social-links">
+          <ul>
+              <li class="social-link"><a href="{{ "index.xml" | relLangURL }}" class="tippy" data-tippy-content="{{ T "subscribeRSS" }}"><i class="fas fa-rss"></i></a></li>
+              {{ range .Site.Menus.social -}}
+              <li class="social-link"><a href="{{ .URL }}" class="tippy" data-tippy-content="{{ .Name }}">{{ .Pre }}</a></li>
+              {{ end -}}
+              {{ with .Site.Author.social.github -}}
+              <li class="social-link"><a href="https://github.com/{{ . }}" class="tippy" data-tippy-content="{{ . }} on GitHub"><i class="fab fa-github"></i></a></li>
+              {{ end -}}
+              {{ with .Site.Author.social.vimeo -}}
+              <li class="social-link"><a href="https://vimeo.com/{{ . }}" class="tippy" data-tippy-content="{{ . }} on Vimeo"><i class="fab fa-vimeo"></i></a></li>
+              {{ end -}}
+              {{ with .Site.Author.social.twitter -}}
+              <li class="social-link"><a href="https://twitter.com/{{ . }}" class="tippy" data-tippy-content="@{{ . }} on Twitter"><i class="fab fa-twitter"></i></a></li>
+              {{ end -}}
+              {{ with .Site.Author.social.diigo -}}
+              <li class="social-link"><a href="https://www.diigo.com/profile/{{ . }}" class="tippy" data-tippy-content="{{ . }} on Diigo"><i class="fas fa-bookmark"></i></a></li>
+              {{ end -}}
+          </ul>
+        </nav>
+    </div>
+</footer>

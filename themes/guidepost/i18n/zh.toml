@@ -1,0 +1,58 @@
+[home]
+other = '主页'
+
+[relatedArticles]
+other = '相关文章'
+
+[searchHint]
+other = '输入关键词...'
+
+[readMore]
+other = '查看全部 {{ .Count }} 篇文章'
+
+[readMoreEmpty]
+other = '没有文章'
+
+[dateFormat]
+other = '1月2日, 2006'
+
+[menu]
+other = "Menu"
+
+[aCollectionOf]
+other = "总共有 {{ .Count }} 篇文章"
+
+["aCollectionOf.Series"]
+other = "总共有 {{ .Count }} 个系列"
+
+["aCollectionOf.Tags"]
+other = "总共有 {{ .Count }} 个标签"
+
+
+[minRead]
+other = "分钟读完"
+
+[shareViaEmail]
+other = "邮件分享"
+
+[printThisPage]
+other = "打印此页"
+
+[subscribeRSS]
+other = "订阅 RSS"
+
+["openLang.en"]
+other = "View English Version"
+
+["title.Posts"]
+other = "文章"
+
+["title.Pages"]
+other = "页面"
+
+["title.Tags"]
+other = "标签"
+
+["title.Series"]
+other = "系列"
+

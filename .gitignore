@@ -1,0 +1,9 @@
+/public
+/resources
+/src
+/py2
+/py3
+gitcommit.txt
+status.json
+.Ulysses*
+.env

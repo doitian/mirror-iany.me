@@ -1,0 +1,72 @@
+[home]
+other = 'Home'
+
+[relatedArticles]
+other = 'Related articles'
+
+[searchHint]
+other = 'Type your keywords...'
+
+[readMore]
+one = 'See 1 article'
+other = 'See all {{ .Count }} articles'
+
+[readMoreEmpty]
+other = 'No articles'
+
+[dateFormat]
+other = 'Jan 02, 2006'
+
+[menu]
+other = "Menu"
+
+[aCollectionOf]
+one = "A collection of 1 article"
+other = "A collection of {{ .Count }} articles"
+
+["aCollectionOf.Series"]
+one = "A collection of 1 series"
+other = "A collection of {{ .Count }} series"
+
+["aCollectionOf.Tags"]
+one = "A collection of 1 tag"
+other = "A collection of {{ .Count }} tags"
+
+[minRead]
+other = "min read"
+
+[recentContentIn]
+other = "Recent content in {{ .Title }}"
+
+[shareViaEmail]
+other = "Share via Email"
+
+[printThisPage]
+other = "Print This Page"
+
+[subscribeRSS]
+other = "Subscribe RSS"
+
+["openLang.zh"]
+other = "查看中文版本"
+
+["title.macOS"]
+other = "macOS"
+
+["title.iOS"]
+other = "iOS"
+
+["title.iPhone"]
+other = "iPhone"
+
+["title.iPad"]
+other = "iPad"
+
+["title.ci"]
+other = "CI"
+
+["title.css"]
+other = "CSS"
+
+["title.html"]
+other = "HTML"

@@ -1,0 +1,22 @@
+<aside class="related-articles">
+    <div class="container">
+        <div class="read-next-feed">
+            {{ $related := .Site.RegularPages.Related . | first 5 }}
+            {{ with $related }}
+            <article {{ with $.File }}id="related-articles-of-{{ .UniqueID }}" {{ end }}class="tag-card">
+                <div class="tag-card-inner">
+                    <h3 class="tag-card-title">{{ T "relatedArticles" }}</h3>
+
+                    <div class="tag-card-content">
+                        <ul>
+                            {{ range . }}
+                            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</aside>

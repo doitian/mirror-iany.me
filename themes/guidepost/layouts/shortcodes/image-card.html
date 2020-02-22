@@ -1,0 +1,34 @@
+{{ $src := .Get "src" -}}
+{{ $attrsBlacklist := slice "src" "kg-width" "caption" "class" -}}
+{{ $classNames := slice "kg-image" -}}
+{{ with .Get "class" -}}
+{{ $classNames := $classNames | append . }}
+{{ end -}}
+<figure class="kg-image-card{{ with .Get "kg-width"}} kg-width-{{.}}{{ end }}">
+    <img class="{{ delimit $classNames " " }}" {{ if or (in $src "://") (hasPrefix $src "/") -}}
+
+src="{{ $src }}"
+
+{{- else -}}
+
+{{- $srcParts := split $src "?" }}
+{{- $img := $.Page.Resources.GetMatch (index $srcParts 0) -}}
+{{- if not $img -}}{{ errorf "fail to find %s" (index $srcParts 0) }}{{- end -}}
+{{- with (index $srcParts 1) -}}
+    {{- range $pair := split . "&" -}}
+        {{- $kv := split . "=" -}}
+        {{- if eq (index $kv 0) "resize" }}{{ $img = $img.Resize (index $kv 1) }}{{ end -}}
+        {{- if eq (index $kv 0) "fit" }}{{ $img = $img.Fit (index $kv 1) }}{{ end -}}
+        {{- if eq (index $kv 0) "fill" }}{{ $img = $img.FIll (index $kv 1) }}{{ end -}}
+    {{- end -}}
+{{- end -}}
+
+src="{{ $img.RelPermalink }}"
+
+{{- end }}{{ range $k, $v := .Params -}}
+{{- if not (in $attrsBlacklist $k) }} {{$k}}="{{$v}}"{{ end -}}
+{{ end }} />
+    {{- with .Get "caption" }}
+    <figcaption >{{ . | markdownify }}</figcaption>
+    {{- end }}
+</figure>

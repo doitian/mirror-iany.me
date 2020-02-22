@@ -1,0 +1,40 @@
+{{ define "main" }}
+<main id="site-main">
+    <div class="container">
+        {{- partial "breadcrumbs.html" . -}}
+        <div class="post-list-header">
+            <h1 class="post-list-header-title">
+                {{- if eq .Kind "taxonomy" -}}
+                {{- T (print "title." .Title) | default (.LinkTitle | humanize | title) -}}
+                {{- else -}}
+                {{ T (print "title." .Title) | default .Title }}
+                {{- end -}}
+            </h1>
+            <h2 class="post-list-header-description">
+                {{ .Description | default (T (print "aCollectionOf." .Title) (len .Pages)) | default (T "aCollectionOf" (len .Pages))  }}
+            </h2>
+        </div>
+
+        <div class="post-list">
+            {{ range .Paginator.Pages }}
+            <article {{ with .File }}id="article-{{ .UniqueID }}" {{end}}class="post-card">
+                <a href=" {{ .RelPermalink }}" class="post-card-link">
+                    <header class="post-card-header">
+                        <h3 class="post-card-title">{{ .Title }}</h3>
+                    </header>
+
+                    <div class="post-card-content">
+                        <p>{{ .Summary | plainify }}{{ if .Truncated }}&hellip;{{ end }}</p>
+                    </div>
+
+                    <footer class="post-card-footer post-meta">
+                        {{- partial "author-list.html" . -}}
+                        <span class="reading-time"><time class="post-full-meta-date" datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format (T "dateFormat") }}</time> &nbsp;&bull;&nbsp; {{ .ReadingTime }} {{ T "minRead" }}</span>
+                    </footer>
+                </a>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</main>
+{{ end }}

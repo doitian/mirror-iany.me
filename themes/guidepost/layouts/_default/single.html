@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main id="site-main">
+    <div class="container">
+        {{- partial "breadcrumbs.html" . -}}
+        {{- partial "post-content.html" . -}}
+    </div>
+</main> 
+
+{{ if and .IsPage (ne .Layout "search") (ne .Params.share false) -}}
+{{- partial "related-articles" . -}}
+{{ end -}}
+
+{{ if ne .Params.comment false -}}
+<section class="post-full-comments container">
+    {{- partial "comments.html" . -}}
+</section>
+{{ end -}}
+{{ end -}}

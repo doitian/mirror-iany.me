@@ -1,0 +1,21 @@
+<script type="text/javascript">
+    window.themeConfig = {
+        gcse: '{{ .Site.Params.gcse }}',
+        searchHint: '{{ T "searchHint" }}',
+        disqusUsername: '{{ .Site.Params.disqusUsername }}',
+        isSearchPage: {{ if eq .Layout "search" }}true{{ else }}false{{ end }}
+    };
+    {{ with .Site.Params.disqusBaseURL }}{{ if ne . $.Site.BaseURL -}}
+    window.disqus_config = function () {
+        this.page.url = '{{ . | safeHTML }}{{ $.RelPermalink }}';
+        this.page.identifier = this.page.url;
+    };
+    {{ end }}{{ end -}}
+</script>
+<script type="text/javascript" src="{{ "js/scripts.min.js" | relURL }}"></script>
+{{ if eq .Params.katex true -}}
+{{- partial "katex.html" . -}}
+{{ end -}}
+{{ if eq .Layout "search" -}}
+<script async src="https://cse.google.com/cse.js?cx={{ .Site.Params.gcse }}"></script>
+{{ end -}}

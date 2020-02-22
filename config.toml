@@ -1,0 +1,144 @@
+baseURL = "https://blog.iany.me/"
+languageCode = "en-US"
+languageName = "English"
+defaultContentLanguage = "en"
+hasCJKLanguage = false
+theme = "guidepost"
+copyright = '<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>'
+footnoteReturnLinkContents = "↩"
+summaryLength = 33
+
+[markup.highlight]
+codeFences = false
+
+[permalinks]
+post = "/:year/:month/:filename/"
+page = "/:filename/"
+life = "/life/:year/:month/:filename/"
+game = "/games/:year/:month/:filename/"
+journal = "/journal/:year/:month/:slug/"
+
+[taxonomies]
+tag = "tags"
+series = "series"
+
+[author]
+name = "Ian Yang"
+avatar = "/images/avatar.jpg"
+givenName = "Ian"
+familyName = "Yang"
+email = "me@iany.me"
+
+  [author.social]
+  github  = "doitian"
+  twitter = "doitian"
+  vimeo   = "doitian"
+  diigo   = "doitian"
+
+[related]
+includeNewer = true
+  [[related.indices]]
+    name = "series"
+    weight = 200
+  [[related.indices]]
+    name = "tags"
+    weight = 150
+  [[related.indices]]
+    name = "keywords"
+    weight = 100
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+
+[params]
+description = 'Stay in Hungary'
+gcse = '006252023667590608831:yopsgewhz5y'
+hiddenSectionsInHomeRSS = ["journal"]
+beian = '浙ICP备17004784号-1'
+# disqusBaseURL = "https://blog.iany.me/"
+
+[languages]
+  [languages.en]
+    title = "~iany/blog"
+    languageCode = "en-US"
+    hasCJKLanguage = false
+    languageName = "English"
+    disqusUsername = "ianyblog"
+
+  [[languages.en.menu.main]]
+    identifier = "home"
+    name = "Home"
+    title = "Home"
+    url = "/"
+    weight = 1
+
+  [[languages.en.menu.main]]
+    identifier = "series"
+    name = "Series"
+    title = "Articles in Series"
+    url = "/series/"
+    weight = 2
+
+  [[languages.en.menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    title = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[languages.en.menu.main]]
+    identifier = "zh"
+    name = "中文首页"
+    title = "中文首页"
+    url = "/zh/"
+    weight = 999
+
+  [[languages.en.menu.social]]
+    identifier = "about"
+    pre = '<i class="fas fa-user-circle"></i>'
+    url = "/about/"
+    name = "About Me"
+    title = "About Me"
+
+  [languages.zh]
+    title = "~iany 博客"
+    languageCode = "zh-CN"
+    hasCJKLanguage = true
+    languageName = "中文"
+    disqusUsername = "ianyblogcn"
+
+  [[languages.zh.menu.main]]
+    identifier = "home"
+    name = "首页"
+    title = "首页"
+    url = "/zh/"
+    weight = 1
+
+  [[languages.zh.menu.main]]
+    identifier = "series"
+    name = "系列"
+    title = "系列文章"
+    url = "/zh/series/"
+    weight = 2
+
+  [[languages.zh.menu.main]]
+    identifier = "tags"
+    name = "标签"
+    title = "标签"
+    url = "/zh/tags/"
+    weight = 3
+
+  [[languages.zh.menu.main]]
+    identifier = "en"
+    name = "English Home"
+    title = "English Home"
+    url = "/"
+    weight = 999
+
+  [[languages.zh.menu.social]]
+    identifier = "about"
+    pre = '<i class="fas fa-user-circle"></i>'
+    url = "/zh/about/"
+    name = "关于"
+    title = "关于作者"
