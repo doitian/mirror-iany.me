@@ -1,9 +1,0 @@
-<span class="reading-time">
-    <time class="post-full-meta-date tippy"
-        datetime="{{ .Lastmod.Format "2006-01-02" }}"
-        data-tippy-content="{{ T "lastMod" }}" >
-        {{ .Lastmod.Format (T "dateFormat") }}
-    </time>
-    &nbsp;&bull;&nbsp;
-    <span class="tippy" data-tippy-content="{{ T "wordCount" .WordCount }}">{{ .ReadingTime }} {{ T "minRead" }}</span>
-</span>

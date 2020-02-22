@@ -30,7 +30,7 @@
 
                     <footer class="post-card-footer post-meta">
                         {{- partial "author-list.html" . -}}
-                        {{- partial "reading-time.html" . -}}
+                        {{- partial "lastmod-time.html" (dict "Page" . "showReadingTime" true) -}}
                     </footer>
                 </a>
             </article>

@@ -21,7 +21,7 @@
         <footer class="post-card-footer post-meta">
             {{- partial "post-tags" . -}}
             {{- partial "author-list" . -}}
-            {{- partial "reading-time.html" . -}}
+            {{- partial "lastmod-time.html" (dict "Page" .) -}}
         </footer>
     </article>
 </div>
