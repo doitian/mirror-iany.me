@@ -27,7 +27,7 @@ series = "series"
 
 [author]
 name = "Ian Yang"
-avatar = "/avatar.jpg"
+avatar = "/avatar-96x96.png"
 givenName = "Ian"
 familyName = "Yang"
 email = "me@iany.me"
