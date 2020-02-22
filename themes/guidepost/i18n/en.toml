@@ -54,7 +54,10 @@ other = "Print This Page"
 other = "Subscribe RSS"
 
 ["translatedTo.zh"]
-other = "查看本页面对应的中文版本"
+other = "中文版本"
+
+["langCode.zh"]
+other = "中"
 
 ["title.macOS"]
 other = "macOS"

@@ -6,6 +6,3 @@ other = "Cocos2d-x"
 
 ["title.gfw"]
 other = "GFW"
-
-["title.macOS Automation"]
-other = "macOS Automation"

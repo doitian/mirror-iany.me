@@ -16,7 +16,7 @@
     {{ end -}}
     {{ end }}
     <li class="breadcrumb-item">
-        {{- if eq .Kind "taxonomy" -}}
+        {{- if eq .Type "tag" -}}
         {{- T (print "title." .LinkTitle) | default (.LinkTitle | humanize | title) -}}
         {{- else -}}
         {{ T (print "title." .Title) | default .Title }}
@@ -24,8 +24,9 @@
     </li>
   </ol>
 
+  {{ if and .IsPage (or .IsTranslated (and (ne .Layout "search") (ne .Params.share false))) -}}
   <ul class="social-links">
-      {{ if and .IsPage (ne .Layout "search") (ne .Params.share false) -}}
+      {{ if and (ne .Layout "search") (ne .Params.share false) -}}
       {{ $title := $.Scratch.Get "title" }}
       <li class="social-link tippy" data-tippy-content="{{ T "shareViaEmail" }}">
         <a href="mailto:?subject={{ $title }}&body={{ .Permalink }}">
@@ -41,8 +42,11 @@
       {{ if .IsTranslated }}
       {{ range .Translations }}
       <li class="social-link tippy" data-tippy-content="{{ T (print "translatedTo." .Lang) | default .Language.LanguageName | default .Language }}">
-          <a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}"><i class="fas fa-globe"></i></a>
+          <a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">
+              {{ T (print "langCode." .Lang) | default (.Lang | title) }}
+          </a>
       </li>
+      {{ end }}
       {{ end }}
   </ul>
   {{ end }}
