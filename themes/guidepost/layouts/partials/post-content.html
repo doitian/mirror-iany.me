@@ -21,7 +21,7 @@
         <footer class="post-card-footer post-meta">
             {{- partial "post-tags" . -}}
             {{- partial "author-list" . -}}
-            <span class="reading-time"><time class="post-full-meta-date" datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format (T "dateFormat") }}</time> &nbsp;&bull;&nbsp; {{ .ReadingTime }} {{ T "minRead" }}</span>
+            {{- partial "reading-time.html" . -}}
         </footer>
     </article>
 </div>

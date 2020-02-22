@@ -32,6 +32,12 @@ other = "A collection of {{ .Count }} series"
 one = "A collection of 1 tag"
 other = "A collection of {{ .Count }} tags"
 
+[lastMod]
+other = "Last modification time"
+
+[wordCount]
+other = "{{ .Count }} words"
+
 [minRead]
 other = "min read"
 
