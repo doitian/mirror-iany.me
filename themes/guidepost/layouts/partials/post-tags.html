@@ -1,16 +1,32 @@
-{{ with .Params.tags }}
-    <ul class="post-tags">
+{{ if or .Params.tags .Params.series }}
+<ul class="post-tags">
+    {{ with .Params.series }}
     {{ range . }}
-        {{ $tag := . }}
-        {{ $url := urls.Parse (. | urlize) }}
-        {{ $path := $url.Path }}
-        {{ with $.Site.GetPage (printf `/tags/%s` $path) }}
-        <li class="post-tag">
-            <a href="{{ .RelPermalink }}" rel="tag" class="tag-list-item">
-                <span class="term">{{ T (print "title." .LinkTitle) | default (.LinkTitle | humanize | title) }}</span>
-            </a>
-        </li>
-        {{ end }}
+    {{ $tag := . }}
+    {{ $url := urls.Parse (. | urlize) }}
+    {{ $path := $url.Path }}
+    {{ with $.Site.GetPage (printf `/series/%s` $path) }}
+    <li class="post-tag">
+        <a href="{{ .RelPermalink }}" rel="tag" class="tag-list-item">
+            <span class="term">{{ T (print "title." .LinkTitle) | default (.LinkTitle | humanize | title) }}</span>
+        </a>
+    </li>
     {{ end }}
-    </ul>
+    {{ end }}
+    {{ end }}
+    {{ with .Params.tags }}
+    {{ range . }}
+    {{ $tag := . }}
+    {{ $url := urls.Parse (. | urlize) }}
+    {{ $path := $url.Path }}
+    {{ with $.Site.GetPage (printf `/tags/%s` $path) }}
+    <li class="post-tag">
+        <a href="{{ .RelPermalink }}" rel="tag" class="tag-list-item">
+            <span class="term">{{ T (print "title." .LinkTitle) | default (.LinkTitle | humanize | title) }}</span>
+        </a>
+    </li>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+</ul>
 {{ end }}
