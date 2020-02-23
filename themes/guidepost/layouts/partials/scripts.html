@@ -12,7 +12,7 @@
     };
     {{ end }}{{ end -}}
 </script>
-<script type="text/javascript" src="{{ "js/scripts.min-0e49539fbc057585264b85b2cbb9273e.js" | relURL }}"></script>
+<script type="text/javascript" src="{{ "js/scripts.min-0e49539fbc057585264b85b2cbb9273e.js" | relURL }}" data-autoloader-path="{{ "js/components/" | relURL }} "></script>
 {{ if eq .Params.katex true -}}
 {{- partial "katex.html" . -}}
 {{ end -}}
