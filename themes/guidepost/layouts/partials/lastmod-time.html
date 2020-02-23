@@ -1,6 +1,7 @@
 <span class="lastmod-time">
+    {{ T "updated" }}
     <time class="post-full-meta-date">
-        {{ T "updated" }} {{ .Page.Lastmod.Format (T "dateFormat") }}
+        {{ .Page.Lastmod.Format (T "dateFormat") }}
     </time>
     {{ if .showReadingTime }}
     &nbsp;&bull;&nbsp;
