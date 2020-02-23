@@ -5,7 +5,7 @@
 
     {{/* Base Meta */}}
     <title>
-        {{- if eq .Type "tag" -}}
+        {{- if eq .Type "tags" -}}
         {{- $.Scratch.Set "title" (.Params.overrideTitle | default (.LinkTitle | humanize | title)) -}}
         {{- else -}}
         {{ $.Scratch.Set "title" (T (print "title." .Title) | default .Title) }}

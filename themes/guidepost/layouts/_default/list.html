@@ -4,7 +4,7 @@
         {{- partial "breadcrumbs.html" . -}}
         <div class="post-list-header">
             <h1 class="post-list-header-title">
-                {{- if eq .Type "tag" -}}
+                {{- if eq .Type "tags" -}}
                 {{- T (print "title." .Title) | default (.LinkTitle | humanize | title) -}}
                 {{- else -}}
                 {{ T (print "title." .Title) | default .Title }}

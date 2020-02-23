@@ -16,7 +16,7 @@
     {{ end -}}
     {{ end }}
     <li class="breadcrumb-item">
-        {{- if eq .Type "tag" -}}
+        {{- if eq .Type "tags" -}}
         {{- T (print "title." .LinkTitle) | default (.LinkTitle | humanize | title) -}}
         {{- else -}}
         {{ T (print "title." .Title) | default .Title }}
