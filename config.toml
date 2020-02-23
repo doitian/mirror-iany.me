@@ -36,7 +36,6 @@ email = "me@iany.me"
   github  = "doitian"
   twitter = "doitian"
   vimeo   = "doitian"
-  diigo   = "doitian"
 
 [related]
 includeNewer = true
@@ -55,7 +54,6 @@ includeNewer = true
 
 
 [params]
-description = 'Stay in Hungary'
 gcse = '006252023667590608831:yopsgewhz5y'
 hiddenSectionsInHomeRSS = ["journal"]
 beian = '浙ICP备17004784号-1'
@@ -67,14 +65,7 @@ beian = '浙ICP备17004784号-1'
     languageCode = "en-US"
     hasCJKLanguage = false
     languageName = "English"
-    disqusUsername = "ianyblog"
-
-  [[languages.en.menu.main]]
-    identifier = "home"
-    name = "Home"
-    title = "Home"
-    url = "/"
-    weight = 1
+    # disqusUsername = "ianyblog"
 
   [[languages.en.menu.main]]
     identifier = "series"
@@ -102,14 +93,7 @@ beian = '浙ICP备17004784号-1'
     languageCode = "zh-CN"
     hasCJKLanguage = true
     languageName = "中文"
-    disqusUsername = "ianyblogcn"
-
-  [[languages.zh.menu.main]]
-    identifier = "home"
-    name = "首页"
-    title = "首页"
-    url = "/zh/"
-    weight = 1
+    # disqusUsername = "ianyblogcn"
 
   [[languages.zh.menu.main]]
     identifier = "series"

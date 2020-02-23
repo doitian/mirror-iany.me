@@ -10,7 +10,7 @@
 {{- partial "related-articles" . -}}
 {{ end -}}
 
-{{ if ne .Params.comment false -}}
+{{ if and .Site.Params.disqusUsername (ne .Params.comment false) -}}
 <section class="post-full-comments container">
     {{- partial "comments.html" . -}}
 </section>
