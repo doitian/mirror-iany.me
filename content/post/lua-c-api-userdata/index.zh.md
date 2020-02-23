@@ -46,7 +46,7 @@ Userdata 的 API 主要是 `lua_newuserdata` 和 `lua_touserdata`。
 以实现简单的复数为例，创建时调用 `lua_newuserdata` 分配内存并把新的 userdata 压入栈。然后通过返回的内存指针进行初始化。
 
 
-※ [userdata.c](link="https://coding.net/u/doitian/p/lua-c-api-intro/git/blob/userdata/userdata.c")
+※ [userdata.c](https://coding.net/u/doitian/p/lua-c-api-intro/git/blob/userdata/userdata.c)
 
 ``` c
 struct Complex {
