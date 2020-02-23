@@ -92,7 +92,7 @@ beian = '浙ICP备17004784号-1'
 
   [[languages.en.menu.social]]
     identifier = "about"
-    pre = '<i class="fas fa-user-circle"></i>'
+    pre = '<i aria-hidden="true" class="fas fa-user-circle"></i>'
     url = "/about/"
     name = "About Me"
     title = "About Me"

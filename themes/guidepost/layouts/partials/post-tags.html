@@ -8,7 +8,7 @@
     {{ with $.Site.GetPage (printf `/series/%s` $path) }}
     <li class="post-tag">
         <a href="{{ .RelPermalink }}" rel="tag" class="tag-list-item">
-            <span class="term">{{ T (print "title." .LinkTitle) | default (.LinkTitle | humanize | title) }}</span>
+            <span class="term">{{ T (print "title." .LinkTitle) | default (.LinkTitle) }}</span>
         </a>
     </li>
     {{ end }}

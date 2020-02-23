@@ -4,6 +4,9 @@ other = 'Home'
 [relatedArticles]
 other = 'Related articles'
 
+[search]
+other = 'Search'
+
 [searchHint]
 other = 'Type your keywords...'
 

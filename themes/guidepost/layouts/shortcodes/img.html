@@ -1,6 +1,8 @@
 {{ $src := .Get "src" -}}
-{{ $attrsBlacklist := slice "src" "kg-width" -}}
-<img {{ if or (in $src "://") (hasPrefix $src "/") -}}
+{{ $basename := path.Base $src -}}
+{{ $basename = substr $basename 0 (sub (len $basename) (len (path.Ext $basename))) -}}
+{{ $attrsBlacklist := slice "src" "kg-width" "alt" -}}
+<img alt="{{ .Get "alt" | default ($basename | title) }}" {{ if or (in $src "://") (hasPrefix $src "/") -}}
 
 src="{{ $src }}"
 
@@ -18,6 +20,12 @@ src="{{ $src }}"
 {{- end -}}
 
 src="{{ $img.RelPermalink }}"
+
+{{- if gt $img.Width 600 }} 
+	{{- $thumb := $img.Fit "600x600" }}
+	srcset="{{ $thumb.RelPermalink }} 600w, {{ $img.RelPermalink }} {{ $img.Width }}w"
+	sizes="(max-width: 600px) 600px, {{ $img.Width }}px"
+{{- end -}}
 
 {{- end }}{{ range $k, $v := .Params -}}
 {{- if not (in $attrsBlacklist $k) }} {{$k}}="{{$v}}"{{ end -}}

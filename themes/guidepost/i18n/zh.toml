@@ -4,6 +4,9 @@ other = '主页'
 [relatedArticles]
 other = '相关文章'
 
+[search]
+other = 'Search'
+
 [searchHint]
 other = '输入关键词...'
 

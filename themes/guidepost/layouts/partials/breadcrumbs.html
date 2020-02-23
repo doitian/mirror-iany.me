@@ -29,14 +29,14 @@
       {{ if and (ne .Layout "search") (ne .Params.share false) -}}
       {{ $title := $.Scratch.Get "title" }}
       <li class="social-link tippy" data-tippy-content="{{ T "shareViaEmail" }}">
-        <a href="mailto:?subject={{ $title }}&body={{ .Permalink }}">
-          <i class="far fa-envelope"></i>
-        </a>
+          <a href="mailto:?subject={{ $title }}&body={{ .Permalink }}" aria-label="{{ T "shareViaEmail" }}">
+              <i aria-hidden="true" class="fas fa-envelope"></i>
+          </a>
       </li>
       <li class="social-link tippy" data-tippy-content="{{ T "printThisPage" }}">
-        <a href="javascript:;" class="print-page">
-          <i class="fas fa-print"></i>
-        </a>
+          <a href="javascript:;" class="print-page" aria-label="{{ T "printThisPage" }}">
+              <i aria-hidden="true" class="fas fa-print"></i>
+          </a>
       </li>
       {{ end -}}
       {{ if .IsTranslated }}

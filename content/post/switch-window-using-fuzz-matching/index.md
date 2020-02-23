@@ -35,7 +35,7 @@ For example, use gpicker to select a number between 1 and 10:
 $ seq -w 1 10 | gpicker -n "\n" -
 ```
 
-{{< image-card src="picker_1_to_10.png" caption="Gpicker picks 1 to 10" >}}
+{{< image-card src="picker_1_to_10.png" kg-width="fit" caption="Gpicker picks 1 to 10" >}}
 
 
 The last dash tells gpicker to read list from standard input, and option "-n"

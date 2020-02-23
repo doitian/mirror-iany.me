@@ -1,7 +1,9 @@
 <div class="search">
-    <form class="search-form" action="/search/" method="get">
-        <i class="search-icon fas fa-search"></i>
-        <input name="q" type="text" class="search-input" placeholder="{{ T "searchHint" }}" />
+    <form role="search" class="search-form" action="/search/" method="get">
+        <label>
+            <i title="{{ T "search" }}" class="search-icon fas fa-search"></i>
+            <input name="q" type="text" class="search-input" placeholder="{{ T "searchHint" }}" />
+        </label>
     </form>
 
     <div class="gcse-search-container">
