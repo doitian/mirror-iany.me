@@ -8,7 +8,7 @@ description: "我是 Ian Yang, 软件开发者。目前在 Nervos 开发 CKB。�
 我是 Ian Yang, 软件开发者。目前在 [Nervos] 开发 CKB。我也曾在 [虎牙游戏][hooyagames], [Groupon], [Intridea], [载信][izenesoft]和[群硕][augmentum]工作过。
 
 [nervos]:		https://www.nervos.org
-[hooyagames]:	http://www.hooyagames.com
+[hooyagames]:	https://www.taptap.com/developer/12487
 [groupon]:		https://www.groupon.com/
 [intridea]:		http://www.intridea.com
 [izenesoft]:	https://www.linkedin.com/company/izenesoft-shanghai-co.-ltd/
