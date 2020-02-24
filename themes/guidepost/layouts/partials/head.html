@@ -1,7 +1,7 @@
 <head>
     {{/* Document Settings */}}
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     {{/* Base Meta */}}
     <title>
@@ -13,11 +13,11 @@
         {{- $title := $.Scratch.Get "title" }}{{ $title -}}
     </title>
 
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {{/* Links */}}
-    <link rel="canonical" href="{{ .Permalink }}" />
+    <link rel="canonical" href="{{ .Permalink }}">
     {{- with .Paginator  -}}
     {{- with .Prev -}}
     <link rel="prev" href="{{ .URL }}">
@@ -27,17 +27,20 @@
     {{ end -}}
     {{ end -}}
     {{ with .OutputFormats.Get "RSS" }}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType .Permalink $title | safeHTML }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType .Permalink $title | safeHTML }}
     {{ end }}
 
     {{/* Rich Meta */}}
     {{ with .Site.Author.name -}}
-    <meta name="author" content="{{ . }}" />
+    <meta name="author" content="{{ . }}">
     {{ end -}}
-    {{ $description := .Description | default ((trim (.Summary | plainify) ".\n") | htmlUnescape) -}}
-    {{ $.Scratch.Set "description" $description -}}
-    <meta name="description" content="{{ $description }}" />
-    <meta name="keywords" content="{{ delimit (.Params.keywords | default .Params.tags | default slice) ", " }}" />
+    {{ $summary := default ((trim (.Summary | plainify) " \t\n\r") | htmlUnescape) -}}
+    {{ if $summary | and .Truncated | and (not (strings.HasSuffix $summary "." | or (strings.HasSuffix $summary "。"))) -}}
+    {{ $summary = print $summary "…" }}
+    {{ end -}}
+    {{ $.Scratch.Set "summary" $summary -}}
+    {{ with .Description | default $summary }}<meta name="description" content="{{.}}">{{ end }}
+    {{ partial "keywords.html" . -}}
     {{- partial "twitter_og_cards.html" . -}}
 
     {{/* Icons */}}
@@ -50,7 +53,7 @@
     <meta name="theme-color" content="#ffffff">
 
     {{/* Stylesheets */}}
-    <link rel="stylesheet" href="{{ "css/styles.min-c8c45cab52dec419d2770e7155b48a45.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/styles.min-29737d181aafd9bb6be9adfe434a97ae.css" | relURL }}">
     {{ with .Params.feature }}
     <style>
         {{- $feature := $.Resources.GetMatch . -}}

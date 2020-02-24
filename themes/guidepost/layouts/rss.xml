@@ -4,9 +4,9 @@
     <title>{{ .Title }}</title>
     <link>{{ .Permalink }}</link>
     <description>{{ T "recentContentIn" . }}</description>{{ with .Site.LanguageCode }}
-    <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
-    <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
-    <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
+    <language>{{.}}</language>{{end}}{{ with .Site.Author.name }}
+    <managingEditor>{{.}}</managingEditor>{{end}}{{ with .Site.Author.name }}
+    <webMaster>{{.}}</webMaster>{{end}}{{ with .Site.Copyright }}
     <copyright>{{ . | plainify }}</copyright>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     {{ with .OutputFormats.Get "RSS" -}}
@@ -23,9 +23,10 @@
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+      {{ with .Site.Author.name }}<author>{{.}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
+      {{ partial "rss-categories.xml" . }}
     </item>
     {{ end }}
   </channel>

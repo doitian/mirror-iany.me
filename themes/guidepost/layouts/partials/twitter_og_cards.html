@@ -1,11 +1,14 @@
 {{- $title := $.Scratch.Get "title" -}}
-{{- $description := $.Scratch.Get "description" -}}
+{{- $summary := $.Scratch.Get "summary" -}}
+{{- $description := .Description | default $summary -}}
 <!-- Twitter Cards -->
 <meta name="twitter:title" content="{{ $title }}">
 {{ with .Site.Author.social.twitter -}}
 <meta name="twitter:creator" content="{{ . }}">
 {{ end -}}
-<meta name="twitter:description" content="{{ $description }}">
+{{ with $description -}}
+<meta name="twitter:description" content="{{.}}">
+{{ end -}}
 {{ with .Params.feature -}}
 {{ $feature := $.Resources.GetMatch . -}}
 {{ $m := $feature.Resize "600x" -}}
@@ -16,7 +19,9 @@
 <!-- Open Graph -->
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ $title }}">
-<meta property="og:description" content="{{ $.Scratch.Get "Description" }}">
+{{ with $description -}}
+<meta property="og:description" content="{{.}}">
+{{ end -}}
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:locale" content="{{ .Lang }}">

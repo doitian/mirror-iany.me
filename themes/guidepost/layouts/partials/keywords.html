@@ -1,0 +1,22 @@
+{{- $keywords := slice -}}
+{{- with .Keywords -}}
+{{- $keywords = . -}}
+{{- else -}}
+{{- range .Params.series -}}
+{{- $url := urls.Parse (. | urlize) -}}
+{{- $path := $url.Path -}}
+{{- with $.Site.GetPage (printf `/series/%s` $path) -}}
+{{- $keywords = $keywords | append (T (print "title." .LinkTitle) | default (.LinkTitle)) -}}
+{{- end -}}
+{{- end -}}
+{{- range .Params.tags -}}
+{{- $url := urls.Parse (. | urlize) }}
+{{- $path := $url.Path }}
+{{- with $.Site.GetPage (printf `/tags/%s` $path) }}
+{{- $keywords = $keywords | append (T (print "title." .LinkTitle) | default (.LinkTitle | humanize | title)) -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- with $keywords -}}
+<meta name="keywords" content="{{ delimit . "," }}">
+{{- end -}}

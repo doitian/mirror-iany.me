@@ -1,0 +1,20 @@
+{{- with .Params.series -}}
+{{- range . -}}
+{{- $tag := . -}}
+{{- $url := urls.Parse (. | urlize) -}}
+{{- $path := $url.Path -}}
+{{- with $.Site.GetPage (printf `/series/%s` $path) -}}
+<item domain="{{ .Permalink }}">{{ T (print "title." .LinkTitle) | default (.LinkTitle) }}</item>
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- with .Params.tags -}}
+{{- range . -}}
+{{- $tag := . -}}
+{{- $url := urls.Parse (. | urlize) -}}
+{{- $path := $url.Path -}}
+{{- with $.Site.GetPage (printf `/tags/%s` $path) -}}
+<item domain="{{ .Permalink }}">{{ T (print "title." .LinkTitle) | default (.LinkTitle | humanize | title) }}</item>
+{{- end -}}
+{{- end -}}
+{{- end -}}

@@ -24,8 +24,11 @@
                     </header>
 
                     <div class="post-card-content">
-                        {{- $summary := trim (.Summary | plainify) ".\n" | htmlUnescape -}}
-                        <p>{{ $summary }}{{ if .Truncated }}&hellip;{{ end }}</p>
+                        {{ $summary := default ((trim (.Summary | plainify) " \t\n\r") | htmlUnescape) -}}
+                        {{ if $summary | and .Truncated | and (not (strings.HasSuffix $summary "." | or (strings.HasSuffix $summary "。"))) -}}
+                        {{ $summary = print $summary "…" }}
+                        {{ end -}}
+                        <p>{{ $summary | default (truncate 240 "…" (.Content | plainify)) }}</p>
                     </div>
 
                     <footer class="post-card-footer post-meta">
