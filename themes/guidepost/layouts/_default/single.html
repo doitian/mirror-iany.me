@@ -6,7 +6,7 @@
     </div>
 </main> 
 
-{{ if and .IsPage (ne .Layout "search") (ne .Params.share false) -}}
+{{ if and .IsPage (ne .Layout "search") -}}
 {{- partial "related-articles" . -}}
 {{ end -}}
 

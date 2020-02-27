@@ -1,8 +1,10 @@
 <span class="lastmod-time">
+    {{ with .Page.Lastmod | default now }}
     {{ T "updated" }}
     <time class="post-full-meta-date">
-        {{ .Page.Lastmod.Format (T "dateFormat") }}
+        {{ .Format (T "dateFormat") }}
     </time>
+    {{ end }}
     {{ if .showReadingTime }}
     &nbsp;&bull;&nbsp;
     <span class="tippy" data-tippy-content="{{ T "wordCount" .Page.WordCount }}">{{ .Page.ReadingTime }} {{ T "minRead" }}</span>

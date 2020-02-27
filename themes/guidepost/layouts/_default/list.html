@@ -2,6 +2,8 @@
 <main id="site-main">
     <div class="container">
         {{- partial "breadcrumbs.html" . -}}
+
+        {{ if not .Content }}
         <div class="post-list-header">
             <h1 class="post-list-header-title">
                 {{- if eq .Type "tags" -}}
@@ -14,6 +16,11 @@
                 {{ .Description | default (T (print "aCollectionOf." .Title) (len .Pages)) | default (T "aCollectionOf" (len .Pages))  }}
             </h2>
         </div>
+        {{ else }}
+        <div class="post-list-content">
+        {{- partial "post-content.html" $ -}}
+        </div>
+        {{- end }}
 
         <div class="post-list">
             {{ range .Paginator.Pages }}
@@ -41,4 +48,5 @@
         </div>
     </div>
 </main>
+
 {{ end }}

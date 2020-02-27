@@ -17,10 +17,9 @@ unsafe = true
 
 [permalinks]
 post = "/:year/:month/:filename/"
-page = "/:filename/"
 life = "/life/:year/:month/:filename/"
 game = "/games/:year/:month/:filename/"
-journal = "/journal/:year/:month/:slug/"
+journal = "/journal/:year/:month/:filename/"
 
 [taxonomies]
 tag = "tags"
@@ -56,7 +55,7 @@ includeNewer = true
 
 [params]
 gcse = '006252023667590608831:yopsgewhz5y'
-hiddenSectionsInHomeRSS = ["journal"]
+hiddenSectionsInHomeRSS = ["journal", "wiki"]
 beian = '浙ICP备17004784号-1'
 # disqusBaseURL = "https://blog.iany.me/"
 

@@ -1,19 +1,7 @@
 <nav class="breadcrumbs">
   <ol class="breadcrumbs-items">
-    <li class="breadcrumb-item"><a href="{{ "/" | relLangURL }}">{{ T "home" }}</a></li>
-    {{ if eq .Kind "taxonomy" -}}
-        {{ with .Parent -}}
-        <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ T (print "title." .Title) | default .Title }}</a></li>
-        {{ end -}}
-    {{ end -}}
-    {{ if .IsPage -}}
-    {{ if .Section -}}
-    <li class="breadcrumb-item">
-        <a href="{{ .CurrentSection.RelPermalink }}">
-            {{ T (print "title." .CurrentSection.Title) | default .CurrentSection.Title }}
-        </a>
-    </li>
-    {{ end -}}
+    {{ with .Parent }}
+    {{ template "breadcrumb-item" . }}
     {{ end }}
     <li class="breadcrumb-item">
         {{- if eq .Type "tags" -}}
@@ -23,6 +11,16 @@
         {{- end -}}
     </li>
   </ol>
+  {{ define "breadcrumb-item" }}
+  {{ with .Parent }}
+  {{ template "breadcrumb-item" . }}
+  {{ end }}
+  {{ if .IsHome }}
+  <li class="breadcrumb-item"><a href="{{ "/" | relLangURL }}">{{ T "home" }}</a></li>
+  {{ else }}
+  <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ T (print "title." .Title) | default .Title }}</a></li>
+  {{ end }}
+  {{ end }}
 
   {{ if and .IsPage (or .IsTranslated (and (ne .Layout "search") (ne .Params.share false))) -}}
   <ul class="social-links">

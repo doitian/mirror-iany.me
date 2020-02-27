@@ -1,0 +1,7 @@
+---
+tags:
+- programming
+title: Rust
+---
+
+
