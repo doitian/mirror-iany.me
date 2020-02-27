@@ -24,7 +24,7 @@
               {{ with .Site.Author.social.diigo -}}
               <li class="social-link"><a href="https://www.diigo.com/profile/{{ . }}" class="tippy" aria-label="{{ . }} on Diigo" data-tippy-content="{{ . }} on Diigo"><i aria-hidden="true" class="fas fa-bookmark"></i></a></li>
               {{ end -}}
-              <li class="social-link"><a href="{{ "index.xml" | relLangURL }}" class="tippy" aria-label="{{ T "subscribeRSS" }}" data-tippy-content="{{ T "subscribeRSS" }}"><i aria-hidden="true" class="fas fa-rss"></i></a></li>
+              <li class="social-link"><a href="{{ "index.xml" | relLangURL }}" class="tippy" aria-label="{{ T "subscribe" }} {{ $.Site.Title }}" data-tippy-content="{{ T "subscribe" }} {{ $.Site.Title }}"><i aria-hidden="true" class="fas fa-rss"></i></a></li>
           </ul>
         </nav>
     </div>

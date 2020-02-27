@@ -53,8 +53,8 @@ other = "Share via Email"
 [printThisPage]
 other = "Print This Page"
 
-[subscribeRSS]
-other = "Subscribe RSS"
+[subscribe]
+other = "Subscribe"
 
 ["translatedTo.zh"]
 other = "中文版本"

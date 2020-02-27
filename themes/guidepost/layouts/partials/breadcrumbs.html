@@ -1,15 +1,10 @@
+{{- $title := $.Scratch.Get "title" }}
 <nav class="breadcrumbs">
   <ol class="breadcrumbs-items">
     {{ with .Parent }}
     {{ template "breadcrumb-item" . }}
     {{ end }}
-    <li class="breadcrumb-item">
-        {{- if eq .Type "tags" -}}
-        {{- T (print "title." .LinkTitle) | default (.LinkTitle | humanize | title) -}}
-        {{- else -}}
-        {{ T (print "title." .Title) | default .Title }}
-        {{- end -}}
-    </li>
+    <li class="breadcrumb-item">{{ $title }}</li>
   </ol>
   {{ define "breadcrumb-item" }}
   {{ with .Parent }}
@@ -47,5 +42,11 @@
       {{ end }}
       {{ end }}
   </ul>
+  {{ else }}
+  {{ with .OutputFormats.Get "RSS" }}
+  <ul class="social-links">
+      <li class="social-link"><a href="{{ "index.xml" | relLangURL }}" class="tippy" aria-label="{{ T "subscribe" }} {{ $title }}" data-tippy-content="{{ T "subscribe" }} {{ $title }}"><i aria-hidden="true" class="fas fa-rss"></i></a></li>
+  </ul>
+  {{ end }}
   {{ end }}
 </nav>

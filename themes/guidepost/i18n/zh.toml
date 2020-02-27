@@ -46,8 +46,8 @@ other = "邮件分享"
 [printThisPage]
 other = "打印此页"
 
-[subscribeRSS]
-other = "订阅 RSS"
+[subscribe]
+other = "订阅"
 
 ["translatedTo.en"]
 other = "English Version"
