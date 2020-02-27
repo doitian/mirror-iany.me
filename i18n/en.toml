@@ -6,3 +6,6 @@ other = "Cocos2d-x"
 
 ["title.gfw"]
 other = "GFW"
+
+["title.Wikis"]
+other = "Wiki"
