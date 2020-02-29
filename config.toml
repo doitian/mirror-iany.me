@@ -53,8 +53,8 @@ includeNewer = true
     weight = 10
 
 [frontmatter]
-date = [":default", ":git"]
-publishDate = [":default", ":git"]
+date = [":default", ":git", ":fileModTime"]
+publishDate = [":default", ":git", ":fileModTime"]
 
 [params]
 gcse = '006252023667590608831:yopsgewhz5y'
