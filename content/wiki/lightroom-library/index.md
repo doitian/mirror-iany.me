@@ -4,7 +4,7 @@ title: Lightroom Library
 
 ## Lightroom Filename Template
 
-[source](https://photographylife.com/using-filename-template-editor-in-lightroom)
+[※ source](https://photographylife.com/using-filename-template-editor-in-lightroom)
 
 Lightroom can rename files on importing, or via the "Rename..." menu item on the selected photos. But only importing can sort files into sub-directories.
 

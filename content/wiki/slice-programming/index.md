@@ -2,7 +2,7 @@
 title: Slice (Programming)
 ---
 
-[source](https://github.com/nervosnetwork/slice-cheatcheat)
+[※ source](https://github.com/nervosnetwork/slice-cheatcheat)
 
 § Definitions
 

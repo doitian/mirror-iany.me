@@ -52,6 +52,9 @@ includeNewer = true
     name = "date"
     weight = 10
 
+[frontmatter]
+date = [":default", ":git"]
+publishDate = [":default", ":git"]
 
 [params]
 gcse = '006252023667590608831:yopsgewhz5y'
