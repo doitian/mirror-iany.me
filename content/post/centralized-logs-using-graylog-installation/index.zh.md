@@ -4,7 +4,7 @@ date: '2017-09-17T19:28:47+08:00'
 description: Graylog 安装说明和可能出现的问题
 katex: false
 series:
-- Graylog
+- Centralized Logs Using Graylog
 share: true
 tags:
 - graylog

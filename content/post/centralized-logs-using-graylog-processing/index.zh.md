@@ -4,7 +4,7 @@ date: 2017-10-06 15:39:07
 description: 在 Graylog 中处理日志
 katex: false
 series:
-- Graylog
+- Centralized Logs Using Graylog
 share: true
 tags:
 - graylog

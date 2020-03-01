@@ -3,3 +3,7 @@ other = "游戏"
 
 ["title.macOS Automation"]
 other = "macOS 自动化"
+
+["title.Centralized Logs Using Graylog"]
+other = "Graylog 集中日志管理"
+

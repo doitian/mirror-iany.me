@@ -2,6 +2,9 @@
 {{- with .Keywords -}}
 {{- $keywords = . -}}
 {{- else -}}
+{{- with .CurrentSection }}
+{{- $keywords = $keywords | append (T (print "title." .LinkTitle) | default (.LinkTitle)) -}}
+{{- end }}
 {{- range .Params.series -}}
 {{- $url := urls.Parse (. | urlize) -}}
 {{- $path := $url.Path -}}
