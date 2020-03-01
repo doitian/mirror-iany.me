@@ -5,10 +5,16 @@ other = '主页'
 other = '相关文章'
 
 [search]
-other = 'Search'
+other = '搜索'
 
 [searchHint]
 other = '输入关键词...'
+
+[searchMore]
+other = '查看所有搜索结果 →'
+
+[searchMoreEmpty]
+other = '没有结果'
 
 [readMore]
 other = '查看全部 {{ .Count }} 篇文章'
@@ -20,7 +26,7 @@ other = '没有文章'
 other = '1月2日, 2006'
 
 [menu]
-other = "Menu"
+other = "菜单"
 
 [aCollectionOf]
 other = "总共有 {{ .Count }} 篇文章"

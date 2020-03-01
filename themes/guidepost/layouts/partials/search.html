@@ -1,5 +1,5 @@
 <div class="search">
-    <form role="search" class="search-form" action="/search/" method="get">
+    <form role="search" class="search-form" action="{{ "/search/" | relLangURL }}" method="get">
         <label>
             <i title="{{ T "search" }}" class="search-icon fas fa-search"></i>
             <input name="q" type="text" class="search-input" placeholder="{{ T "searchHint" }}" />

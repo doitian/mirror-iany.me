@@ -10,6 +10,12 @@ other = 'Search'
 [searchHint]
 other = 'Type your keywords...'
 
+[searchMore]
+other = 'See all the results →'
+
+[searchMoreEmpty]
+other = 'No Results'
+
 [readMore]
 one = 'See 1 article'
 other = 'See all {{ .Count }} articles'
