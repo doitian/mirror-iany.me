@@ -5,13 +5,13 @@ tags:
 title: Blocking Stdout
 ---
 
-When I first read Stjepan's article [Blocking inside async code](https://stjepang.github.io/2019/12/04/blocking-inside-async-code.html), I never though I will met one of the problems mentioned in the post.
+When I first read Stjepan's article [Blocking inside async code](https://stjepang.github.io/2019/12/04/blocking-inside-async-code.html), I never though I will met the problem mentioned in the post.
 
 <!--more-->
 
 > … I bet we all most of the time assume printing to standard output does not block while it really could.
 > 
-> In case you’re wondering why `println!()` can block, imagine we executed `program1 | program2` in a shell so that the output of `program1` is piped into `program2`. If `program2` is reading input very slowly, then `program1` will have to block whenever it prints something and the pipe is full.
+> In case you’re wondering why `println!()` can block, imagine we executed `program1 | program2` in a shell so that the output of `program1` is piped into `program2`. If `program2` is reading input very slowly, then `program1` will have to block whenever it prints something and the pipe is full.
 
 Fortunately, my brain has stored the clue somewhere, and I can retrieve it and save my day when I heart a weird bug.
 
