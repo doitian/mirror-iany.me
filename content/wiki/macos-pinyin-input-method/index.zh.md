@@ -1,4 +1,7 @@
 ---
+breadcrumbAncestors:
+- ../macos/
+- ../macos-apps/
 tags:
 - macOS
 title: macOS 拼音输入法

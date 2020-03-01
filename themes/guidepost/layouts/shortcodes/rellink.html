@@ -1,0 +1,2 @@
+{{ $page := $.Page.GetPage (.Get "path") -}}
+<a href="{{ $page.RelPermalink }}">♯ {{ $page.Title }}</a>

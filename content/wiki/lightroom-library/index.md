@@ -1,4 +1,6 @@
 ---
+breadcrumbAncestors:
+- ../lightroom/
 tags:
 - softwareUsage
 title: Lightroom Library

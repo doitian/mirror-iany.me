@@ -4,9 +4,12 @@
     {{ with .Parent }}
     {{ template "breadcrumb-item" . }}
     {{ end }}
-    <li class="breadcrumb-item">
-
-        {{ $title }}</li>
+    {{ range .Params.breadcrumbAncestors }}
+    {{ with $.GetPage . }}
+    <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    {{ end }}
+    <li class="breadcrumb-item">{{ $title }}</li>
   </ol>
   {{ define "breadcrumb-item" }}
   {{ with .Parent }}

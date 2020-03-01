@@ -4,4 +4,8 @@ tags:
 title: macOS
 ---
 
-* [♯ macOS 应用]({{< relref path="/wiki/macos-apps.md" lang="zh" >}})
+
+
+## 索引
+
+* {{< rellink path="../macos-apps/" >}}

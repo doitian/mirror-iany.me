@@ -4,4 +4,8 @@ tags:
 title: Lightroom
 ---
 
-* [♯ LaTeX Templates]({{< relref path="/wiki/latex-templates.md" lang="en" >}})
+
+
+## Index
+
+* {{< rellink path="../lightroom-library/" >}}
