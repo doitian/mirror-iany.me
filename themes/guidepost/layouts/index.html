@@ -1,7 +1,12 @@
 {{ define "main" }}
 <main id="site-main" class="container">
     <div class="tag-list">
-        {{ range $.Sections -}}
+        {{ $sections := $.Sections -}}
+        {{ if $.Site.Params.mainSections }}
+            {{ $sections = where $.Sections "Section" "in" $.Site.Params.mainSections -}}
+            {{ $sections = $sections | append (where $.Sections "Section" "not in" $.Site.Params.mainSections) -}}
+        {{ end }}
+        {{ range $sections -}}
         <article id="section-{{ .Section }}" class="tag-card">
             <div class="tag-card-inner">
                 <h3 class="tag-card-title"><a href="{{ .RelPermalink }}">{{ T (print "title." .Title) | default .Title }}</a></h3>

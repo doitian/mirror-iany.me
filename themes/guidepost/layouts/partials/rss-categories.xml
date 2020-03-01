@@ -1,3 +1,6 @@
+{{- with .CurrentSection }}
+<item domain="{{ .Permalink }}">{{ T (print "title." .LinkTitle) | default (.LinkTitle) }}</item>
+{{- end }}
 {{- with .Params.series -}}
 {{- range . -}}
 {{- $tag := . -}}

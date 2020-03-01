@@ -14,8 +14,8 @@
     {{ end -}}
 
     {{ $posts := .Site.RegularPages }}
-    {{- if .Site.Params.hiddenSectionsInHomeRSS -}}
-      {{ $posts = where .Site.RegularPages "Section" "not in" .Site.Params.hiddenSectionsInHomeRSS }}
+    {{- if .Site.Params.mainSections -}}
+      {{ $posts = where $posts "Section" "in" .Site.Params.mainSections }}
     {{- end }}
 
     {{ range first 15 $posts }}
