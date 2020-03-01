@@ -2,7 +2,9 @@
     <a href="{{ .Get "href" }}" class="kg-bookmark-container">
         <div class="kg-bookmark-content">
             <div class="kg-bookmark-title">{{ .Get "title" }}</div>
-            <div class="kg-bookmark-description">{{ .Get "description" | markdownify }}</div>
+            {{ with .Get "description" }}
+            <div class="kg-bookmark-description">{{ .| markdownify }}</div>
+            {{ end }}
             <div class="kg-bookmark-metadata">
                 {{- with .Get "avatar" }}
                 {{- $src := . }}
@@ -22,8 +24,8 @@
                 {{- end }}
             </div>
         </div>
+        {{- with .Get "thumbnail" }}
         <div class="kg-bookmark-thumbnail">
-            {{- with .Get "thumbnail" }}
             {{- $src := . }}
             {{- if or (in $src "://") (hasPrefix $src "/") -}}
             <img src="{{ $src }}">
@@ -31,7 +33,7 @@
             {{- $img := $.Page.Resources.GetMatch $src -}}
             <img src="{{ $img.RelPermalink }}">
             {{- end }}
-            {{- end }}
         </div>
+        {{- end }}
     </a>
 </figure> 
