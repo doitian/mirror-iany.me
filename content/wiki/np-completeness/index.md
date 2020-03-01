@@ -1,4 +1,6 @@
 ---
+tags:
+- computerScience
 title: NP-completeness
 ---
 

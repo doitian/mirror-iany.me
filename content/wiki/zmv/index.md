@@ -1,6 +1,7 @@
 ---
 tags:
 - commandLine
+- zsh
 title: Zmv
 ---
 

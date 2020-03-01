@@ -1,11 +1,11 @@
 ---
+tags:
+- management
 title: One-on-one Meeting
 ---
 
 Keywords
 : 1:1, 1-1
-
-#management
 
 ※ [The Diigo Outliner](https://www.diigo.com/outliner/iaikpx/1%3A1-Meeting-%23management-%23archive?key=eyfzm1alol)
 

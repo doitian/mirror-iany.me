@@ -1,4 +1,6 @@
 ---
+tags:
+- zsh
 title: Zsh
 ---
 

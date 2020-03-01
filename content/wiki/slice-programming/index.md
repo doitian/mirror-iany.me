@@ -1,4 +1,6 @@
 ---
+tags:
+- programming
 title: Slice (Programming)
 ---
 

@@ -1,17 +1,12 @@
 {{ define "main" }}
+{{- $title := $.Scratch.Get "title" }}
 <main id="site-main">
     <div class="container">
         {{- partial "breadcrumbs.html" . -}}
 
         {{ if not .Content }}
         <div class="post-list-header">
-            <h1 class="post-list-header-title">
-                {{- if eq .Type "tags" -}}
-                {{- T (print "title." .Title) | default (.LinkTitle | humanize | title) -}}
-                {{- else -}}
-                {{ T (print "title." .Title) | default .Title }}
-                {{- end -}}
-            </h1>
+            <h1 class="post-list-header-title">{{ $title }}</h1>
             <h2 class="post-list-header-description">
                 {{ .Description | default (T (print "aCollectionOf." .Title) (len .Pages)) | default (T "aCollectionOf" (len .Pages))  }}
             </h2>

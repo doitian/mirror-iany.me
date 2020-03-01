@@ -1,4 +1,6 @@
 ---
+tags:
+- softwareUsage
 title: Lightroom Library
 ---
 

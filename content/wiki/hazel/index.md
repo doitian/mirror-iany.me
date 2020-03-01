@@ -2,6 +2,7 @@
 tags:
 - macOS
 - automation
+- softwareUsage
 title: Hazel
 ---
 
