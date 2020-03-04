@@ -5,7 +5,7 @@
             <img src="{{ . }}" alt="{{ $.Site.Title }}" />
             {{ else -}}
             {{ if ne .Kind "home" -}}
-            <span class="site-name">{{ .Site.Title }}</span>
+            <span class="site-name">{{ .Site.Params.shortTitle | default .Site.Title }}</span>
             {{ end -}}
             {{ end -}}
         </a>

@@ -64,7 +64,7 @@ beian = '浙ICP备17004784号-1'
 
 [languages]
   [languages.en]
-    title = "~iany/blog"
+    title = "~iany/"
     languageCode = "en-US"
     hasCJKLanguage = false
     languageName = "English"
@@ -92,7 +92,7 @@ beian = '浙ICP备17004784号-1'
     title = "About Me"
 
   [languages.zh]
-    title = "~iany 博客"
+    title = "~iany/"
     languageCode = "zh-CN"
     hasCJKLanguage = true
     languageName = "中文"
