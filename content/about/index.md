@@ -30,6 +30,8 @@ I also did several years web development for POS and payments system, as well as
 - Diigo: [doitian][diigo]
 - LinkedIn: [Ian Yang][linkedin]
 
+I intentionally removed the comment system from the site. Please contact me directly if you want to discuss with me, or join this [Discord Server](https://discord.gg/zJsgYE4).
+
 [diigo]: https://www.diigo.com/user/doitian
 [twitter]:	https://twitter.com/doitian
 [vimeo]:	https://vimeo.com/doitian

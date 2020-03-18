@@ -28,6 +28,8 @@ description: "我是 Ian Yang, 软件开发者。目前在 Nervos 开发 CKB。�
 - Diigo: [doitian][diigo]
 - LinkedIn: [Ian Yang][linkedin]
 
+我最近去掉了这个网站的评论系统。如果有问题想讨论可以直接联系我，或者加入这个 [Discord Server](https://discord.gg/zJsgYE4)。
+
 [diigo]: https://www.diigo.com/user/doitian
 [twitter]:	https://twitter.com/doitian
 [vimeo]:	https://vimeo.com/doitian
