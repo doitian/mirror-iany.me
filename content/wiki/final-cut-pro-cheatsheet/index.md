@@ -25,7 +25,7 @@ title: Final Cut Pro Cheatsheet
 
 ⚡ Editing
 
-* <kbd>⌥[</kbd>, <kbd>⌥]</kbd>: trim from the beginning, trim to the end.
+* <kbd>⌥[</kbd>, <kbd>⌥]</kbd>: trim from the beginning, trim to the end.
 * <kbd>⌥\\</kbd>: Leave only the range
 * <kbd>⌘B</kbd>, <kbd>⇧⌘B</kbd>: Split
 * <kbd>⌥G</kbd>: Create compound clip.

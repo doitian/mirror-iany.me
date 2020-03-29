@@ -10,7 +10,7 @@ title: What I Touched This Week 2017-11-05
 
     A good reference to go though what these commands can do, and a library to lookup examples when using these tools.
 
-- [从Pinterest到阿里，再谈工业界的推荐系统 |  PingWest品玩](http://www.pingwest.com/representation-learning/)
+- [从Pinterest到阿里，再谈工业界的推荐系统 | PingWest品玩](http://www.pingwest.com/representation-learning/)
 - [Stripe Atlas: Getting Your First 10 Customers](https://stripe.com/atlas/guides/starting-sales)
 
     Where and how to get your first 10 custormers.

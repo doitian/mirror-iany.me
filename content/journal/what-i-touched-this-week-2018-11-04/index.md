@@ -8,7 +8,7 @@ title: What I Touched This Week 2018-11-04
 
 * [Flatbuffers Compatible Table](https://blog.iany.me/2018/11/flatbuffers-compatible-table/)
 * [2018 国内Rust社区调查报告 - 知乎](https://zhuanlan.zhihu.com/p/48236630)
-* [My release checklist for Rust programs - DEV Community 👩‍💻👨‍💻](https://dev.to/sharkdp/my-release-checklist-for-rust-programs-1m33)
+* [My release checklist for Rust programs - DEV Community](https://dev.to/sharkdp/my-release-checklist-for-rust-programs-1m33)
 * [Is Rust functional?](https://www.fpcomplete.com/blog/2018/10/is-rust-functional)
 
     > Rust is not functional, but Rust does adhere to many of the tenets of functional programming. Thus in many cases, you can easily, naturally, and idiomatically write Rust in a functional style.

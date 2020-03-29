@@ -49,7 +49,7 @@ title: What I Touched This Week 2018-06-24
 ## Bookmarks
 
 * [Netflix/zuul: Zuul is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more.](https://github.com/Netflix/zuul)
-* [Rules of Machine Learning:  |  Machine Learning Rules  |  Google Developers](https://developers.google.com/machine-learning/rules-of-ml/)
+* [Rules of Machine Learning: | Machine Learning Rules | Google Developers](https://developers.google.com/machine-learning/rules-of-ml/)
 * [The online IDE for web applications. Powered by Visual Studio Code. - StackBlitz](https://stackblitz.com/)
 * [WREB-fm – Radio Garden](http://radio.garden/live/greencastle-in/wreb-fm/)
 

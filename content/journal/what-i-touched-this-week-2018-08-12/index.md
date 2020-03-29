@@ -15,7 +15,7 @@ title: What I Touched This Week 2018-08-12
     > 1. Express more gratitude.
     > 2. Be intentional about learning from someone.
     > 3. Invest financially in others.
-    > 4. Forget time management — be a good manager of “self.”
+    > 4. Forget time management — be a good manager of “self.”
     > 5. Practice forgiveness.
     > 6. Replace your “to do” list with a “to be” list.
 
@@ -27,7 +27,7 @@ title: What I Touched This Week 2018-08-12
     - Schedule all the blocks
     - Uncontrollable events first
 
-* [Extreme Makeover: Code Edition - DEV Community 👩‍💻👨‍💻](https://dev.to/aspittel/extreme-makeover-code-edition-k5k)
+* [Extreme Makeover: Code Edition - DEV Community](https://dev.to/aspittel/extreme-makeover-code-edition-k5k)
 
     > 7 Tips for Writing Clearner Code:
     >
