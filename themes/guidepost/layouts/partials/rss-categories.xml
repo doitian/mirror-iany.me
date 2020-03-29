@@ -1,5 +1,5 @@
 {{- with .CurrentSection }}
-<item domain="{{ .Permalink }}">{{ T (print "title." .LinkTitle) | default (.LinkTitle) }}</item>
+<category domain="{{ .Permalink }}">{{ T (print "title." .LinkTitle) | default (.LinkTitle) }}</category>
 {{- end }}
 {{- with .Params.series -}}
 {{- range . -}}
@@ -7,7 +7,7 @@
 {{- $url := urls.Parse (. | urlize) -}}
 {{- $path := $url.Path -}}
 {{- with $.Site.GetPage (printf `/series/%s` $path) -}}
-<item domain="{{ .Permalink }}">{{ T (print "title." .LinkTitle) | default (.LinkTitle) }}</item>
+<category domain="{{ .Permalink }}">{{ T (print "title." .LinkTitle) | default (.LinkTitle) }}</category>
 {{- end -}}
 {{- end -}}
 {{- end -}}
@@ -17,7 +17,7 @@
 {{- $url := urls.Parse (. | urlize) -}}
 {{- $path := $url.Path -}}
 {{- with $.Site.GetPage (printf `/tags/%s` $path) -}}
-<item domain="{{ .Permalink }}">{{ T (print "title." .LinkTitle) | default (.LinkTitle | humanize | title) }}</item>
+<category domain="{{ .Permalink }}">{{ T (print "title." .LinkTitle) | default (.LinkTitle | humanize | title) }}</category>
 {{- end -}}
 {{- end -}}
 {{- end -}}
