@@ -32,8 +32,6 @@ I have:
 
     [♯ Final Cut Pro](https://blog.iany.me/wiki/final-cut-pro/)
 
-Archive - 202003 - Weekly Review 2020-03-15
-
 ## Programming
 
 I read may articles about Go and Rust last week.
