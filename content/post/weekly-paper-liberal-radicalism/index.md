@@ -54,7 +54,7 @@ We need to find a funding distribution solution `$\left\{F^p\right\}^p$` which i
 
 ``` katex
 \[
-	\sum _ { p } \left(V _ { i } ^ { p } \left( F ^ { p } \right) - c _ { i } ^ { p }\right)  - t _ { i }
+    \sum _ { p } \left(V _ { i } ^ { p } \left( F ^ { p } \right) - c _ { i } ^ { p }\right)  - t _ { i }
 \]
 ```
 
@@ -62,7 +62,7 @@ where
 
 ``` katex
 \[
-	\sum _ { i } t _ { i } = \sum _ { p } \left( F ^ { p } - \sum _ { i } c _ { i } ^ { p } \right)
+    \sum _ { i } t _ { i } = \sum _ { p } \left( F ^ { p } - \sum _ { i } c _ { i } ^ { p } \right)
 \]
 ```
 
@@ -70,7 +70,7 @@ Since V is concave, smooth and increasing, it is easy to find the maximum using 
 
 ``` katex
 \[
-	V ^ { p ^ { \prime } } = 1
+    V ^ { p ^ { \prime } } = 1
 \]
 ```
 
@@ -78,7 +78,7 @@ Since V is concave, smooth and increasing, it is easy to find the maximum using 
 
 ``` katex
 \[
-	F ^ { p } = \sum _ { i } c _ { i } ^ { p }
+    F ^ { p } = \sum _ { i } c _ { i } ^ { p }
 \]
 ```
 
@@ -86,7 +86,7 @@ Result
 
 ``` katex
 \[
-	V ^ { p ^ { \prime } } = N
+    V ^ { p ^ { \prime } } = N
 \]
 ```
 
@@ -94,7 +94,7 @@ Result
 
 ``` katex
 \[
-	N \cdot \operatorname{Median}_{i} V_{i} ^ { p ^ { \prime } } \left( F ^ { P } \right) = 1
+    N \cdot \operatorname{Median}_{i} V_{i} ^ { p ^ { \prime } } \left( F ^ { P } \right) = 1
 \]
 ```
 
@@ -104,8 +104,7 @@ The optimal solution requires mean, where median is absolutely different with me
 
 ``` katex
 \[
-	F ^ { p } = \left( \sum _ { i } \sqrt { c _ { i } ^ { p } } \right)
-^ { 2 }
+    F ^ { p } = \left( \sum _ { i } \sqrt { c _ { i } ^ { p } } \right) ^ { 2 }
 \]
 ```
 

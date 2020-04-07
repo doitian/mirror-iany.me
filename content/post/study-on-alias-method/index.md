@@ -23,11 +23,11 @@ Random variable `$X$` is uniformly distributed in `$(0, n)$`, which probability 
 
 ``` katex
 \[
-	f(x) = \left\{
-	 \begin{array}{rl}
-	  1/n & \text{if } 0 < x < n\\
-	  0 & \text{otherwise}\\
-	 \end{array} \right.
+    f(x) = \left\{
+     \begin{array}{rl}
+      1/n & \text{if } 0 < x < n\\
+      0 & \text{otherwise}\\
+     \end{array} \right.
 \]
 ```
 
@@ -35,11 +35,11 @@ Now generate a variable `$Y'$` that
 
 ``` katex
 \[
-	Y' =  \left\{
-	 \begin{array}{rl}
-	  \lfloor x  \rfloor & \text{if } (x - \lfloor x \rfloor) < F(\lfloor x \rfloor)\\
-	  A(\lfloor x \rfloor)  & \text{otherwise}\\
-	 \end{array} \right.
+    Y' =  \left\{
+     \begin{array}{rl}
+      \lfloor x  \rfloor & \text{if } (x - \lfloor x \rfloor) < F(\lfloor x \rfloor)\\
+      A(\lfloor x \rfloor)  & \text{otherwise}\\
+     \end{array} \right.
 \]
 ```
 
@@ -47,15 +47,15 @@ Now generate a variable `$Y'$` that
 
 ``` katex
 \[
-	\begin{aligned}
-	P\{x \in [i, i + F(i))\}     &= \displaystyle\int_i^{i+F(i)}\frac{1}{n}dx\\
+    \begin{aligned}
+    P\{x \in [i, i + F(i))\}     &= \displaystyle\int_i^{i+F(i)}\frac{1}{n}dx\\
                              &= (i + F(i) - i) \times 1/n\\
                              &= F(i)/n,\\
                              \\
-	P\{x \in [i + F(i), i + 1)\} &= \displaystyle\int_{i+F(i)}^{i+1}\frac{1}{n}dx\\
+    P\{x \in [i + F(i), i + 1)\} &= \displaystyle\int_{i+F(i)}^{i+1}\frac{1}{n}dx\\
                              &= (i + 1 - (i + F(i))) \times 1/n\\
                              &= (1-F(i))/n
-	\end{aligned}
+    \end{aligned}
 \]
 ```
 
@@ -63,7 +63,7 @@ Let's denote the set of values `$j$` that satisfies `$A(j) = i$` as `$A^{-1}(i)$
 
 ``` katex
 \[
-	P\{Y' = i\} = F(i)/n + \sum_{j \in A^{-1}(i)}\frac{1-F(j)}{n}
+    P\{Y' = i\} = F(i)/n + \sum_{j \in A^{-1}(i)}\frac{1-F(j)}{n}
 \]
 ```
 
