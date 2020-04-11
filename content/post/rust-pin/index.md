@@ -27,7 +27,7 @@ In Rust, the pointer is indeed the trait `Deref` and `DerefMut`, from which we c
 
 It is not very interesting when the pointer is `Deref`. The essential of Pin is when X is `DerefMut`. The yellow box shows that the safe interface to get the mut reference is available when T is `Unpin`.
 
-`Unpin` is implemented for types by default. It acts as a safety which disables the core feature of Pin. Pin is only effective when the safety is turned off, a.k.a, when the type is explicitly marked as `!Unpin` via [`PhantomPinned`](https://doc.rust-lang.org/std/marker/struct.PhantomPinned.html).
+`Unpin` is implemented for types by default. It acts as a safety which disables the core feature of Pin. Pin is only effective when the safety is turned off, a.k.a, when the type is explicitly marked as `!Unpin` via [PhantomPinned](https://doc.rust-lang.org/std/marker/struct.PhantomPinned.html).
 
 ## Further Readings
 
@@ -35,4 +35,4 @@ The [pin module](https://doc.rust-lang.org/std/pin/index.html) document has expl
 
 > It is sometimes useful to have objects that are guaranteed not to move, in the sense that their placement in memory does not change, and can thus be relied upon. A prime example of such a scenario would be building self-referential structs, as moving an object with pointers to itself will invalidate them, which could cause undefined behavior.
 
-`Pin` was suggested in [RFC#2349](https://github.com/rust-lang/rfcs/blob/master/text/2349-pin.md). It was also well explained in the book [Futures Explained in 200 Lines of Rust](https://cfsamson.github.io/books-futures-explained/4_pin.html).
+`Pin` was suggested in [RFC#2349](https://github.com/rust-lang/rfcs/blob/master/text/2349-pin.md). It was also well explained in the book [Futures Explained in 200 Lines of Rust.](https://cfsamson.github.io/books-futures-explained/4_pin.html)
