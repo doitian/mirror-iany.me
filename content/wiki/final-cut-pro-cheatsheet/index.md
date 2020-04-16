@@ -22,6 +22,12 @@ title: Final Cut Pro Cheatsheet
 * <kbd>D</kbd>, <kbd>⇧D</kbd>: Replace, Replace Backward
 * Drag and drop into an existing clip will bring up a replacement menu.
 
+⚡ Range Selection
+
+* <kbd>I</kbd>, </kbd>O</kbd>: Range in and out
+* <kbd>⇧I</kbd>, </kbd>⇧O</kbd>: Multiple ranges selection
+
+Range selection also works in clips, the selected ranges will be inserted instead of the whole clip.
 
 ⚡ Editing
 
