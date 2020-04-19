@@ -1,4 +1,8 @@
 ---
+date: 2020-04-19
+description: My weekly review report.
+series:
+- What I Touched
 title: What I Touched This Week 2020-04-19
 ---
 
