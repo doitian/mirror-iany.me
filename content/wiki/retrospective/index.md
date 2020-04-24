@@ -2,8 +2,9 @@
 tags:
 - management
 title: Retrospective
-toc: true
 ---
+
+{{TOC}}
 
 ## Retrospective Templates
 
