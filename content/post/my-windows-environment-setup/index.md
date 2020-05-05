@@ -22,7 +22,7 @@ Set-PSReadLineOption -EditMode emacs
 [Scoop](https://scoop.sh/) is very handy to install essential command line utilities, for example:
 
 ```
-scoop install git ripgrep
+scoop install mingit ripgrep
 ```
 
 I use the OpenSSH Client component in Windows, which can be enabled in "Settings / Apps / Manage optional features". I used to set an SSH passphrase, but the ssh agent service is disabled. It can be enabled in PowerShell ran as admin:
