@@ -8,7 +8,7 @@ title: What I Touched This Week 2020-02-09
 
 # My Posts
 -   [How to Download Only Gmail Inbox -- ~iany/blog](https://blog.iany.me/2020/02/download-only-gmail-inbox/)
--   [[The Brief Guide to Remote Work] #slides #remoteWork - GitHub](https://gist.github.com/doitian/d11dab0b5afe385d8bca3c74a353c622)
+-   [The Brief Guide to Remote Work](https://gist.github.com/doitian/d11dab0b5afe385d8bca3c74a353c622)
 -   [Vim iTerm Launcher -- ~iany/blog](https://blog.iany.me/2020/02/vim-iterm-launcher/)
 
 # Zero Knowledge Proof
