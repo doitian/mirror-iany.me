@@ -91,6 +91,13 @@ beian = '浙ICP备17004784号-1'
     name = "About Me"
     title = "About Me"
 
+  [[languages.en.menu.social]]
+    identifier = "email"
+    pre = '<i aria-hidden="true" class="fas fa-envelope"></i>'
+    url = "https://u.iany.me/gpg"
+    name = "Email"
+    title = "Email"
+
   [languages.zh]
     title = "~iany/"
     languageCode = "zh-CN"
@@ -114,7 +121,14 @@ beian = '浙ICP备17004784号-1'
 
   [[languages.zh.menu.social]]
     identifier = "about"
-    pre = '<i class="fas fa-user-circle"></i>'
+    pre = '<i aria-hidden="true" class="fas fa-user-circle"></i>'
     url = "/zh/about/"
     name = "关于"
     title = "关于作者"
+
+  [[languages.zh.menu.social]]
+    identifier = "email"
+    pre = '<i aria-hidden="true" class="fas fa-envelope"></i>'
+    url = "https://u.iany.me/gpg"
+    name = "邮件"
+    title = "邮件"
