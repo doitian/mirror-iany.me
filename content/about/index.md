@@ -24,6 +24,7 @@ I also did several years web development for POS and payments system, as well as
 
 ## Me, Elsewhere
 
+- Email: [GPG](https://u.iany.me/gpg)
 - GitHub: [doitian][github]
 - Vimeo: [doitian][vimeo]
 - Twitter: [@doitian][twitter]

@@ -22,6 +22,7 @@ description: "我是 Ian Yang, 软件开发者。目前在 Nervos 开发 CKB。�
 
 ## 其它账号
 
+- Email: [GPG](https://u.iany.me/gpg)
 - GitHub: [doitian][github]
 - Vimeo: [doitian][vimeo]
 - Twitter: [@doitian][twitter]
