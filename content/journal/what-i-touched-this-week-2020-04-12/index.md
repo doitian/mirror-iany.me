@@ -6,7 +6,7 @@ series:
 title: What I Touched This Week 2020-04-12
 ---
 
-I have published a post about [Rust Pin](https://blog.iany.me/2020/04/rust-pin/).
+I have published a post about [Rust Pin]({{< relref path="/post/rust-pin.md" lang="en" >}}).
 
 <!--more-->
 

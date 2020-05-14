@@ -6,7 +6,7 @@ series:
 title: What I Touched This Week 2017-10-14
 ---
 
-- [Graylog 集中日志管理 - 日志输出](https://blog.iany.me/zh/2017/10/centralized-logs-using-graylog-output/)
+- [Graylog 集中日志管理 - 日志输出]({{< relref path="/post/centralized-logs-using-graylog-output.md" lang="zh" >}})
 - [Streams: a new general purpose data structure in Redis. - antirez](http://antirez.com/news/114)
 
     Redis will support stream processing.

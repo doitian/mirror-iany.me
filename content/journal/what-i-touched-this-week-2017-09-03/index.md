@@ -25,8 +25,8 @@ title: What I Touched This Week 2017-09-03
 
 ## Posts
 
-- [Redis as Write Buffer](https://blog.iany.me/2017/08/redis-write-buffer/)
-- [Nginx UDP Load Balance](https://blog.iany.me/2017/08/nginx-udp-load-balance/)
+- [Redis as Write Buffer]({{< relref path="/post/redis-write-buffer.md" lang="en" >}})
+- [Nginx UDP Load Balance]({{< relref path="/post/nginx-udp-load-balance.md" lang="en" >}})
 
 ## Game Dev
 

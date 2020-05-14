@@ -6,7 +6,7 @@ series:
 title: What I Touched This Week 2018-06-24
 ---
 
-* [Vim Marks Stack – ~iany/blog](https://blog.iany.me/2018/05/vim-marks-stack/)
+* [Vim Marks Stack – ~iany/blog]({{< relref path="/post/vim-marks-stack.md" lang="en" >}})
 
 <!--more-->
 

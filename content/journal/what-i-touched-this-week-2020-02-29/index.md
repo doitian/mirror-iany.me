@@ -9,7 +9,7 @@ title: What I Touched This Week 2020-02-29
 
 In the last week, I have posted 2 articles and recommended two web pages.
 
-* [Excel as Diagram Maker](https://blog.iany.me/2020/02/excel-as-diagram-maker/)
+* [Excel as Diagram Maker]({{< relref path="/post/excel-as-diagram-maker.md" lang="en" >}})
 * [Paste Markdown as Code Block in Evernote](https://gist.github.com/9be340cba58cb459ed265f49202a05bf)
 * [Mundo - Visualize your Vim Undo Tree](https://simnalamburt.github.io/vim-mundo/)
     I use Gundo before. This one can search though the changes history.

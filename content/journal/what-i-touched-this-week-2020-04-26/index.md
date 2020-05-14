@@ -8,8 +8,8 @@ title: What I Touched This Week 2020-04-26
 
 I have published two posts.
 
-* [使用 iOS 工作体验报告](https://blog.iany.me/zh/2020/04/working-on-ios-experience-report/)
-* [Write to Any iOS Files Location via Working Copy](https://blog.iany.me/2020/04/write-to-any-ios-files-location-via-working-copy/)
+* [使用 iOS 工作体验报告]({{< relref path="/post/working-on-ios-experience-report.md" lang="zh" >}})
+* [Write to Any iOS Files Location via Working Copy]({{< relref path="/post/write-to-any-ios-files-location-via-working-copy.md" lang="en" >}})
 
 I shared one link:
 

@@ -18,7 +18,7 @@ title: What I Touched This Week 2018-07-22
 
 ## Posts
 
-* [Decred Review](https://blog.iany.me/2018/07/decred-review/)
+* [Decred Review]({{< relref path="/post/decred-review.md" lang="en" >}})
 
 <!--more-->
 

@@ -6,8 +6,8 @@ series:
 title: What I Touched This Week 2017-10-08
 ---
 
-- [Graylog 集中日志管理 - 收集日志](https://blog.iany.me/zh/2017/09/centralized-logs-using-graylog-collecting/)
-- [Graylog 集中日志管理 - 日志处理](https://blog.iany.me/zh/2017/10/centralized-logs-using-graylog-processing/)
+- [Graylog 集中日志管理 - 收集日志]({{< relref path="/post/centralized-logs-using-graylog-collecting.md" lang="zh" >}})
+- [Graylog 集中日志管理 - 日志处理]({{< relref path="/post/centralized-logs-using-graylog-processing.md" lang="zh" >}})
 - To make android cmd tools work with Java 9
 
         export JAVA_OPTS="--add-modules=java.se.ee"

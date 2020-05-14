@@ -8,7 +8,7 @@ title: What I Touched This Week 2019-01-13
 
 My first post in 2019
 
-* [My Reading Workflow and IFTTT Applets – ~iany/blog](https://blog.iany.me/2019/01/my-reading-workflow-and-ifttt-applets/)
+* [My Reading Workflow and IFTTT Applets – ~iany/blog]({{< relref path="/post/my-reading-workflow-and-ifttt-applets.md" lang="en" >}})
 
 # Readings
 

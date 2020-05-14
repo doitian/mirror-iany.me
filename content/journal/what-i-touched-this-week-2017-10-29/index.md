@@ -6,7 +6,7 @@ series:
 title: What I Touched This Week 2017-10-29
 ---
 
-- [Lua C API userdata 和 light userdata – ~iany 博客](https://blog.iany.me/zh/2017/10/lua-c-api-userdata/)
+- [Lua C API userdata 和 light userdata – ~iany 博客]({{< relref path="/post/lua-c-api-userdata.md" lang="zh" >}})
 
 - [Learn Redis the hard way (in production) · trivago techblog](http://tech.trivago.com/2017/01/25/learn-redis-the-hard-way-in-production/)
 

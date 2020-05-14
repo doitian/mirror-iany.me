@@ -10,7 +10,7 @@ I have
 
 
 * read [呼吸](https://www.goodreads.com/review/show/3241352212?utm_medium=api&utm_source=rss) by Ted Chiang.
-* published [Fix iOS App Store Family Purchase Sharing](https://blog.iany.me/2020/03/fix-ios-app-store-family-purchase-sharing/).
+* published [Fix iOS App Store Family Purchase Sharing]({{< relref path="/post/fix-ios-app-store-family-purchase-sharing.md" lang="en" >}}).
 
 <!--more-->
 

@@ -10,14 +10,14 @@ I have
 
 * reviewed my setup in Windows and shared several posts about it.
 * enrolled [CS166: Data Structures](http://web.stanford.edu/class/cs166/).
-* switched to [pass](https://blog.iany.me/2020/05/pass-a-password-manager-utilizing-gpg-and-git/) to manage my passwords.
+* switched to [pass]({{< relref path="/post/pass-a-password-manager-utilizing-gpg-and-git.md" lang="en" >}}) to manage my passwords.
 
 ## Windows Setup
 
 Recently, my colleagues showed interests working in Windows, so I reviewed my setup and published two posts.
 
-* [My Windows Environment Setup](https://blog.iany.me/2020/05/my-windows-environment-setup/)
-* [Vim Setup for Windows](https://blog.iany.me/2020/05/vim-setup-for-windows/)
+* [My Windows Environment Setup]({{< relref path="/post/my-windows-environment-setup.md" lang="en" >}})
+* [Vim Setup for Windows]({{< relref path="/post/vim-setup-for-windows.md" lang="en" >}})
 
 I also shared my config files in gist.
 
@@ -28,7 +28,7 @@ I also shared my config files in gist.
 PowerShell is really funny to play around.
 
 * [Filtering PowerShell Objects](https://www.itprotoday.com/powershell/powershell-basics-filtering-objects)
-* [My wiki entry about PowerShell](https://blog.iany.me/wiki/powershell/)
+* [My wiki entry about PowerShell]({{< relref path="/wiki/powershell.md" lang="en" >}})
 
 Inspired by Windows snap move keyboard shortcuts, I have implemented a similar one in Keyboard Maestro for macOS.
 

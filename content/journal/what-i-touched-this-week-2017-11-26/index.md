@@ -28,9 +28,9 @@ title: What I Touched This Week 2017-11-26
 
 ## Misc
 
-- [Read Various RSA Keys in Ruby – ~iany/blog](https://blog.iany.me/2017/11/read-various-rsa-keys-in-ruby/)
-- [ZFS 文件恢复 – ~iany 博客](https://blog.iany.me/zh/2017/11/zfs-file-restore/)
-- [个人习惯总结 – ~iany 博客](https://blog.iany.me/zh/2017/11/personal-habits-summary/)
+- [Read Various RSA Keys in Ruby – ~iany/blog]({{< relref path="/post/read-various-rsa-keys-in-ruby.md" lang="en" >}})
+- [ZFS 文件恢复 – ~iany 博客]({{< relref path="/post/zfs-file-restore.md" lang="zh" >}})
+- [个人习惯总结 – ~iany 博客]({{< relref path="/post/personal-habits-summary.md" lang="zh" >}})
 - [GoogleCloudPlatform/container-diff: container-diff: Diff your Docker containers](https://github.com/GoogleCloudPlatform/container-diff)
 - [Brightbox Ruby NG : “Brightbox” team](https://launchpad.net/%7Ebrightbox/+archive/ubuntu/ruby-ng/+index?batch=75&memo=75&start=75)
 
