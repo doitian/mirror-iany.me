@@ -1,4 +1,7 @@
 ---
+tags:
+- music
+- piano
 title: 钢琴乐理
 ---
 

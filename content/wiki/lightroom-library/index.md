@@ -3,6 +3,7 @@ breadcrumbAncestors:
 - ../lightroom/
 tags:
 - softwareUsage
+- photography
 title: Lightroom Library
 ---
 

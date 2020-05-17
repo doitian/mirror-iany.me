@@ -1,4 +1,7 @@
 ---
+tags:
+- softwareDesign
+- architecture
 title: SOLID Design Principles
 ---
 

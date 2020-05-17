@@ -2,6 +2,8 @@
 title: LaTeX Templates
 ---
 
+z#academics #template
+
 ## Book
 
 * ❤️ [LaTeX Templates » kaobook](https://www.latextemplates.com/template/kaobook)
