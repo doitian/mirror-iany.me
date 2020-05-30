@@ -1,6 +1,7 @@
 ---
 tags:
 - softwareUsage
+- security
 title: GPG
 ---
 
