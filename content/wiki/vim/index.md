@@ -6,6 +6,11 @@ title: Vim
 
 ## Tips
 
+⚡ [Making a list of numbers](https://vim.fandom.com/wiki/Making_a_list_of_numbers)
+
+* `:put =range(11,15)`
+* <kbd>g CTRL-A</kbd>
+
 ⚡ TextExpand in Vim
 
 > Expand when just switching to the insert mode, type CTRL-v first then type the snippet abbreviation.
