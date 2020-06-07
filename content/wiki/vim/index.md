@@ -42,3 +42,23 @@ Special in the terminal window:			*t_CTRL-W_.*  *t_CTRL-W_N*
 	CTRL-W gt	go to next tabpage, same as `gt`	*t_CTRL-W_gt*
 	CTRL-W gT	go to previous tabpage, same as `gT`	*t_CTRL-W_gT*
 ```
+
+⚡ Vim, Disable Automatic Newline At End Of File
+
+[※source](http://stackoverflow.com/questions/1050640/vim-disable-automatic-newline-at-end-of-file)
+
+```
+set nofixendofline
+```
+
+or
+
+```
+set bin noeol
+```
+
+⚡️ Vim, Load Tags in Location List
+
+```
+:ltag
+```
