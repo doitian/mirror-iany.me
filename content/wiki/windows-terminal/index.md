@@ -1,4 +1,6 @@
 ---
+breadcrumbAncestors:
+- ../windows/
 tags:
 - windows
 title: Windows Terminal
@@ -13,7 +15,7 @@ vim $WindowsTerminalSetting
 
 ⚡ Font
 
-The default font is `Cascadia Code` but the ligature is not enabled. It is easy to enable it by set the font explicitly in any profile.
+The default font is `Cascadia Mono` which does not support ligature. It is easy to enable it by set the font to `Cascadia Code` in any profile.
 
 ```
 "fontFace": "Cascadia Code",
