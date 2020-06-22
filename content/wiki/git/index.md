@@ -26,3 +26,7 @@ It also requires the remote clone working directory is clean.
 ```
 git config --global core.quotepath off
 ```
+
+## Index
+
+* {{< rellink path="../gitattributes/" >}}
