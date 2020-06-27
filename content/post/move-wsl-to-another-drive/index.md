@@ -1,6 +1,5 @@
 ---
 date: 2020-06-26T16:51:34+0800
-draft: true
 tags:
 - windows
 - wsl
