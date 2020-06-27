@@ -8,7 +8,7 @@ title: Move WSL to Another Drive
 
 Following example moves the Ubuntu distribution to disk `D:\WSL\Ubuntu`.
 
-<--more-->
+<!--more-->
 
 **Step 1**. Install Ubuntu in the store. Launch it to initialize the default instance.
 
