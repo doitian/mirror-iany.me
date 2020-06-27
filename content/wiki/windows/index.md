@@ -10,6 +10,7 @@ title: Windows
 
 ## Posts
 
+* [♯ Memory Tracing in Windows]({{< relref path="/post/memory-tracing-in-windows.md" lang="en" >}})
 * [♯ Vim Setup for Windows]({{< relref path="/post/vim-setup-for-windows.md" lang="en" >}})
 * [♯ My Windows Environment Setup]({{< relref path="/post/my-windows-environment-setup.md" lang="en" >}})
 
