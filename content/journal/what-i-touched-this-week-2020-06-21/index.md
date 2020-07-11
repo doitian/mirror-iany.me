@@ -180,6 +180,7 @@ I'm recently working in Windows, so I take many notes about setting up the Windo
     ```
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys
     ```
+
 ┌ Linux
 
 * [How to generate locale in Slitaz](http://alanyih.blogspot.com/2008/08/slitaz-gcin.html)
