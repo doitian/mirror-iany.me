@@ -1,6 +1,6 @@
 ---
 date: 2020-10-11T12:03:32+0800
-draft: true
+draft: false
 tags:
 - rust
 title: Gotchas to Publish Rust Crates in a Workspace
