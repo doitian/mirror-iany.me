@@ -84,7 +84,7 @@ title: What I Touched This Week 2020-02-09
 -   [TextExpander Help: Date, Time, and Math Macros](https://textexpander.com/help/desktop/datetime.html)
     -   [UTS #35: Unicode LDML: Dates ](http://unicode.org/reports/tr35/tr35-dates.html)
         Textexpander date format reference
--   [Note Links - Evernote Developers](https://dev.evernote.com/doc/articles/note_links.php)
+-   [Note Links - Evernote Developers](https://www.dropbox.com/s/rm1p5dsprta0yrg/Note%20Links%20-%20Evernote%20Developers.html?dl=0)
 -   [Restoring Hazel from backups -- Noodlesoft](https://www.noodlesoft.com/kb/restoring-hazel-from-backups/)
 -   [Uniq - Removing duplicate lines | Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Uniq_-_Removing_duplicate_lines)
     -   ":sort u"
