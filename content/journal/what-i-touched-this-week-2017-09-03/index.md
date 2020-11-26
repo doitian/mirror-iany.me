@@ -25,8 +25,8 @@ title: What I Touched This Week 2017-09-03
 
 ## Posts
 
-- [Redis as Write Buffer]({{< relref path="/post/redis-write-buffer.md" lang="en" >}})
-- [Nginx UDP Load Balance]({{< relref path="/post/nginx-udp-load-balance.md" lang="en" >}})
+- [♯ Redis Write Buffer]({{< relref path="/post/redis-write-buffer.md" lang="en" >}})
+- [♯ Nginx Udp Load Balance]({{< relref path="/post/nginx-udp-load-balance.md" lang="en" >}})
 
 ## Game Dev
 

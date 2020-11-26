@@ -8,7 +8,7 @@ title: What I Touched This Week 2020-08-22
 
 I have posted:
 
-* [Bitcoin Core Fee Estimate Algorithm]({{< relref path="/post/bitcoin-core-fee-estimate-algorithm.md" lang="en" >}}), a study on the fee estimate algorithm implemented in Bitcoin Core.
+* [♯ Bitcoin Core Fee Estimate Algorithm]({{< relref path="/post/bitcoin-core-fee-estimate-algorithm.md" lang="en" >}}), a study on the fee estimate algorithm implemented in Bitcoin Core.
 * [Illustration of "Bitcoin - New attack against LN payment atomicity related to Fee Bumping"](https://twitter.com/doitian/status/1295697713179361281)
 
 I have finished three books

@@ -14,7 +14,7 @@ I had to work on Windows for a project, thus did some research to make it suck l
 - [How to Drag Files to the Taskbar to Open Them in Windows 7][4]
 - [VC++ package manager][5] which can be used with cmake.
 
-开始分享一些 Lua 的心得，这是第一篇 [Lua C API 简介][6]
+开始分享一些 Lua 的心得，这是第一篇 [Lua C API 简介]({{< relref path="/post/lua-c-api-intro.md" lang="zh" >}})
 
 ## Game Programming
 
@@ -36,7 +36,6 @@ I had to work on Windows for a project, thus did some research to make it suck l
 [3]:    http://stackoverflow.com/a/2860971/667158
 [4]:    https://www.howtogeek.com/howto/3218/how-to-drag-files-to-the-taskbar-to-open-them-in-windows-7/
 [5]:    https://github.com/Microsoft/vcpkg/blob/master/docs/EXAMPLES.md
-[6]:    {{< relref path="/post/lua-c-api-intro.md" lang="zh" >}}
 [7]:    http://stackoverflow.com/a/33673440/667158
 [8]:    https://omni-automation.com
 [9]:    https://github.com/muesli/beehive

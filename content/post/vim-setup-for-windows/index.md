@@ -5,7 +5,7 @@ tags:
 title: Vim Setup for Windows
 ---
 
-I used to use Visual Studio Code in Windows as mentioned in a [previous post]({{< relref path="/post/my-windows-environment-setup.md" lang="en" >}}). But its startup time is terrible on Surface Go, so I decide to give vim another try.
+I used to use Visual Studio Code in Windows as mentioned in a previous post, [♯ My Windows Environment Setup]({{< relref path="/post/my-windows-environment-setup.md" lang="en" >}}). But its startup time is terrible on Surface Go, so I decide to give vim another try.
 
 <!--more-->
 
@@ -63,5 +63,5 @@ hi Cursor guibg=#005f87 guifg=#eeeeee
 
 ## 2 linked references to "Vim Setup for Windows"
 
-* [➫ Windows]({{< relref path="/wiki/windows.md" lang="en" >}})
-* [➫ What I Touched This Week 2020-05-10]({{< relref path="/journal/what-i-touched-this-week-2020-05-10.md" lang="en" >}})
+* ➫ [♯ Windows]({{< relref path="/wiki/windows.md" lang="en" >}})
+* ➫ [♯ What I Touched This Week 2020-05-10]({{< relref path="/journal/what-i-touched-this-week-2020-05-10.md" lang="en" >}})

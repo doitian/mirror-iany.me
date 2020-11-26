@@ -66,6 +66,6 @@ Following is a list of other apps I used in Windows:
 
 ## 3 linked references to "My Windows Environment Setup"
 
-* [➫ Windows]({{< relref path="/wiki/windows.md" lang="en" >}})
-* [➫ What I Touched This Week 2020-05-10]({{< relref path="/journal/what-i-touched-this-week-2020-05-10.md" lang="en" >}})
-* [➫ Vim Setup for Windows]({{< relref path="/post/vim-setup-for-windows.md" lang="en" >}})
+* ➫ [♯ Windows]({{< relref path="/wiki/windows.md" lang="en" >}})
+* ➫ [♯ What I Touched This Week 2020-05-10]({{< relref path="/journal/what-i-touched-this-week-2020-05-10.md" lang="en" >}})
+* ➫ [♯ Vim Setup for Windows]({{< relref path="/post/vim-setup-for-windows.md" lang="en" >}})

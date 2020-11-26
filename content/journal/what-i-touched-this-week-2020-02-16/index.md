@@ -8,7 +8,7 @@ title: What I Touched This Week 2020-02-16
 
 ## Featured
 
--   ✒️ [Bitcoin Core Network Event Loops]({{< relref path="/post/bitcoin-core-network-event-loops.md" lang="en" >}})
+-   ✒️ [♯ Bitcoin Core Network Event Loops]({{< relref path="/post/bitcoin-core-network-event-loops.md" lang="en" >}})
 
     This is a guide about how bitcoin-core handles network messages in the source code.
 

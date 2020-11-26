@@ -7,9 +7,9 @@ title: What I Touched This Week 2020-02-09
 ---
 
 # My Posts
--   [How to Download Only Gmail Inbox -- ~iany/blog]({{< relref path="/post/download-only-gmail-inbox.md" lang="en" >}})
+-   [♯ Download Only Gmail Inbox]({{< relref path="/post/download-only-gmail-inbox.md" lang="en" >}})
 -   [The Brief Guide to Remote Work](https://gist.github.com/doitian/d11dab0b5afe385d8bca3c74a353c622)
--   [Vim iTerm Launcher -- ~iany/blog]({{< relref path="/post/vim-iterm-launcher.md" lang="en" >}})
+-   [♯ Vim iTerm Launcher]({{< relref path="/post/vim-iterm-launcher.md" lang="en" >}})
 
 # Zero Knowledge Proof
 -   [Zero-Knowledge Proofs: A Layman's Introduction - Aventus Network](https://blog.aventus.io/zero-knowledge-proofs-a-laymans-introduction-7020b93beeda)

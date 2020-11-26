@@ -20,7 +20,7 @@ title: What I Touched This Week 2018-11-25
 
 ## Read Papers
 
-- [Weekly Paper: 1945 - Hayek - The Use of Knowledge in Society]({{< relref path="/post/weekly-paper-hayek-the-use-of-knowledge-in-society.md" lang="en" >}})
+- [♯ Weekly Paper Hayek The Use Of Knowledge In Society]({{< relref path="/post/weekly-paper-hayek-the-use-of-knowledge-in-society.md" lang="en" >}})
 
 ## Other Readings
 

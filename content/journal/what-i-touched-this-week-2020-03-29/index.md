@@ -6,7 +6,7 @@ series:
 title: What I Touched This Week 2020-03-29
 ---
 
-I have published a post [Fix iOS App Store Family Purchase Sharing]({{< relref path="/post/fix-ios-app-store-family-purchase-sharing.md" lang="en" >}}) this week.
+I have published a post [♯ Fix iOS App Store Family Purchase Sharing]({{< relref path="/post/fix-ios-app-store-family-purchase-sharing.md" lang="en" >}}) this week.
 
 This weekend I have participated an internal Hackathon, here is [my project](https://github.com/doitian/animagus-xi).
 

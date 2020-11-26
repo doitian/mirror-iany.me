@@ -10,4 +10,4 @@ title: Recognition-Primed Decision Making Model
 
 ## 1 linked reference to "Recognition-Primed Decision Making Model"
 
-* [➫ Tacit Knowledge]({{< relref path="/wiki/tacit-knowledge.md" lang="en" >}})
+* ➫ [♯ Tacit Knowledge]({{< relref path="/wiki/tacit-knowledge.md" lang="en" >}})

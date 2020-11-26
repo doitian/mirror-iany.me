@@ -18,7 +18,7 @@ title: What I Touched This Week 2018-07-22
 
 ## Posts
 
-* [Decred Review]({{< relref path="/post/decred-review.md" lang="en" >}})
+* [♯ Decred Review]({{< relref path="/post/decred-review.md" lang="en" >}})
 
 <!--more-->
 

@@ -6,7 +6,7 @@ series:
 title: What I Touched This Week 2019-03-02
 ---
 
-* My new post: [Rust Cell and RefCell]({{< relref path="/post/rust-cell-and-refcell.md" lang="en" >}})
+* My new post: [♯ Rust Cell And Refcell]({{< relref path="/post/rust-cell-and-refcell.md" lang="en" >}})
 
 ## Rust
 

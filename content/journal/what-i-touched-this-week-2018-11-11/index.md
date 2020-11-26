@@ -8,7 +8,7 @@ title: What I Touched This Week 2018-11-11
 
 ## Papers
 
-- [Weekly Paper: Helix – ~iany/blog]({{< relref path="/post/weekly-paper-helix.md" lang="en" >}})
+- [♯ Weekly Paper Helix]({{< relref path="/post/weekly-paper-helix.md" lang="en" >}})
 
 ## Other
 

@@ -17,7 +17,7 @@ title: What I Touched This Week 2018-12-02
 
 ## Read Papers
 
-- [Weekly Paper: Liberal Radicalism]({{< relref path="/post/weekly-paper-liberal-radicalism.md" lang="en" >}})
+- [♯ Weekly Paper Liberal Radicalism]({{< relref path="/post/weekly-paper-liberal-radicalism.md" lang="en" >}})
 - Notes on 「[Blockchain Governance: Programming Our Future – Fred
   Ehrsam](https://medium.com/@FEhrsam/blockchain-governance-programming-our-future-c3bfe30f2d74)」
 
