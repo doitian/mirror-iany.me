@@ -144,11 +144,11 @@ If `$P\{Y=i\} = 1/n$`, apparently `$A(i) = i$`. If there's another value `$j\neq
 Thus
 
 ``` katex
-\[\begin{aligned}
+\[ \begin{aligned}
  &F(i)/n + \sum_{j \in A^{-1}(i)}\frac{1-F(j)}{n}\\
 =&F(i)/n + (1-F(i))/n\\
 =&1/n
-\end{aligned}\]
+\end{aligned} \]
 ```
 
 which completes the proof.
@@ -166,12 +166,12 @@ Consider each value `$j$` in set `$A^{-1}(i)$`. Once `$j$` is removed from `$S$`
 Then
 
 ``` katex
-\[\begin{aligned}
+\[ \begin{aligned}
  &F(i)/n + \sum_{j \in A^{-1}(i)}\frac{1-F(j)}{n}\\
 =&p'_i \times n / n + \sum_{j \in A^{-1}(i)}\frac{1-(p'_j \times~n)}{n}\\
 =&P\{Y=i\} - \sum_{j \in A^{-1}(i)}(1/n - p'_j)\ + \sum_{j \in A^{-1}(i)}(1/n - p'_j)\\
 =&P\{Y=i\}
-\end{aligned}\]
+\end{aligned} \]
 ```
 
 For all `$i$`, `$P\{Y'=i\} = P\{Y=i\}$`, the proof completes.
