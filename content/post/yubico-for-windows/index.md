@@ -1,7 +1,7 @@
 ---
 date: 2020-07-11T16:38:25+0800
 tags:
-- windows
+- windows [[Yubico]]
 title: Yubico for Windows
 ---
 
