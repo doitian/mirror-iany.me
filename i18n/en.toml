@@ -12,3 +12,6 @@ other = "SOP"
 
 ["title.Wikis"]
 other = "Wiki"
+
+["title.ssh"]
+other = "SSH"
