@@ -15,3 +15,18 @@ other = "Wiki"
 
 ["title.ssh"]
 other = "SSH"
+
+["title.gpg"]
+other = "GPG"
+
+["title.BTree"]
+other = "B-tree"
+
+["title.uriProtocol"]
+other = "URI Protocol"
+
+["title.yubikey"]
+other = "YubiKey"
+
+["title.rvm"]
+other = "RVM"
