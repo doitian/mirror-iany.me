@@ -53,6 +53,13 @@ Remove the key from `~/.gnupg/private-keys-v1.d/` by keygrip.
 gpg -k --keyid-format long
 ```
 
+⚡ Reload GPG Agent
+
+```
+gpg-connect-agent killagent /bye
+gpg-connect-agent updatestartuptty /bye
+```
+
 ## GPG in Linux Server
 
 I tried to setup GPG in a Linux server and met problems when performing
