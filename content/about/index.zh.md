@@ -24,14 +24,14 @@ description: "我是 Ian Yang, 软件开发者。目前在 Nervos 开发 CKB。�
 
 - Email: [GPG](https://u.iany.me/gpg)
 - GitHub: [doitian][github]
-- Vimeo: [doitian][vimeo]
 - Twitter: [@doitian][twitter]
-- Diigo: [doitian][diigo]
+- Readwise: [doitian][readwise]
+- Vimeo: [doitian][vimeo]
 - LinkedIn: [Ian Yang][linkedin]
 
 我最近去掉了这个网站的评论系统。如果有问题想讨论可以直接联系我，或者加入这个 [Discord Server](https://discord.gg/zJsgYE4)。
 
-[diigo]: https://www.diigo.com/user/doitian
+[readwise]:	https://www.notion.so/doitian/Readwise-17906152592c42109ebba5bb20260de0
 [twitter]:	https://twitter.com/doitian
 [vimeo]:	https://vimeo.com/doitian
 [github]:	https://github.com/doitian
