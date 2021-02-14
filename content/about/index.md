@@ -33,7 +33,7 @@ I also did several years web development for POS and payments system, as well as
 
 I intentionally removed the comment system from the site. Please contact me directly if you want to discuss with me, or join this [Discord Server](https://discord.gg/zJsgYE4).
 
-[readwise]:	https://www.notion.so/doitian/Readwise-17906152592c42109ebba5bb20260de0
+[readwise]:	https://www.notion.so/doitian/Readwise-56c2132435bd444bab6f9c65d639e337
 [twitter]:	https://twitter.com/doitian
 [vimeo]:	https://vimeo.com/doitian
 [github]:	https://github.com/doitian

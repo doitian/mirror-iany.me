@@ -31,7 +31,7 @@ description: "我是 Ian Yang, 软件开发者。目前在 Nervos 开发 CKB。�
 
 我最近去掉了这个网站的评论系统。如果有问题想讨论可以直接联系我，或者加入这个 [Discord Server](https://discord.gg/zJsgYE4)。
 
-[readwise]:	https://www.notion.so/doitian/Readwise-17906152592c42109ebba5bb20260de0
+[readwise]:	https://www.notion.so/doitian/Readwise-56c2132435bd444bab6f9c65d639e337
 [twitter]:	https://twitter.com/doitian
 [vimeo]:	https://vimeo.com/doitian
 [github]:	https://github.com/doitian
