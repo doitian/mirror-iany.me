@@ -10,7 +10,7 @@ General Functions
 
 - New: ⌘N
 - Close: ⌘W
-- Save: ⌘S²
+- Save: ⌘S
 - Undo: ⌘Z
 - Redo: ⇧⌘Z
 - Copy: ⌘C
