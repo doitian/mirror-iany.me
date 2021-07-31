@@ -1,7 +1,7 @@
 ---
 tags:
 - windows
-- commandLine
+- command-line
 title: PowerShell
 ---
 

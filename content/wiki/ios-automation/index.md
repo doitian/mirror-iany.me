@@ -2,9 +2,9 @@
 breadcrumbAncestors:
 - ../ios/
 tags:
-- iOS
+- ios
 - automation
-- uriProtocol
+- uri-protocol
 title: iOS Automation
 ---
 

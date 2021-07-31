@@ -2,7 +2,7 @@
 breadcrumbAncestors:
 - ../lightroom/
 tags:
-- softwareUsage
+- software-usage
 - photography
 title: Lightroom Library
 ---

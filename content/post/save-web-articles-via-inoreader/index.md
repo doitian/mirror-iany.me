@@ -3,7 +3,7 @@ date: 2020-03-14T17:02:25+0800
 feature: evernote-saved-articles-squashed.png
 tags:
 - automation
-- knowledgeManagement
+- knowledge-management
 title: Save Web Articles via Inoreader
 ---
 

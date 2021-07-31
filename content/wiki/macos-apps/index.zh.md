@@ -2,7 +2,7 @@
 breadcrumbAncestors:
 - ../macos/
 tags:
-- macOS
+- macos
 title: macOS 应用
 ---
 

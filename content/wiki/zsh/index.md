@@ -1,7 +1,7 @@
 ---
 tags:
 - zsh
-- commandLine
+- command-line
 title: Zsh
 ---
 

@@ -1,6 +1,6 @@
 ---
 tags:
-- iOS
+- ios
 title: iOS
 ---
 

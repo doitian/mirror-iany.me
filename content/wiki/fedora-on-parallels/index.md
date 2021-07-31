@@ -3,7 +3,7 @@ breadcrumbAncestors:
 - ../fedora/
 tags:
 - linux
-- macOS
+- macos
 title: Fedora on Parallels
 ---
 

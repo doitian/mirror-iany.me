@@ -1,6 +1,6 @@
 ---
 tags:
-- computerScience
+- computer-science
 title: NP (complexity)
 ---
 

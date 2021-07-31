@@ -1,7 +1,7 @@
 ---
 tags:
-- dataStructure
-- BTree
+- data-structure
+- b-tree
 title: Sardine Tree
 ---
 

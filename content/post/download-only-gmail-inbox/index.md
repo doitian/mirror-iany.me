@@ -5,7 +5,7 @@ description: How to configure Apple Mail to download only the mails in Gmail inb
 katex: false
 share: true
 tags:
-- powerTool
+- power-tool
 title: How to Download Only Gmail Inbox
 ---
 

@@ -1,6 +1,6 @@
 ---
 tags:
-- dataStructure
+- data-structure
 title: Cuckoo Hashing
 ---
 

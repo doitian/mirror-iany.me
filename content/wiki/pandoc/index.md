@@ -1,6 +1,6 @@
 ---
 tags:
-- commandLine
+- command-line
 title: Pandoc
 ---
 

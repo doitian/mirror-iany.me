@@ -1,6 +1,6 @@
 ---
 tags:
-- knowledgeManagement
+- knowledge-management
 title: Tacit Knowledge
 ---
 

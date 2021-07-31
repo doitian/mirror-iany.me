@@ -1,6 +1,6 @@
 ---
 tags:
-- softwareTest
+- software-test
 title: FoundationDB Test Technologies
 ---
 

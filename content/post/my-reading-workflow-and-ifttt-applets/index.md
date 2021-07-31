@@ -6,7 +6,7 @@ katex: false
 share: true
 tags:
 - productivity
-- knowledgeManagement
+- knowledge-management
 title: My Reading Workflow and IFTTT Applets
 ---
 

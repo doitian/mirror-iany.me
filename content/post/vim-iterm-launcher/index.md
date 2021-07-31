@@ -7,7 +7,7 @@ series:
 - macOS Automation
 share: true
 tags:
-- macOS
+- macos
 - automation
 title: Vim iTerm Launcher
 ---

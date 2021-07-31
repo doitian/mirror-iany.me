@@ -1,7 +1,7 @@
 ---
 tags:
-- softwareUsage
-- macOS
+- software-usage
+- macos
 title: MacVim
 ---
 

@@ -2,8 +2,8 @@
 breadcrumbAncestors:
 - ../final-cut-pro/
 tags:
-- macOS
-- videoEditing
+- macos
+- video-editing
 title: Final Cut Pro Cheatsheet
 ---
 

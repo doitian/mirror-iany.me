@@ -3,7 +3,7 @@ date: '2013-01-31'
 tags:
 - rails
 - javascript
-- softwareTest
+- software-test
 title: A trick to use just jasmine gem to test Javascript in Rails
 ---
 

@@ -8,7 +8,7 @@ series:
 share: true
 tags:
 - consensus
-- distributedSystem
+- distributed-system
 title: 'Weekly Paper: Helix'
 ---
 

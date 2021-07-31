@@ -1,7 +1,7 @@
 ---
 date: 2016-10-25
 tags:
-- powerTool
+- power-tool
 - api
 title: Paw 里进行 UCloud API 签名验证
 ---

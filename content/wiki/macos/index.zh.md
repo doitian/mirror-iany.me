@@ -1,6 +1,6 @@
 ---
 tags:
-- macOS
+- macos
 title: macOS
 ---
 

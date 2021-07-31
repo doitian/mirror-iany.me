@@ -1,7 +1,7 @@
 ---
 tags:
 - mail
-- commandLine
+- command-line
 title: Neomutt
 ---
 

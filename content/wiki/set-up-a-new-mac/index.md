@@ -2,7 +2,7 @@
 breadcrumbAncestors:
 - ../macos/
 tags:
-- macOS
+- macos
 title: Set Up a New Mac
 ---
 

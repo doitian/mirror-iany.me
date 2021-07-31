@@ -1,6 +1,6 @@
 ---
 tags:
-- softwareUsage
+- software-usage
 - photography
 title: Lightroom
 ---

@@ -3,7 +3,7 @@ breadcrumbAncestors:
 - ../windows/
 tags:
 - windows
-- Chinese
+- chinese
 title: Windows Chinese Environment
 ---
 

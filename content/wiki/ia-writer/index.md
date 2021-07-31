@@ -1,6 +1,6 @@
 ---
 tags:
-- softwareUsage
+- software-usage
 title: iA Writer
 ---
 

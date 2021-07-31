@@ -1,7 +1,7 @@
 ---
 date: '2016-11-27'
 tags:
-- powerTool
+- power-tool
 title: Convert Web Page to Markdown using Ulysses or Bear
 ---
 

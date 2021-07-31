@@ -1,7 +1,7 @@
 ---
 tags:
-- macOS
-- videoEditing
+- macos
+- video-editing
 title: Final Cut Pro
 ---
 

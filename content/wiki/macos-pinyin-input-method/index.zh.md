@@ -3,7 +3,7 @@ breadcrumbAncestors:
 - ../macos/
 - ../macos-apps/
 tags:
-- macOS
+- macos
 title: macOS 拼音输入法
 ---
 

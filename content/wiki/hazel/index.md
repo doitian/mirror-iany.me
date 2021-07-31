@@ -1,8 +1,8 @@
 ---
 tags:
-- macOS
+- macos
 - automation
-- softwareUsage
+- software-usage
 title: Hazel
 ---
 

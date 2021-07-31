@@ -1,7 +1,7 @@
 ---
 tags:
-- macOS
-- virtualMachine
+- macos
+- virtual-machine
 title: Parallels
 ---
 

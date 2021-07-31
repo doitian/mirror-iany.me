@@ -1,7 +1,7 @@
 ---
 tags:
 - linux
-- systemAdmin
+- system-admin
 title: Linux Root Password
 ---
 
