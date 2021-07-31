@@ -16,10 +16,19 @@ other = "Wiki"
 ["title.ssh"]
 other = "SSH"
 
+["title.svg"]
+other = "SVG"
+
 ["title.gpg"]
 other = "GPG"
 
-["title.BTree"]
+["title.ios"]
+other = "iOS"
+
+["title.ipad"]
+other = "iPad"
+
+["title.b-tree"]
 other = "B-tree"
 
 ["title.uriProtocol"]
@@ -30,3 +39,18 @@ other = "YubiKey"
 
 ["title.rvm"]
 other = "RVM"
+
+["title.macos"]
+other = "macOS"
+
+["title.devops"]
+other = "DevOps"
+
+["title.wsl"]
+other = "WSL"
+
+["title.pow"]
+other = "POW"
+
+["title.javascript"]
+other = "JavaScript"
