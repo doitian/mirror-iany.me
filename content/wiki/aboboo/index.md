@@ -1,7 +1,7 @@
 ---
 tags:
 - windows
-- english
+- lang/en
 - software-usage
 title: Aboboo
 ---

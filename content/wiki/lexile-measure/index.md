@@ -1,6 +1,6 @@
 ---
 tags:
-- english
+- lang/en
 title: Lexile Measure
 ---
 
