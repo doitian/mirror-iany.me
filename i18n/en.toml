@@ -54,3 +54,9 @@ other = "POW"
 
 ["title.javascript"]
 other = "JavaScript"
+
+["title.lang/en"]
+other = "English"
+
+["title.lang/zh"]
+other = "Chinese"
