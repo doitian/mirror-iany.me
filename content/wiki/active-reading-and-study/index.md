@@ -35,7 +35,7 @@ Annotate rather than highlighting.  The problem is that highlighting will trick 
 
 ## References
 
-- [Andrwe Ng, Reading Research Papers](https://www.youtube.com/watch?v=733m6qBH-jI) %%[[Reading Research Papers]]%% 
-- [Marty Lobdell, Study Less Study Smart](https://www.youtube.com/watch?v=IlU-zDU6aQ0) %% [[Study Less Study Smart]] %%
-- Mortimer J. Adler and Charles van Doren, How to Read a Book %% [[How to Read a Book - Shortform Summary]] %%
-- [learningcenter.unc.edu, Highlighting](https://learningcenter.unc.edu/tips-and-tools/using-highlighters/) %% [[Highlighting – Learning Center]] %%
+- [Andrwe Ng, Reading Research Papers](https://www.youtube.com/watch?v=733m6qBH-jI)
+- [Marty Lobdell, Study Less Study Smart](https://www.youtube.com/watch?v=IlU-zDU6aQ0)
+- Mortimer J. Adler and Charles van Doren, How to Read a Book
+- [learningcenter.unc.edu, Highlighting](https://learningcenter.unc.edu/tips-and-tools/using-highlighters/)
