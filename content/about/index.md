@@ -14,7 +14,7 @@ I'm Ian Yang, a software developer. I'm developing CKB for [Nervos] now. I also 
 [izenesoft]:	https://www.linkedin.com/company/izenesoft-shanghai-co.-ltd/
 [augmentum]:	https://www.augmentum.com
 
-My current interests are high permance backend software development, machine learning and blockchain. 
+My current interests are high performance backend software development, machine learning and blockchain.
 
 I have several year experiences in game design and development, especially the techniques to deliver high performance back-end, game automated build, test, publish and deployment.
 
