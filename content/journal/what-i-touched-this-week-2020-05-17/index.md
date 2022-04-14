@@ -34,7 +34,7 @@ I have written some scripts to visualize the knowledge base inspired by [如何�
 
     Mount encrypted files via fuse.
 
-* [Troubleshooting Issues with GPG : Yubico Support](https://support.yubico.com/support/solutions/articles/15000011370-troubleshooting-issues-with-gpg)
+* [Troubleshooting Issues with GPG : Yubico Support](https://support.yubico.com/hc/en-us/articles/360013714479-Troubleshooting-Issues-with-GPG)
 
     Fix for scoop installed gpg by creating file `%USERPROFILE%\scoop\apps\gpg\current\home\scdaemon.conf`:
 
@@ -67,10 +67,6 @@ I have written some scripts to visualize the knowledge base inspired by [如何�
 * [Bye, Amazon](https://www.tbray.org/ongoing/When/202x/2020/04/29/Leaving-Amazon)
 
     > I quit in dismay at Amazon firing whistleblowers who were making noise about warehouse employees frightened of Covid-19.
-
-┌ WTF
-
-* [RT @LichtSpektrum: 被怀疑为阿里巴巴工程师的人士，强行破解大学生独立开发者的软件，盗版其软件并自行销售高阶版功能、举报原作者及讨论群友、要求原作者道歉。](https://twitter.com/doitian/status/1260065958464348160)
 
 ┌ Game
 

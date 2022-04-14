@@ -29,4 +29,4 @@ But in some modes (`ruby-mode`, `markdown-mode`, `org-mode`), the command is bin
 ```
 
 [yasnippet]: https://github.com/joaotavora/yasnippet
-[auto-complete]: https://github.com/m2ym/auto-complete
+[auto-complete]: https://github.com/auto-complete/auto-complete

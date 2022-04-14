@@ -28,7 +28,7 @@ title: What I Touched This Week 2017-09-17
 
     Generate API Doc from comments.
 
-- [NATS Documentation](https://nats.io/documentation/)
+- [NATS Documentation](https://docs.nats.io/)
 
     Message Queue using Golang.
 

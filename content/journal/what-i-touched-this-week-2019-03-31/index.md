@@ -11,7 +11,7 @@ title: What I Touched This Week 2019-03-31
 
 # Read Papers
 
-* Gifford, D. K. (1979). Weighted voting for replicated data, 150–162. https://doi.org/10.1145/800215.806583
+* Gifford, D. K. (1979). Weighted voting for replicated data, 150–162. https://dl.acm.org/doi/10.1145/800215.806583
 
 # Bookmarks
 

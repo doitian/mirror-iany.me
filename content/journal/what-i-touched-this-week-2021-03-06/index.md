@@ -62,10 +62,6 @@ Turn the contributions chart to a 3D model. [Here](https://skyline.github.com/do
 
 A curated list of papers.
 
-### [Anti Bloat | Tauri Studio](https://tauri.studio/en/docs/usage/recipes/bundler/anti-bloat/)
-
-Some tips about reducing the size of the Rust executable.
-
 ### [Conway's law - Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 > Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.

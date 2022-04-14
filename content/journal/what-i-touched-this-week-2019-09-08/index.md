@@ -18,7 +18,7 @@ title: What I Touched This Week 2019-09-08
 
 ## Remote Work
 
-* [A Seasonal Report on Developer Trends in the Cloud: Remote Work Edition](https://www.digitalocean.com/currents/july-2019/)
+* [A Seasonal Report on Developer Trends in the Cloud: Remote Work Edition](https://currents.nyc3.cdn.digitaloceanspaces.com/DigitalOcean-Currents-Q3-2019.pdf)
 * [Remote Work Guides | Twist](https://twist.com/remote-work-guides)
 
 ## Life
@@ -29,7 +29,7 @@ title: What I Touched This Week 2019-09-08
 
 ## Bookmarks
 
-* [Dadroit JSON Viewer](https://viewer.dadroit.com/)
+* [Dadroit JSON Viewer](https://dadroit.com/)
 
     Good at opening big JSON data.
 

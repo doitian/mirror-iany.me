@@ -30,4 +30,3 @@ title: What I Touched This Week 2018-07-01
 ## Bookmarks
 
 - [Papers with Code : the latest in machine learning](https://paperswithcode.com/)
-- [DevTube - The best developer videos in one place](https://dev.tube/)

@@ -29,4 +29,3 @@ title: What I Touched This Week 2017-09-24
 
 - [spf13/viper: Go configuration with fangs](https://github.com/spf13/viper)
 - [anvaka/ngraph.path: Path finding in a graph](https://github.com/anvaka/ngraph.path)
-- [iOS Crash Reports from Unity3D Games — markj.net](http://www.markj.net/blog/ios-crash-reports-unity3d-symbolicate)
