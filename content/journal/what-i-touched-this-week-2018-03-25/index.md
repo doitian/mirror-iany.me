@@ -7,7 +7,7 @@ title: What I Touched This Week 2018-03-25
 ---
 
 * [让一台家用打印机做一些有趣的创造：Creative Park - 少数派](https://sspai.com/post/43694)
-* [Project from Hell | Project Failures](https://projectfailures.wordpress.com/2008/06/24/project-from-hell/)
+* [Project from Hell | Project Failures](https://web.archive.org/web/20181101105235/https://projectfailures.wordpress.com/2008/06/24/project-from-hell/)
 
     Learn from the worst project.
 
@@ -19,4 +19,4 @@ title: What I Touched This Week 2018-03-25
 
     How should engineer filter the information.
 
-* [The Future-Altering Technologies We Forgot to Invent](https://medium.com/the-polymath-project/gene-wolfe-a-science-fiction-legend-on-the-future-altering-technologies-we-forgot-to-invent-a3103572a352)
+* [The Future-Altering Technologies We Forgot to Invent](https://web.archive.org/web/20191105012118/https://medium.com/the-polymath-project/gene-wolfe-a-science-fiction-legend-on-the-future-altering-technologies-we-forgot-to-invent-a3103572a352)

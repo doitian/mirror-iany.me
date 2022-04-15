@@ -10,7 +10,7 @@ I have:
 
 * Published a new post [♯ Save Web Articles via Inoreader]({{< relref path="/post/save-web-articles-via-inoreader.md" lang="en" >}}).
 * Completed the course [Game Theory](https://twitter.com/doitian/status/1239147515494256640).
-* Read the book [The Most Dangerous Game](https://www.goodreads.com/review/show/3225593343?utm_medium=api&utm_source=rss).
+* Read the book [The Most Dangerous Game](https://www.goodreads.com/review/show/3225593343).
 
 <!--more-->
 

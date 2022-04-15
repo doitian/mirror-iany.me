@@ -9,7 +9,7 @@ title: What I Touched This Week 2020-03-22
 I have
 
 
-* read [呼吸](https://www.goodreads.com/review/show/3241352212?utm_medium=api&utm_source=rss) by Ted Chiang.
+* read [呼吸](https://www.goodreads.com/review/show/3241352212) by Ted Chiang.
 * published [♯ Fix iOS App Store Family Purchase Sharing]({{< relref path="/post/fix-ios-app-store-family-purchase-sharing.md" lang="en" >}}).
 
 <!--more-->
@@ -94,4 +94,4 @@ I shared
 
 -   [Download Free Vectors, Clipart Graphics, Vector Art & Design Templates](https://www.vecteezy.com/)
 -   [@shengyincan: 我学了一个 Economics of Money and Banking，也毕业了](https://twitter.com/doitian/status/1239149884235591680)
--   [Rust Search Extension - The ultimate search extension for Rust](https://rust-search-extension.now.sh/)
+-   [Rust Search Extension - The ultimate search extension for Rust](https://rust.extension.sh/)

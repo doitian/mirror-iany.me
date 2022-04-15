@@ -19,7 +19,7 @@ title: What I Touched This Week 2018-11-04
 
 ## Papers
 
-* [Tezos: A Self-Amending Crypto-Ledger Position Paper](https://tezos.com/pdf/position_paper.pdf)
+* [Tezos: A Self-Amending Crypto-Ledger Position Paper](https://wiki.tezosagora.org/positionpaper)
 
 ## Bookmarks
 
