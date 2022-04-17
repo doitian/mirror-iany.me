@@ -1,6 +1,6 @@
 ---
 tags:
-- data_structure
+- data-structure
 title: Fusion Tree
 ---
 
