@@ -4,6 +4,8 @@ additionalRepositories:
   - url: https://github.com/doitian/guidepost-ghost
     checkoutLocation: guidepost-ghost
 
+checkoutLocation: iany.me
+
 tasks:
   - name: blog
     before: brew install hugo
