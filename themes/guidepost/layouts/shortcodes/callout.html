@@ -2,7 +2,7 @@
     <figcaption class="kg-callout-title">
         {{ with (.Get "fold") }}<i aria-hidden="true" class="kg-callout-close fas fa-chevron-down"></i>{{ end }}
         <i aria-hidden="true" class="kg-callout-type {{ .Get "icon" }}"></i>
-        {{ .Get "title" }}
+        {{ .Get "title" | markdownify }}
     </figcaption>
     <div class="kg-callout-content">
 
