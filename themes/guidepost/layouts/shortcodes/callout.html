@@ -1,0 +1,12 @@
+<figure class="kg-card kg-callout kg-callout-{{ .Get "type" }}{{ with (.Get "fold") }} kg-callout-foldable{{ if eq . "+" }} active{{ end }}{{ end }}">
+    <figcaption class="kg-callout-title">
+        {{ with (.Get "fold") }}<i aria-hidden="true" class="kg-callout-close fas fa-chevron-down"></i>{{ end }}
+        <i aria-hidden="true" class="kg-callout-type {{ .Get "icon" }}"></i>
+        {{ .Get "title" }}
+    </figcaption>
+    <div class="kg-callout-content">
+
+{{ .Inner | markdownify }}
+
+    </div>
+</figure>

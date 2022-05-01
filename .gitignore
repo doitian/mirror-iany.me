@@ -7,3 +7,5 @@ gitcommit.txt
 status.json
 .Ulysses*
 .env
+/themes/guidepost/static/css/styles.min.css
+/themes/guidepost/static/js/scripts.min.js
