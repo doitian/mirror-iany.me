@@ -18,4 +18,4 @@ tasks:
     command: |
       gulp watch
 
-workspaceLocation: iany.me/fullstack.code-workspace
+workspaceLocation: mirror-iany.me/fullstack.code-workspace
