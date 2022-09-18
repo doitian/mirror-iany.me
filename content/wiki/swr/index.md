@@ -1,6 +1,4 @@
 ---
-aliases:
-- SWR
 tags:
 - react
 - web-programming

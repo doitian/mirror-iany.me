@@ -1,6 +1,4 @@
 ---
-aliases:
-- LxRunOffline
 tags:
 - windows
 - wsl

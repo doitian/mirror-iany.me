@@ -1,6 +1,4 @@
 ---
-aliases:
-- Chart.js
 tags:
 - javascript
 - web-programming

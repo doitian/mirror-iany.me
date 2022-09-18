@@ -61,7 +61,8 @@ set renderoptions=type:directx
 hi Cursor guibg=#005f87 guifg=#eeeeee
 ```
 
-## 2 linked references to "Vim Setup for Windows"
+## Linked mentions
 
-* ➫ [♯ Windows]({{< relref path="/wiki/windows.md" lang="en" >}})
-* ➫ [♯ What I Touched This Week 2020-05-10]({{< relref path="/journal/what-i-touched-this-week-2020-05-10.md" lang="en" >}})
+
+- ➫ [♯ What I Touched This Week 2020-05-10]({{< relref path="/journal/what-i-touched-this-week-2020-05-10.md" lang="en" >}})
+- ➫ [♯ Windows]({{< relref path="/wiki/windows.md" lang="en" >}})

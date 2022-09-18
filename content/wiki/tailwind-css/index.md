@@ -1,6 +1,4 @@
 ---
-aliases:
-- Tailwind CSS
 title: Tailwind CSS
 ---
 
