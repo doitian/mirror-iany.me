@@ -1,4 +1,6 @@
 ---
+aliases:
+- Feynman Technique
 tags:
 - sop
 title: Feynman Technique
