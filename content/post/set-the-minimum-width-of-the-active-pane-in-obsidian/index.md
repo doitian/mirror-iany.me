@@ -1,7 +1,7 @@
 ---
-aliases:
-- Set the Minimum Width of the Active Pane in Obsidian
 date: 2022-09-23T16:44:51+0800
+obsidian_aliases:
+- Set the Minimum Width of the Active Pane in Obsidian
 tags:
 - obsidian
 title: Set the Minimum Width of the Active Pane in Obsidian

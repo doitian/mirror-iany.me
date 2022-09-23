@@ -1,6 +1,4 @@
 ---
-aliases:
-- Active Reading and Study
 tags:
 - sop
 - productivity
