@@ -62,6 +62,10 @@ mainSections = ["post", "game"]
 beian = '浙ICP备17004784号-1'
 # disqusBaseURL = "https://blog.iany.me/"
 
+  [params.listing]
+  post = 12
+  journal = 3
+
 [languages]
   [languages.en]
     title = "~iany/"

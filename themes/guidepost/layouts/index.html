@@ -7,13 +7,17 @@
             {{ $sections = $sections | append (where $.Sections "Section" "not in" $.Site.Params.mainSections) -}}
         {{ end }}
         {{ range $sections -}}
+            {{ $amount := 7 }}
+            {{ with index $.Site.Params.listing .Section }}
+                {{ $amount = . }}
+            {{ end }}
         <article id="section-{{ .Section }}" class="tag-card">
             <div class="tag-card-inner">
                 <h3 class="tag-card-title"><a href="{{ .RelPermalink }}">{{ T (print "title." .Title) | default .Title }}</a></h3>
 
                 <div class="tag-card-content">
                     <ul>
-                        {{ range first 7 .Pages -}}
+                        {{ range first $amount .Pages -}}
                         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                         {{ end -}}
                     </ul>
