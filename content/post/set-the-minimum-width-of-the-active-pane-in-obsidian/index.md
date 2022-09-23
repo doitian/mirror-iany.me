@@ -2,6 +2,8 @@
 aliases:
 - Set the Minimum Width of the Active Pane in Obsidian
 date: 2022-09-23T16:44:51+0800
+tags:
+- obsidian
 title: Set the Minimum Width of the Active Pane in Obsidian
 ---
 
@@ -56,54 +58,54 @@ First, update the CSS snippet to make Excalibrain panes wider. Indeed, it makes 
   min-width: min(88%, 40rem);
 }
 
+.mod-root .mod-active[data-type="excalidraw"] {
+  min-width: min(88%, 60rem);
+}
+```
+
 {{< /callout >}}
->
-> .mod-root .mod-active[data-type="excalidraw"] {
->   min-width: min(88%, 60rem);
-> }
-> ```
 
 The last, let Obsidian run some code when the active pane has changed. I use QuickAdd[^3] to manage the scripts. Save the following code snippet as `min-width.js` in the vault.
 
-{{< callout type="file" icon="fas fa-file" title="min-width.js" fold="" >}}
+{{< callout type="file" icon="fas fa-file" title="min-width.js" fold="-" >}}
 
 ```javascript
 const DATA_TYPE = "data-type";
 
+function setOrRemoveDataType(el, dataType) {
+  if (dataType !== undefined) {
+    el.setAttribute(DATA_TYPE, dataType);
+  } else {
+    el.removeAttribute(DATA_TYPE);
+  }
+}
+
+module.exports = async function ({ app }) {
+  app.workspace.on("active-leaf-change", (leaf) => {
+    // clear .mod-active on .mod-horizontal
+    for (const el of app.workspace.containerEl.getElementsByClassName(
+      "mod-active mod-horizontal"
+    )) {
+      el.classList.remove("mod-active");
+    }
+
+    // bubble up data-type
+    const dataType = leaf.containerEl
+      .getElementsByClassName("workspace-leaf-content")[0]
+      ?.getAttribute(DATA_TYPE);
+    setOrRemoveDataType(leaf.containerEl, dataType);
+
+    // add .mod-active and data-type to current horizontal split container
+    const parentNode = leaf.containerEl.parentNode;
+    if (parentNode.classList.contains("mod-horizontal")) {
+      parentNode.classList.add("mod-active");
+      setOrRemoveDataType(parentNode, dataType);
+    }
+  });
+};
+```
+
 {{< /callout >}}
->
-> function setOrRemoveDataType(el, dataType) {
->   if (dataType !== undefined) {
->     el.setAttribute(DATA_TYPE, dataType);
->   } else {
->     el.removeAttribute(DATA_TYPE);
->   }
-> }
->
-> module.exports = async function ({ app }) {
->   app.workspace.on("active-leaf-change", (leaf) => {
->     // clear .mod-active on .mod-horizontal
->     for (const el of app.workspace.containerEl.getElementsByClassName(
->       "mod-active mod-horizontal"
->     )) {
->       el.classList.remove("mod-active");
->     }
->
->     // bubble up data-type
->     const dataType = leaf.containerEl
->       .getElementsByClassName("workspace-leaf-content")[0]
->       ?.getAttribute(DATA_TYPE);
->     setOrRemoveDataType(leaf.containerEl, dataType);
->
->     // add .mod-active and data-type to current horizontal split container
->     const parentNode = leaf.containerEl.parentNode;
->     if (parentNode.classList.contains("mod-horizontal")) {
->       parentNode.classList.add("mod-active");
->       setOrRemoveDataType(parentNode, dataType);
->     }
->   });
-> };
-> ```
 
 Then run it when Obsidian starts by following these steps:
 
