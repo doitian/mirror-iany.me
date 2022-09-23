@@ -5,6 +5,12 @@ date: 2022-09-23T16:44:51+0800
 title: Set the Minimum Width of the Active Pane in Obsidian
 ---
 
+{{< callout type="info" icon="fas fa-circle-info" title="Updates" fold="" >}}
+
+I have created [an plugin](https://github.com/doitian/obsidian-min-width) for this feature.
+
+{{< /callout >}}
+
 A simple CSS rule sets the minimum width of the active pane in Obsidian.
 
 <!--more-->
