@@ -24,7 +24,7 @@ title: What I Touched This Week 2017-10-22
     if fs.exists(dir) and not fs.is_writable(dir) and not fs.is_writable(dir .. "/bin") then
     ```
 
-## Projects 
+## Projects
 
 - [fastify/fastify: Fast and low overhead web framework, for Node.js](https://github.com/fastify/fastify)
 

@@ -17,7 +17,7 @@ I prefer using Vim in a terminal. I can switch to the shell with <kbd>Ctrl-Z</kb
 In macOS, the default Terminal app and iTerm both supports automation. It's easy to write a script to open a new terminal window and run a command like "vim file" in it. But I want to close the window after Vim quits. A quick work around is running the following command:
 
     vim file; exit 0
-    
+
 Now the problem is that if I suspend Vim via <kbd>Ctrl-Z</kbd>, the terminal window is closed, because shell will continue to execute the next command when the process is suspended.
 
 After research and reading [a StackOverflow answer](https://stackoverflow.com/a/16215525/667158), I wrote [two scripts](https://gist.github.com/doitian/0c8775e88ceed7bac44c4fb4287822d5) to launch Vim in iTerm. I also added features in `iterm-vim-wrapper` to edit clipboard and empty scratch file in temporary directory.

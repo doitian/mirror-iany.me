@@ -22,7 +22,7 @@ By default, tolua registers global variables. A trick to use fallback Lua implem
 There is a gotcha to register tolua bindings in AppDelegate.cpp in Quick Community Edition, lua stack top is `package.preload` after `quick_module_register`.
 
 - If prebuilt library is added as a reference to Xcode project and it is not in SRCROOT of any project, its parent directory must be added to library search header in build settings.
-- Use `preBuild.dependsOn(copyAssets)` to do something before build in Android gradle project. It must be added to the gradle file which has added android plugin. For example, `preBuild` is not available in the top `build.gradle` in Quick Community 
+- Use `preBuild.dependsOn(copyAssets)` to do something before build in Android gradle project. It must be added to the gradle file which has added android plugin. For example, `preBuild` is not available in the top `build.gradle` in Quick Community
 - [Why copy the key when traverse table in Lua c API][1]
 
 ## Game

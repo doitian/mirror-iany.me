@@ -19,7 +19,7 @@ Edit `/etc/hosts`, and add `n1` for `127.0.1.1`
 127.0.1.1 n1
 ```
 
-⚡ Set fully qualified domain name 
+⚡ Set fully qualified domain name
 
 For example, `n1.iany.me`
 

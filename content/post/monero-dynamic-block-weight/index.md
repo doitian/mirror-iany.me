@@ -42,7 +42,7 @@ The base limit `cumulative_weights_median` increases when there are at least 50 
 
 If the network runs at full load,  `cumulative_weights_median` doubles every 50 blocks and will reach the upper bound `50 * effective_longterm_median` eventually.
 
-Pay attention that `cumulative_weights_median` falls immediately when the network load drops. If there are 50 in the last 100 blocks which weight is less than 300kB, `cumulative_weights_median` will become 300kB. Maintaining `cumulative_weights_median` at a value higher than 300kB requires continuous transaction traffic. 
+Pay attention that `cumulative_weights_median` falls immediately when the network load drops. If there are 50 in the last 100 blocks which weight is less than 300kB, `cumulative_weights_median` will become 300kB. Maintaining `cumulative_weights_median` at a value higher than 300kB requires continuous transaction traffic.
 
 {{< image-card src="cumulative_weights_median.png" caption="An example of how `cumulative_weights_median` changes" >}}
 

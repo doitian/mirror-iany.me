@@ -21,7 +21,7 @@ This week I have worked on Lua API of Sentry using its Objective-C and Android c
 
 - Install gems using system Ruby when installed rbenv/rvm.
 
-        sudo /usr/bin/gem install --bindir /usr/local/bin --no-env-shebang cocoapods 
+        sudo /usr/bin/gem install --bindir /usr/local/bin --no-env-shebang cocoapods
 
   - `--bindir`: the default `/usr/bin` is not allowed to be modified.
     - `--no-env-shebang`: just use system Ruby explicitly.

@@ -34,7 +34,7 @@ title: What I Touched This Week 2017-04-24
 
 - [nickelser/zhong: Reliable, distributed cron in Ruby.][16]
 - [electron-userland/electron-forge: A complete tool for creating, publishing, and installing modern Electron applications][17]
-- [anbox/anbox][18] runs Android using Linux container technologies. 
+- [anbox/anbox][18] runs Android using Linux container technologies.
 - [Qt binding for Golang][19]
 - [Flow: A Static Type Checker for JavaScript][20]. Like `go fmt` but for JavaScript.
 

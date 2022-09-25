@@ -21,7 +21,7 @@ How to use syslog in [skynet][1]:
 -  [JavaFX 8 Tutorial - Part 1: Scene Builder | code.makery.ch][4]
 - Java POI
     * [Insert and read hyper link in Excel using Java POI – Ian Yang – Medium][5]
-    * POI provides API to list all images using  `Workbook.getAllPictures()`, but it has no image position information nor any caption, name information. 
+    * POI provides API to list all images using  `Workbook.getAllPictures()`, but it has no image position information nor any caption, name information.
 * [Gitlab Upload API][6] requires multipart to upload file
     * [Upload files from Java client to a HTTP server][7]
 

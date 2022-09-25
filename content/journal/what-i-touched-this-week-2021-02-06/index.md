@@ -10,7 +10,7 @@ Picks:
 
 -   [Monitoring in the time of Cloud Native | by Cindy Sridharan | Medium](https://copyconstruct.medium.com/monitoring-in-the-time-of-cloud-native-c87c7a5bfa3e)
 
-    Observability is about the ability to let maintainers understand how the system behaves in the production. It's a super set of monitoring. Observability makes debugging possible in production. 
+    Observability is about the ability to let maintainers understand how the system behaves in the production. It's a super set of monitoring. Observability makes debugging possible in production.
 
     Three pillars of observability:
 
@@ -21,7 +21,7 @@ Picks:
 -   [@copyconstruct: Hashed and Hierarchical Timing Wheels: Data Structures for the Efficient Implementation of a Timer Facility, paper from 1987 that’s used in Kafka and rust’s tokio library.](https://twitter.com/copyconstruct/status/1354557112731357191)
 
     The thread has listed several timing wheels implementations and a [seminar video](https://youtu.be/AftX7rqx-Uc).
- 
+
  -   [♯ Set Up a New Mac]({{< relref path="/wiki/set-up-a-new-mac.md" lang="en" >}})
 
 <!--more-->
@@ -45,7 +45,7 @@ Picks:
 
 ## Productivity
 
--   [芯片工程师的一天 | 我如何每天高效工作12小时？【经验分享】](https://www.youtube.com/watch?v=P4bQEvuNapk)   
+-   [芯片工程师的一天 | 我如何每天高效工作12小时？【经验分享】](https://www.youtube.com/watch?v=P4bQEvuNapk)
     一个普通芯片工程师在家高效工作的一天，从早8点到凌晨1点半，分享一下保持高效工作和学习的6个方法和技巧。 欢迎关注我的频道“老石谈芯”，我会持续带来更多专注于芯片的科普、硬核知识、以及偶尔极度硬核的技术分析与解读，我也会不断分享高效工作和学习的方法与技巧。更多内容，也欢迎关注公众号和微博。 公众号：老石谈芯 微博：老石谈芯的老石 Music: Ikson - Paradise
 
 ## Computer Setup
@@ -70,7 +70,7 @@ Picks:
     To turn off the pairing user interface in macOS
 
     ```
-    sc_auth pairing_ui -s disable 
+    sc_auth pairing_ui -s disable
     ```
 
 ## Economics

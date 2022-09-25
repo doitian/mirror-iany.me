@@ -20,7 +20,7 @@ Recommended in the last week:
 * [The Automation of Note-Taking and the Just-In-Time Future of Work](https://fortelabs.co/blog/the-automation-of-note-taking-and-the-just-in-time-future-of-work/)
 
     * [See nodes in] random combinations. We need to be able to shuffle our notes around to generate new insights.
-    * It’s now more important to do the opposite: finding information that contradicts or disconfirms what we know. Discovering information that contradicts what we currently believe is the new frontier of learning. 
+    * It’s now more important to do the opposite: finding information that contradicts or disconfirms what we know. Discovering information that contradicts what we currently believe is the new frontier of learning.
 
 * [我们究竟需要怎样的时间管理工具](https://sspai.com/post/61776)
 

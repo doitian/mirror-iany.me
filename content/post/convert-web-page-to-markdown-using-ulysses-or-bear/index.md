@@ -5,7 +5,11 @@ tags:
 title: Convert Web Page to Markdown using Ulysses or Bear
 ---
 
-**Update 2017-05-09**: The bear current version made clipper easier to use.
+{{< callout type="info" icon="fas fa-circle-info" title="Updates" fold="" >}}
+
+- **2017-05-09**: The bear current version made clipper easier to use.
+
+{{< /callout >}}
 
 Ulysses way:
 

@@ -41,7 +41,7 @@ title: What I Touched This Week 2018-08-12
 
 * [Accidentally Turing-Complete](http://beza1e1.tuxen.de/articles/accidentally_turing_complete.html)
 
-    > It takes a very focused effort to constrain a system so that it is not Turing Complete. 
+    > It takes a very focused effort to constrain a system so that it is not Turing Complete.
     > -- *Mastering Ethereum*
 
 * [如何实践比尔·盖茨的读书方法，这是我的经验之谈 - 少数派](https://sspai.com/post/46007)

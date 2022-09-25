@@ -43,7 +43,7 @@ title: What I Touched This Week 2017-11-12
 
 - [How to Break Through Any Learning Plateau and Never Stop Growing](https://www.nateliason.com/learning-plateau/)
 
-    > As soon as you see that you’re stuck, you should figure out how you can modify your practice to deal with the weakest part of your skillset..  
+    > As soon as you see that you’re stuck, you should figure out how you can modify your practice to deal with the weakest part of your skillset..
 
     - Take challenge, get out of comfort zone.
     - Mix up learned skills
@@ -51,13 +51,13 @@ title: What I Touched This Week 2017-11-12
 
 - [How to Improve Your Life in Just a Month – Thrive Global](https://journal.thriveglobal.com/how-to-improve-your-life-in-just-a-month-eed6c90ee6c4)
 
-    > You can’t change what you not ready to quit.  
+    > You can’t change what you not ready to quit.
 
-    > ... make small improvements every day that will gradually lead to the change you want.Each day.  
+    > ... make small improvements every day that will gradually lead to the change you want.Each day.
 
-    > Take 20 minutes each night to make your mornings easier.  
+    > Take 20 minutes each night to make your mornings easier.
 
-    > Stop doing what average people do.  
+    > Stop doing what average people do.
 
     Also mentioned in [Five Unproductive Habits I’ve QUIT So I Can Get More Done](https://web.archive.org/web/20181216174950/https://medium.com/darius-foroux/five-unproductive-habits-ive-quit-so-i-can-get-more-done-830c6836e694)
 

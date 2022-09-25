@@ -28,8 +28,8 @@ I'm recently working in Windows, so I take many notes about setting up the Windo
 
     These scripts are verify useful to keep only minimal feature set. I personally has disabled following presets.
 
-    * `HideQuickAccess` hides quick access in explorer sidebar. I uses quick access to bookmark frequently access folders. 
-    * `DisableActionCenter` disables the notifications in the right drawer. Notifications sometimes are helpful. 
+    * `HideQuickAccess` hides quick access in explorer sidebar. I uses quick access to bookmark frequently access folders.
+    * `DisableActionCenter` disables the notifications in the right drawer. Notifications sometimes are helpful.
     * `ShowTrayIcons` will always show all tray icons. I prefer selecting the icons to show manually.
 
 ### Look and feel
@@ -197,7 +197,7 @@ I'm recently working in Windows, so I take many notes about setting up the Windo
 
 * [Network modes in Parallels Desktop for Mac](http://kb.parallels.com/4948)
 
-    The minimal distribution like Slitaz does not bundle the driver for vertio. The workaround is using the 
+    The minimal distribution like Slitaz does not bundle the driver for vertio. The workaround is using the
     `Intel (R) PRO/1000 MT` network adapter first, install `linux-kvm` in Slitaz and then switch to vertio.
 
 * [Patch for Kernel 5.6 | Parallels Forums](https://forum.parallels.com/threads/patch-for-kernel-5-6.349625/)

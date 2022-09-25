@@ -80,8 +80,8 @@ sudo pcscd --foreground --apdu --color | tee pcscd.log
 Γ Remote Access
 
 ```shell-session
-# cd /usr/share/polkit-1/rules.d/                                    
-# vi 30_smartcard_access.rules 
+# cd /usr/share/polkit-1/rules.d/
+# vi 30_smartcard_access.rules
 ```
 
 ```

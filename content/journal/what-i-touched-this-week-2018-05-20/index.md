@@ -16,7 +16,7 @@ title: What I Touched This Week 2018-05-20
 
 <!--more-->
 
-## Readings 
+## Readings
 
 * [Communication Multitasking: You Only Get 1h 12min/day Without Email](https://blog.rescuetime.com/communication-multitasking/)
 * [如何临时修改 macOS 应用的界面语言 - 少数派](https://sspai.com/post/44536)

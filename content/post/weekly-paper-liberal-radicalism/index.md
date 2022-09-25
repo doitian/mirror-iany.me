@@ -108,7 +108,7 @@ The optimal solution requires mean, where median is absolutely different with me
 \]
 ```
 
-> (We) assume that citizens ignore their impact on the budget and costs imposed by it.  
+> (We) assume that citizens ignore their impact on the budget and costs imposed by it.
 
 After incorporating the deficit:
 
@@ -136,6 +136,6 @@ LR allows every project gets the optimal funding by incentivize citizens via the
 
 ### Negative contributions
 
-> More broadly, negative contributions may be a quite powerful way to deter collusive schemes as they offer a way for any citizen to be a “vigilante enforcer” against fraud and abuse.  
+> More broadly, negative contributions may be a quite powerful way to deter collusive schemes as they offer a way for any citizen to be a “vigilante enforcer” against fraud and abuse.
 
 On the other-side, it also can be used to attack and threaten other communities.

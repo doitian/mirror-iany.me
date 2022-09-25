@@ -87,7 +87,7 @@ to select them.
 
 4.  Type <kbd>M-a</kbd> to keep selected item and continue completing
 
-        $ git branch -D feature/a feature/b 
+        $ git branch -D feature/a feature/b
         feature/a [feature/b]
 
 5.  Use <kbd>Tab</kbd> to skip branches that should be keep. The item selection
@@ -98,7 +98,7 @@ to select them.
 6.  When cursor is on the last branch to be deleted, type <kbd>Enter</kbd> to
     accept it and stop completion. If <kbd>M-a</kbd> is typed by accident, you
     have to delete the last inserted completion item, because zsh auto inserts
-    current selected item. 
+    current selected item.
 
 ## Discover zsh commands ##
 

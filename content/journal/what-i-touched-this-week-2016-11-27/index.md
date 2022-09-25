@@ -34,45 +34,46 @@ This week I worked on syslog integration in [skynet][1] and delve into details o
 
 *   In `.gitlab-ci.yml`, variables defined in job level is also effective in top fields, such as `before_script` and `services`. Here is an example to test Rails using MySQL and Postgres
 
-        image: rails
+    ```yaml
+    image: rails
 
-        services:
+    services:
         - redis
         - $DB
 
-            
-        cache:
-            key: bundle
-            paths:
-                - vendor/bundle
+    cache:
+        key: bundle
+        paths:
+            - vendor/bundle
 
-        variables:
+    variables:
         POSTGRES_DB: center_test
         POSTGRES_USER: runner
         POSTGRES_PASSWORD: ""
         MYSQL_DATABASE: center_test
         MYSQL_ROOT_PASSWORD: root
 
-        before_script:
+    before_script:
         - cp config/database.ci-$DB.yml config/database.yml
         - cp .ci.env .env
         - bundle install --jobs $(nproc) --path=vendor/bundle
 
-        .test: &test_template
+    .test: &test_template
         script:
             - bundle exec rake db:create RAILS_ENV=test
             - RAILS_ENV=test bundle exec rake db:reset
             - bundle exec rake test
 
-        test_pg:
+    test_pg:
         <<: *test_template
         variables:
             DB: postgres
 
-        test_mysql:
+    test_mysql:
         <<: *test_template
         variables:
             DB: mysql
+    ```
 
 *   [Using Docker Build - GitLab Documentation][3]. I use dind to build docker images in Gitlab CI. It requires starting docker in privilege mode, which breaks some containers such as mysql. A simple solution is registering 2 docker runners, one is in privilege and another is not. Tag runners and add tags in `.gitlab-ci.yml` to filter runner.
 *   In Mac, `gitlab-ci-multi-runner` must be started in user desktop environment. The runner may stuck at checkout code because the GUI is asking for keychain access. Just approve the access in desktop environment.

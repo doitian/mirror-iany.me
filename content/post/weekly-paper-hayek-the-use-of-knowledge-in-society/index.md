@@ -11,21 +11,21 @@ tags:
 title: 'Weekly Paper: 1945 - Hayek - The Use of Knowledge in Society'
 ---
 
-> Economic problem of society is mainly one of rapid **adaptation to changes** in **the particular circumstances of time and place**, it would seem to follow that the ultimate decisions must be left to the people who are familiar with these circumstances, who know directly of the relevant changes and of the resources immediately available to meet them.  
+> Economic problem of society is mainly one of rapid **adaptation to changes** in **the particular circumstances of time and place**, it would seem to follow that the ultimate decisions must be left to the people who are familiar with these circumstances, who know directly of the relevant changes and of the resources immediately available to meet them.
 
 The knowledge is dispersed and rapid changes. To take advantage of this knowledge, people must make decision distributively.  People require only relevant information to make better decisions. This communicating mechanism should be
 
-> communicating to him such further information as he needs to fit his decisions into the whole pattern of changes of the larger economic system.  
+> communicating to him such further information as he needs to fit his decisions into the whole pattern of changes of the larger economic system.
 
-> It is always a question of the relative importance of the particular things with which he is concerned, and the causes which alter their relative importance are of no interest.  
+> It is always a question of the relative importance of the particular things with which he is concerned, and the causes which alter their relative importance are of no interest.
 
 The price system solved it, and
 
-> We must look at the price system as such a mechanism for communicating information.  
+> We must look at the price system as such a mechanism for communicating information.
 
 It is an effective communicating system because:
 
-> Only the most essential information is passed on and passed on only to those concerned.  
+> Only the most essential information is passed on and passed on only to those concerned.
 
 It extends the span of our utilization of resources without the control of any one mind. Also, it will make the individuals do the desirable things without anyone having to tell them what to do.
 

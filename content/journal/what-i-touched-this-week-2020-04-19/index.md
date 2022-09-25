@@ -12,7 +12,7 @@ Picks from last week:
 
 * [@coolXiao: 「Λ-Reading」是我唯二订阅的中文 Newsletter](https://twitter.com/coolXiao/status/1249490482884784129)
 * [Do not log](https://sobolevn.me/2020/03/do-not-log)
-   
+
     Logging is not cheap, and sometimes there are better alternatives.
 
 * [CS Visualized: Useful Git Commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)

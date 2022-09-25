@@ -21,7 +21,7 @@ cd WSL
 wsl --export Ubuntu ubuntu.tar
 wsl --unregister Ubuntu
 mkdir Ubuntu
-wsl --import Ubuntu Ubuntu ubuntu.tar 
+wsl --import Ubuntu Ubuntu ubuntu.tar
 ```
 
 The commands above also unregister the default instance.

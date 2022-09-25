@@ -40,7 +40,7 @@ Input 可以配置多个 Extractors，按照顺序依次执行。
 
 ## Stream
 
-Gralog 安装好后会包含一个默认 Stream，可以通过菜单 Streams 创建更多的 Stream。新创建的 Stream 是暂停状态，需要在配置完成后手动启动。 
+Gralog 安装好后会包含一个默认 Stream，可以通过菜单 Streams 创建更多的 Stream。新创建的 Stream 是暂停状态，需要在配置完成后手动启动。
 
 一个 Stream 唯一属于一个 Index Set，但是多个 Streams 可以共享同一个 Index Set。如果共享 Index，那么因为底层 Elastic 的原因会有一个限制： 同一个字段的类型不能一会是字符串，一会是数字，也就是类型必须一致。这个的影响有：
 

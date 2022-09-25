@@ -228,7 +228,7 @@ if !hmac.Equal(verifySign, signDecoded) {
 
 ### ④ 分离加密内容和 IV
 
-Base64 解码一次，用 `--` 分离并分别 Base64 解码得到 `encryptedContent`  和  `iv` 
+Base64 解码一次，用 `--` 分离并分别 Base64 解码得到 `encryptedContent`  和  `iv`
 
 ```go
 var encryptedDataBase64Decoded []byte

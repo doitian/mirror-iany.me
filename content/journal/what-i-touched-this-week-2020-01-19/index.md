@@ -16,7 +16,7 @@ title: What I Touched This Week 2020-01-19
 
 [Game Theory on Coursera](https://www.coursera.org/learn/game-theory-1/home/info)
 
-I have finished the first week and read the material 
+I have finished the first week and read the material
 
 ## Read Books
 

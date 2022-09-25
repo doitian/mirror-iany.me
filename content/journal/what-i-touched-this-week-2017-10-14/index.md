@@ -64,7 +64,7 @@ title: What I Touched This Week 2017-10-14
     endif
     endfunction
     command! Close :pclose | :cclose | :lclose |
-        \ let s:currentWindow = winnr() | 
+        \ let s:currentWindow = winnr() |
         \ :windo call s:CloseDisturbingWin() |
         \ exe s:currentWindow . "wincmd w"
     ```

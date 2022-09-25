@@ -59,7 +59,7 @@ k = OpenSSL::PKey::RSA.new(File.read("/path/to/keyfile"))
     pem = key_content.gsub("\r\n", "").scan(/.{1,64}/).join("\n")
     # or use BEGIN PRIVATE KEY
     pem = "-----BEGIN PUBLIC KEY-----\n#{pem}\n-----END PUBLIC KEY-----\n"
-    k = OpenSSL::PKey::RSA.new(pem)                        
+    k = OpenSSL::PKey::RSA.new(pem)
     ```
 
 # PKCS12

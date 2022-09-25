@@ -17,7 +17,7 @@ pandoc --wrap=none --markdown-headings=atx --from html --to markdown_strict-raw_
 pandoc --from html --to html5 --self-contained
 ```
 
-┌ Readable HTML 
+┌ Readable HTML
 
 ```
 pandoc --from html --to html5 --standalone

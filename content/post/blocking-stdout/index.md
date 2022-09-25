@@ -10,7 +10,7 @@ When I first read Stjepan's article [Blocking inside async code](https://web.arc
 <!--more-->
 
 > … I bet we all most of the time assume printing to standard output does not block while it really could.
-> 
+>
 > In case you’re wondering why `println!()` can block, imagine we executed `program1 | program2` in a shell so that the output of `program1` is piped into `program2`. If `program2` is reading input very slowly, then `program1` will have to block whenever it prints something and the pipe is full.
 
 Fortunately, my brain has stored the clue somewhere, and I can retrieve it and save my day when I heart a weird bug.

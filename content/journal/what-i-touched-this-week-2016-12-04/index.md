@@ -39,7 +39,7 @@ pillar_roots:
   base:
     - /srv/test/pillar
     - /srv/pillar
-    
+
 ext_pillar:
   - cmd_yaml: cat /srv/test/pillar.yml
 ```

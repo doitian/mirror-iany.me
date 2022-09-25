@@ -58,11 +58,13 @@ resource and class as well. The output of `wmctrl -l -x` looks like:
 The first column is the window ID. We can switch to or bring a window using the
 ID.
 
-    # switch to Emacs, raise and focus it
-    wmctrl -i -a 0x03e000a4
-    
-    # bring Emacs to current workspace, raise and focus it
-    wmctrl -i -R 0x03e000a4
+```
+# switch to Emacs, raise and focus it
+wmctrl -i -a 0x03e000a4
+
+# bring Emacs to current workspace, raise and focus it
+wmctrl -i -R 0x03e000a4
+```
 
 ## Windows Picker
 

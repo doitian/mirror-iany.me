@@ -11,7 +11,7 @@ title: '[Outdated] Tmux And Rvmrc'
 ---
 
 > RVM has since moved to using .profile, so just put the "cd ." in .profile and it will work
-> 
+>
 > --- Mikael Wikman commented below
 
 **Original Article**

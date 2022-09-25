@@ -13,7 +13,7 @@ title: My Reading Workflow and IFTTT Applets
 I categorize reading into 3 different categories:
 
 - Skim Reading: This includes the feeds I subscribed in Inoreader, [websites](https://pinboard.in/u:iany/t:Updates/) I frequently visit and articles shared from my friends. I quickly skim them using fragmented time, usually less than half an hour in total per day, and save the articles which worth reading to Instapaper.
-- Insensitive Reading: Instapaper sends me 20 unread articles to Kindle every morning. If I can spare at least 10 minutes, I will read them on the Kindle. 
+- Insensitive Reading: Instapaper sends me 20 unread articles to Kindle every morning. If I can spare at least 10 minutes, I will read them on the Kindle.
 - Challenging Reading: Papers are definitely in this category. There are also articles hard to understand, I will print them into PDF. I schedule the time in advance, usually one hour or more, and read the PDF files on Sony Digital Paper.
 
 I'll share the detailed workflow and the IFTTT applets used in the process.

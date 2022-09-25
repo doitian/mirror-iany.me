@@ -15,7 +15,7 @@ title: What I Touched This Week 2018-05-27
             osascript -l JavaScript -e 'Application("Google Chrome").windows[0].activeTab.reload()'
 
     * Run the script above when files are changed
-    
+
             watchexec -w app -w config -p reload-chrome
 
 * [Devops Security Checklist | Sqreen](https://doitian.notion.site/The-DevOps-Security-Checklist-ed9b5125ff7945e3b3b4ffa9e6643131)

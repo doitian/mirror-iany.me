@@ -31,7 +31,7 @@ Annotate rather than highlighting.  The problem is that highlighting will trick 
  - What did authors try to accomplish? What is the overall message or theme of the book?
  - What were the key elements of the approach? How does the author’s argument unfold? What are the main principles and supporting evidence? Is the author’s argument valid?
  - What can you use yourself? What are the implications? If you agree with the author’s argument, how will you act on it? What's the limitation?
- - What other references do you want to follow? 
+ - What other references do you want to follow?
 
 ## References
 

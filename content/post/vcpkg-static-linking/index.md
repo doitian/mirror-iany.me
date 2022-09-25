@@ -54,7 +54,7 @@ else(MSVC)
   set(Boost_USE_STATIC_RUNTIME ON)
 endif(MSVC)
 
-find_package(Boost 1.36.0 REQUIRED COMPONENTS filesystem program_options) 
+find_package(Boost 1.36.0 REQUIRED COMPONENTS filesystem program_options)
 
 include_directories(
   ${CMAKE_CURRENT_SOURCE_DIR}/src

@@ -12,7 +12,7 @@ title: What I Touched This Week 2019-03-02
 
 * [Use Lock Hierarchies to Avoid Deadlock](https://herbsutter.com/2007/12/11/effective-concurrency-use-lock-hierarchies-to-avoid-deadlock/)
 * [Rust: A unique perspective](https://limpet.net/mbrubeck/2019/02/07/rust-a-unique-perspective.html)
-    
+
     A perspective to explain wrap objects.
 
 ## Programming
@@ -28,7 +28,7 @@ title: What I Touched This Week 2019-03-02
 * [The Rise of “No Code” – Ryan Hoover – Medium](https://medium.com/@rrhoover/the-rise-of-no-code-e733d7c0944d)
 * [7 Reasons Why Your Staging Environment Sucks – Loadmill](https://blog.loadmill.com/7-reasons-why-your-staging-environment-sucks-953f8504fba3)
 
-## Productivity 
+## Productivity
 
 * [Some Details of My Personal Infrastructure—Stephen Wolfram Blog](https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/)
 * [How to Vanquish Busywork and Spend More Time on What Matters](https://doist.com/blog/busywork-productivity-focus/)
@@ -36,7 +36,7 @@ title: What I Touched This Week 2019-03-02
 * [工作之后，我是如何平衡全职和兼职工作的？](http://sspai.com/post/52917)
 * [在麻省理工学院上学是什么体验 | 2018 年度征文](http://sspai.com/post/52913)
 
-## Business 
+## Business
 
 * [How To Be Successful](http://blog.samaltman.com/how-to-be-successful)
 

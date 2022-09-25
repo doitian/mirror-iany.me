@@ -22,7 +22,7 @@ First, my Docker host kernel version is too low, which caused the error:
 
 The solution is upgrading kernel. Concourse requires version 3.19+[^1]. Ubuntu 14.04 can use following command:
 
-    sudo apt-get install --install-recommends linux-generic-lts-wily 
+    sudo apt-get install --install-recommends linux-generic-lts-wily
 
 Second, if Concourse is deployed via docker compose, DNS is changed to loopback address. The job will fail because of DNS lookup error:
 

@@ -22,7 +22,7 @@ Concouse CI 提供了 Docker 镜像，部署起来相当方便。不过可能会
 
 解决办法只需要升级内核就行了，Concourse 需要 3.19+ 版本内核[^1]，Ubuntu 14.04 中可以执行以下命令
 
-    sudo apt-get install --install-recommends linux-generic-lts-wily 
+    sudo apt-get install --install-recommends linux-generic-lts-wily
 
 然后如果使用 docker compose 进行部署的话，DNS 地址一般被改成了本地 loopback 地址，导致运行任务时无法解析域名而出现这样的错误
 

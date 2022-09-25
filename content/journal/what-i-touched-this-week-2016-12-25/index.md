@@ -30,25 +30,29 @@ This week I mainly worked on setting up monitoring system using prometheus and g
 - Homebrew 镜像，和其它一些软件源镜像 [开源镜像使用帮助列表 [LUG@USTC]][2]
 - Maven 镜像仓库
 
-        <mirror>
-          <id>nexus-aliyun</id>
-          <mirrorOf>*</mirrorOf>
-          <name>Nexus aliyun</name>
-          <url>https://maven.aliyun.com/repository/public</url>
-        </mirror> 
+    ```xml
+    <mirror>
+        <id>nexus-aliyun</id>
+        <mirrorOf>*</mirrorOf>
+        <name>Nexus aliyun</name>
+        <url>https://maven.aliyun.com/repository/public</url>
+    </mirror>
+    ```
 
 - An example that caches maven dependencies in Gitlab CI:
 
-        cache:
-          paths:
-            - .m2/
-        
-        variables:
-          MAVEN_OPTS: "-Dmaven.repo.local=.m2"
-        
-        maven_job:
-          script:
-            - mvn clean install
+    ```yaml
+    cache:
+      paths:
+        - .m2/
+
+    variables:
+      MAVEN_OPTS: "-Dmaven.repo.local=.m2"
+
+    maven_job:
+      script:
+        - mvn clean install
+    ```
 
 - Automate game testing using image recognition
   - [Image Recognition for Android and iOS Game Testing][3]

@@ -6,7 +6,7 @@ series:
 title: What I Touched This Week 2016-11-06
 ---
 
-This week I worked on rsyslog research and management. The work on terraform-provider-ucloud is postponed. 
+This week I worked on rsyslog research and management. The work on terraform-provider-ucloud is postponed.
 
 <!--more-->
 

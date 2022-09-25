@@ -14,7 +14,7 @@ env GIT_TERMINAL_PROMPT=1 go get xxxx
 
 - [Getting the source directory of a Bash script from within][1]
 - [Vcpkg updates: Static linking is now available][2]
-- and how to [replace MD with MT][3] when using static linking. 
+- and how to [replace MD with MT][3] when using static linking.
 - [Rancher][4] is a self hosted platform to run containers.
 - [Pushpin][5] is a reverse proxy to handle websocket connections.
 

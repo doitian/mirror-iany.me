@@ -29,7 +29,7 @@ Format-List
 Out-GridView -PassThru
 ```
 
-⚡ Gotchas 
+⚡ Gotchas
 
 * Require `,` to separate multiple arguments: `rm a, b, c`
 

@@ -37,7 +37,7 @@ Now start the instance
 wsl ~ -d Alpine
 ```
 
-Edit `/etc/apk/repositories` to switch to edge and add testing repository. 
+Edit `/etc/apk/repositories` to switch to edge and add testing repository.
 
 ```
 http://dl-cdn.alpinelinux.org/alpine/edge/main

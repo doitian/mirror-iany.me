@@ -52,10 +52,10 @@ title: What I Touched This Week 2018-12-09
 * [“Writing is Thinking”—an annotated twitter thread](https://medium.learningbyshipping.com/writing-is-thinking-an-annotated-twitter-thread-2a75fe07fade)
 
     My thoughts:
-    
+
     * Write it down before any argue.
     * Writing helps to think throughly.
-    
+
 * [Tips for High Availability – Netflix Technology Blog – Medium](https://medium.com/@NetflixTechBlog/tips-for-high-availability-be0472f2599c)
 * [Looking at ownership in the EVM – Kelvin Fichter – Medium](https://medium.com/@kelvinfichter/looking-at-ownership-in-the-evm-6e6914d341d)
 
