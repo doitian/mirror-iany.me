@@ -26,6 +26,11 @@
   <ul class="social-links">
       {{ if and (ne .Layout "search") (ne .Params.share false) -}}
       {{ $title := $.Scratch.Get "title" }}
+      <li class="social-link tippy" id="edit-button" style="display: none" data-tippy-content="Edit">
+          <a href="obsidian://open?vault=Brain&file=%C2%A7%20{{ $title }}" aria-label="{{ T "shareViaEmail" }}">
+              <i aria-hidden="true" class="fas fa-edit"></i>
+          </a>
+      </li>
       <li class="social-link tippy" data-tippy-content="{{ T "shareViaEmail" }}">
           <a href="mailto:?subject={{ $title }}&body={{ .Permalink }}" aria-label="{{ T "shareViaEmail" }}">
               <i aria-hidden="true" class="fas fa-envelope"></i>
