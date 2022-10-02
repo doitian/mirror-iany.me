@@ -9,3 +9,9 @@ title: Gitattributes
 ```
 *.reg text working-tree-encoding=UTF-16LE-BOM eol=CRLF
 ```
+
+⚡ Ignore Whitespaces Check
+
+```
+**/*.md -whitespace
+```
