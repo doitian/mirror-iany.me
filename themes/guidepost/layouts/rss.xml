@@ -25,7 +25,10 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.name }}<author>{{.}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Content | html }}</description>
+      <description>{{ .Content |
+      replaceRE "(?:&#160;| )<a[^>]*>(?:&#x21a9;&#xfe0e;|↩︎)</a>" "" |
+      replaceRE "<a href=\"#[^\"]+.([^>]*>[^<]+</)a>" "<span${1}span>" |
+        html }}</description>
       {{ partial "rss-categories.xml" . }}
     </item>
     {{ end }}
