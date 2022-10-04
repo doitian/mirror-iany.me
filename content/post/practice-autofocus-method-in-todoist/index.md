@@ -72,4 +72,4 @@ Here is my setup to practice the Autofocus Method in Todoist. I'm still experime
 
 ## References
 
-1. <a name="fnx:1"></a> McKay, B., & McKay, K. (2022, September 20). *Autofocus: The Productivity System That Treats Your To-Do List Like a River*. The Art of Manliness. <https://www.artofmanliness.com/character/behavior/autofocus-the-productivity-system-that-treats-your-to-do-list-like-a-river/>&nbsp;[↩](#fnxref:1)
+1. <a name="fnx:1"></a> McKay, B., & McKay, K. (2022, September 20). *Autofocus: The Productivity System That Treats Your To-Do List Like a River*. The Art of Manliness. <https://www.artofmanliness.com/character/behavior/autofocus-the-productivity-system-that-treats-your-to-do-list-like-a-river/>&#160;[↩︎](#fnxref:1)
