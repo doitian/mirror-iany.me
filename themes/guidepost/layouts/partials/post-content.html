@@ -6,13 +6,13 @@
 
         <section id="main-content" class="post-content">
             {{ if .Params.toc }}
-            <aside class="toc-wrapper">
-                <h2 class="active">
-                    <i class="fas fa-chevron-down"></i>
-                    Table of Contents 
-                </h2>
+            <details class="toc-wrapper" open>
+                <summary>
+                    <i class="fas fa-chevron-right"></i>
+                    Table of Contents
+                </summary>
                 {{.TableOfContents}}
-            </aside>
+            </details>
             {{ end }}
 
             {{ .Content }}
