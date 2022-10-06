@@ -1,5 +1,5 @@
 <details{{ with (.Get "fold") }}{{ if ne . "-" }} open{{ end }}{{ else }} open disabled{{ end }} class="kg-card kg-callout kg-callout-{{ .Get "type" }}" data-callout-type="{{ .Get "type" }}">
-    <summary class="kg-callout-title">
+    <summary class="kg-callout-title"{{ with (.Get "fold") }}{{ else }} tabindex="-1"{{ end }}>
         {{ with (.Get "fold") }}<i class="fas fa-chevron-right"></i>{{ end }}
         <i aria-hidden="true" class="kg-callout-type {{ .Get "icon" }}"></i>
         {{ .Get "title" | markdownify }}
