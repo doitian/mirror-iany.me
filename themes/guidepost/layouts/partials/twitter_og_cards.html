@@ -11,7 +11,7 @@
 {{ end -}}
 {{ with .Params.feature -}}
 {{ $feature := $.Resources.GetMatch . -}}
-{{ $m := $feature.Resize "600x" -}}
+{{ $m := $feature.Fit "1200x630" -}}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ $m.Permalink }}">
 {{ end -}}
@@ -27,7 +27,7 @@
 <meta property="og:locale" content="{{ .Lang }}">
 {{ with .Params.feature -}}
 {{ $feature := $.Resources.GetMatch . -}}
-{{ $m := $feature.Resize "600x" -}}
+{{ $m := $feature.Fit "1200x630" -}}
 <meta property="og:image" content="{{ $m.Permalink }}">
 {{ end -}}
 <meta property="og:updated_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}">

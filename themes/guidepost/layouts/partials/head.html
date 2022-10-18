@@ -56,43 +56,52 @@
 
     {{/* Stylesheets */}}
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ "css/styles.min-4f82a228da9bfd59fbb884f36b1d7535.css" | relURL }}">
-    {{ with .Params.feature }}
+    <link rel="stylesheet" href="{{ "css/styles.min-034388ddcfc620afcd9f230348218510.css" | relURL }}">
+    {{ with .Params.banner }}
     <style>
-        {{- $feature := $.Resources.GetMatch . -}}
-        {{/* $xl := $feature.Resize "1400x" */}}
-        {{- $xl := $feature -}}
-        {{- $l := $feature.Resize "1000x" -}}
-        {{- $m := $feature.Resize "600x" -}}
+        /* 600/768/992/1200 */
+
+        {{- $banner := $.Resources.GetMatch . -}}
+        {{- with $.Params.banner_y }}
+            {{- if gt . 0 }}
+                {{- $banner = $banner.Crop (print "2400x" (math.Round (add 150 (sub $banner.Height (mul . $banner.Height)))) " Bottom") -}}
+            {{- end }}
+            {{- $banner = $banner.Crop "2400x300 Top" -}}
+        {{- else }}
+            {{- $banner = $banner.Crop "2400x300 Center" -}}
+        {{- end }}
+        {{- $banner1x := $banner.Resize "x150" -}}
+
         .responsive-title-img {
-            background-image: url({{ $xl.RelPermalink }});
+            background-image: url({{ $banner.RelPermalink }});
+            background-image: -webkit-image-set(
+                url({{ $banner1x.RelPermalink }}) 1x,
+                url({{ $banner.RelPermalink }}) 2x
+            );
+            background-image: image-set(
+                url({{ $banner1x.RelPermalink }}) 1x,
+                url({{ $banner.RelPermalink }}) 2x
+            );
         }
-        @media(max-width: 1000px) {
+        {{- range (slice 1200 992 768 600) }}
+            {{- if gt $banner.Width (mul . 2) }}
+            {{- $img2x := $banner.Crop (print (mul . 2) "x300 Center") }}
+            {{- $img1x := $img2x.Resize (print . "x150") }}
+        @media(max-width: {{ . }}px) {
             .responsive-title-img {
-                background-image: url({{ $l.RelPermalink }});
+                background-image: url({{ $img2x.RelPermalink }});
                 background-image: -webkit-image-set(
-                    url({{ $l.RelPermalink }}) 1x,
-                    url({{ $xl.RelPermalink }}) 2x
+                    url({{ $img1x.RelPermalink }}) 1x,
+                    url({{ $img2x.RelPermalink }}) 2x
                 );
                 background-image: image-set(
-                    url({{ $l.RelPermalink }}) 1x,
-                    url({{ $xl.RelPermalink }}) 2x
+                    url({{ $img1x.RelPermalink }}) 1x,
+                    url({{ $img2x.RelPermalink }}) 2x
                 );
             }
         }
-        @media(max-width: 600px) {
-            .responsive-title-img {
-                background-image: url({{ $m.RelPermalink }});
-                background-image: -webkit-image-set(
-                    url({{ $m.RelPermalink }}) 1x,
-                    url({{ $l.RelPermalink }}) 2x
-                );
-                background-image: image-set(
-                    url({{ $m.RelPermalink }}) 1x,
-                    url({{ $l.RelPermalink }}) 2x
-                );
-            }
-        }
+            {{- end }}
+        {{- end }}
     </style>
     {{ end -}}
     {{ if eq .Params.katex true -}}

@@ -1,4 +1,5 @@
 ---
+banner: write-to-files-via-working-copy.png
 date: '2020-04-24T21:14:17+08:00'
 description: 'Write to Any iOS Files Location via Working Copy with its two features: Synced Directory and Write Repository File Shortcut'
 feature: write-to-files-via-working-copy.png

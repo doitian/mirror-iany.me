@@ -1,4 +1,6 @@
 ---
+banner: ConceptOS.jpg
+banner_y: 0.22377
 copyright: game
 date: '2017-02-11T22:38:38+08:00'
 description: 分享 Shengzhen IO，一款需要使用汇编写代码的游戏。

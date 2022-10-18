@@ -1,4 +1,6 @@
 ---
+banner: keyboard-on-mac.png
+banner_y: 0
 date: '2014-01-17'
 description: Automate disable/enable internal keyboard when an external keyboard is attached/detacched.
 feature: keyboard-on-mac.png
