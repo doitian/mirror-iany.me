@@ -5,6 +5,9 @@ date: '2022-10-03T19:26:38+08:00'
 feature: featured-river-flowing-with-maple-leaves-on-the-rocks.jpg
 obsidian_aliases:
 - Practice Autofocus Method in Todoist
+tags:
+- productivity
+- todoist
 title: Practice Autofocus Method in Todoist
 ---
 
