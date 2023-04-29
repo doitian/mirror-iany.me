@@ -55,6 +55,12 @@ other = "POW"
 ["title.javascript"]
 other = "JavaScript"
 
+["title.pdf"]
+other = "PDF"
+
+["title.latex"]
+other = "LaTeX"
+
 ["title.lang/en"]
 other = "English"
 
