@@ -22,7 +22,7 @@ Picks:
 
     The thread has listed several timing wheels implementations and a [seminar video](https://youtu.be/AftX7rqx-Uc).
 
- -   [♯ Set Up a New Mac]({{< relref path="/wiki/set-up-a-new-mac.md" lang="en" >}})
+ -   [[Set Up a New Mac]]
 
 <!--more-->
 

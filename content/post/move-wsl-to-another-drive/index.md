@@ -56,7 +56,7 @@ Use `wsl -l -v` to check whether the new created instance use WSL2. The command 
 wsl -d Ubuntu
 ```
 
-An alternative solution is using the tool [♯ LxRunOffline]({{< relref path="/wiki/lxrunoffline.md" lang="en" >}}).
+An alternative solution is using the tool [[LxRunOffline]].
 
 ## Alternative Step 2 for WSL1
 

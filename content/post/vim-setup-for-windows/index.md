@@ -65,4 +65,3 @@ hi Cursor guibg=#005f87 guifg=#eeeeee
 
 
 - ➫ [♯ What I Touched This Week 2020-05-10]({{< relref path="/journal/what-i-touched-this-week-2020-05-10.md" lang="en" >}})
-- ➫ [♯ Windows]({{< relref path="/wiki/windows.md" lang="en" >}})

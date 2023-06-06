@@ -28,7 +28,7 @@ I also shared my config files in gist.
 PowerShell is really funny to play around.
 
 * [Filtering PowerShell Objects](https://www.itprotoday.com/powershell/powershell-basics-filtering-objects)
-* [♯ PowerShell]({{< relref path="/wiki/powershell.md" lang="en" >}})
+* [[PowerShell]]
 
 Inspired by Windows snap move keyboard shortcuts, I have implemented a similar one in Keyboard Maestro for macOS.
 
