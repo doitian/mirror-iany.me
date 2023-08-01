@@ -1,11 +1,5 @@
-/public
-/resources
-/src
-/py2
-/py3
-gitcommit.txt
-status.json
-.Ulysses*
-.env
+.hugo_build.lock
 /themes/guidepost/static/css/styles.min.css
 /themes/guidepost/static/js/scripts.min.js
+/resources
+/public
