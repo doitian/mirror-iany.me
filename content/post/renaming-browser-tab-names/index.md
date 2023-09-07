@@ -6,7 +6,6 @@ obsidian_aliases:
 tags:
 - javascript
 title: Renaming Browser Tab Names
-updated: 2023-07-21 20:35:03+08:00
 ---
 
 Renaming browser tab names may seem like a simple task, but it can actually be quite challenging.
@@ -48,7 +47,7 @@ if (!("_renameTitle" in document)) {
   // Remembers the real title
   let titleWithoutRenaming = document.title;
   // User set title
-  let titleWithRenaming = '';
+  let titleWithRenaming = "";
 
   // Rename the document title to v.
   // If v contains the token %t, replace all occurences to the
@@ -76,7 +75,10 @@ if (!("_renameTitle" in document)) {
   });
 }
 
-const title = prompt("Rename tab (Use token %t for original title)", document.title);
+const title = prompt(
+  "Rename tab (Use token %t for original title)",
+  document.title
+);
 // title is null when user cancel the dialog.
 if (title !== null) {
   document._renameTitle(title);
