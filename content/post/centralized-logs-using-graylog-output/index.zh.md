@@ -48,7 +48,7 @@ import (
 )
 
 func handleMessage(m *gelf.Message) {
-	// TODO: handle m
+	// handle m
 }
 
 func runUDPServer() {
