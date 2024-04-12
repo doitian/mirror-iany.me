@@ -22,7 +22,7 @@ Picks:
 
     The thread has listed several timing wheels implementations and a [seminar video](https://youtu.be/AftX7rqx-Uc).
 
- -   [[Set Up a New Mac]]
+ -   [Set Up a New Mac]
 
 <!--more-->
 
@@ -92,3 +92,5 @@ Picks:
 
 -   [@Aaaaaa\_Shu: 已经出现超越 Bitcoin 的代币...](https://twitter.com/ashu_eth/status/1356231490997084160)
 -   [@andelf: 给吃货的命令行上手指南](https://twitter.com/andelf/status/1356138271638577152)
+
+[Set Up a New Mac]: https://kb.iany.me/para/lets/m/macOS/Set+Up+a+New+Mac

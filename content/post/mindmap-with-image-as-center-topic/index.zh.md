@@ -15,7 +15,7 @@ OmniGraffle 是个图表绘制和图表绘制工具。通过结构化编辑，�
 
 <!--more-->
 
-下面是个成品的示例 [[原图下载]](https://raw.githubusercontent.com/doitian/assets/master/2020/YBCYsJ/demo-image-center-mindmap.png):
+下面是个成品的示例 [原图下载](https://raw.githubusercontent.com/doitian/assets/master/2020/YBCYsJ/demo-image-center-mindmap.png):
 
 {{< image-card src="demo-image-center-mindmap-thumb.png" caption="示例思维导图" >}}
 
