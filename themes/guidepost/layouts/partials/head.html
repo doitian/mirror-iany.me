@@ -19,7 +19,7 @@
     {{/* Links */}}
     <link rel="canonical" href="{{ .Permalink }}">
     {{ if ne .Kind "home" -}}
-    {{- with .Paginator  -}}
+    {{- with and .Page.IsNode .Paginator  -}}
     {{- with .Prev -}}
     <link rel="prev" href="{{ .URL }}">
     {{- end -}}

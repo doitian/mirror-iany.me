@@ -32,25 +32,25 @@ givenName = "Ian"
 familyName = "Yang"
 email = "me@iany.me"
 
-  [author.social]
-  github  = "doitian"
-  twitter = "doitian"
-  vimeo   = "doitian"
+[author.social]
+github = "doitian"
+twitter = "doitian"
+vimeo = "doitian"
 
 [related]
 includeNewer = true
-  [[related.indices]]
-    name = "series"
-    weight = 200
-  [[related.indices]]
-    name = "tags"
-    weight = 150
-  [[related.indices]]
-    name = "keywords"
-    weight = 100
-  [[related.indices]]
-    name = "date"
-    weight = 10
+[[related.indices]]
+name = "series"
+weight = 200
+[[related.indices]]
+name = "tags"
+weight = 150
+[[related.indices]]
+name = "keywords"
+weight = 100
+[[related.indices]]
+name = "date"
+weight = 10
 
 [frontmatter]
 date = [":default", ":git", ":fileModTime"]
@@ -62,77 +62,79 @@ mainSections = ["post", "game"]
 beian = '浙ICP备17004784号-1'
 # disqusBaseURL = "https://blog.iany.me/"
 
-  [params.listing]
-  post = 12
-  journal = 3
+[params.listing]
+post = 12
+journal = 3
 
 [languages]
-  [languages.en]
-    title = "~iany/"
-    languageCode = "en-US"
-    hasCJKLanguage = false
-    languageName = "English"
-    # disqusUsername = "ianyblog"
+[languages.en]
+title = "~iany/"
+languageCode = "en-US"
+hasCJKLanguage = false
+languageName = "English"
+weight = 10
+# disqusUsername = "ianyblog"
 
-  [[languages.en.menu.main]]
-    identifier = "series"
-    name = "Series"
-    title = "Articles in Series"
-    url = "/series/"
-    weight = 2
+[[languages.en.menu.main]]
+identifier = "series"
+name = "Series"
+title = "Articles in Series"
+url = "/series/"
+weight = 2
 
-  [[languages.en.menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    title = "Tags"
-    url = "/tags/"
-    weight = 3
+[[languages.en.menu.main]]
+identifier = "tags"
+name = "Tags"
+title = "Tags"
+url = "/tags/"
+weight = 3
 
-  [[languages.en.menu.social]]
-    identifier = "about"
-    pre = '<i aria-hidden="true" class="fas fa-user-circle"></i>'
-    url = "/about/"
-    name = "About Me"
-    title = "About Me"
+[[languages.en.menu.social]]
+identifier = "about"
+pre = '<i aria-hidden="true" class="fas fa-user-circle"></i>'
+url = "/about/"
+name = "About Me"
+title = "About Me"
 
-  [[languages.en.menu.social]]
-    identifier = "email"
-    pre = '<i aria-hidden="true" class="fas fa-envelope"></i>'
-    url = "https://u.iany.me/gpg"
-    name = "Email"
-    title = "Email"
+[[languages.en.menu.social]]
+identifier = "email"
+pre = '<i aria-hidden="true" class="fas fa-envelope"></i>'
+url = "https://u.iany.me/gpg"
+name = "Email"
+title = "Email"
 
-  [languages.zh]
-    title = "~iany/"
-    languageCode = "zh-CN"
-    hasCJKLanguage = true
-    languageName = "中文"
-    # disqusUsername = "ianyblogcn"
+[languages.zh]
+title = "~iany/"
+languageCode = "zh-CN"
+hasCJKLanguage = true
+languageName = "中文"
+weight = 20
+# disqusUsername = "ianyblogcn"
 
-  [[languages.zh.menu.main]]
-    identifier = "series"
-    name = "系列"
-    title = "系列文章"
-    url = "/zh/series/"
-    weight = 2
+[[languages.zh.menu.main]]
+identifier = "series"
+name = "系列"
+title = "系列文章"
+url = "/zh/series/"
+weight = 2
 
-  [[languages.zh.menu.main]]
-    identifier = "tags"
-    name = "标签"
-    title = "标签"
-    url = "/zh/tags/"
-    weight = 3
+[[languages.zh.menu.main]]
+identifier = "tags"
+name = "标签"
+title = "标签"
+url = "/zh/tags/"
+weight = 3
 
-  [[languages.zh.menu.social]]
-    identifier = "about"
-    pre = '<i aria-hidden="true" class="fas fa-user-circle"></i>'
-    url = "/zh/about/"
-    name = "关于"
-    title = "关于作者"
+[[languages.zh.menu.social]]
+identifier = "about"
+pre = '<i aria-hidden="true" class="fas fa-user-circle"></i>'
+url = "/zh/about/"
+name = "关于"
+title = "关于作者"
 
-  [[languages.zh.menu.social]]
-    identifier = "email"
-    pre = '<i aria-hidden="true" class="fas fa-envelope"></i>'
-    url = "https://u.iany.me/gpg"
-    name = "邮件"
-    title = "邮件"
+[[languages.zh.menu.social]]
+identifier = "email"
+pre = '<i aria-hidden="true" class="fas fa-envelope"></i>'
+url = "https://u.iany.me/gpg"
+name = "邮件"
+title = "邮件"
