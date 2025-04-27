@@ -35,7 +35,7 @@ email = "me@iany.me"
 [author.social]
 github = "doitian"
 twitter = "doitian"
-vimeo = "doitian"
+raindrop = "doitian"
 
 [related]
 includeNewer = true
