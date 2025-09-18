@@ -59,7 +59,6 @@ publishDate = [":default", ":git", ":fileModTime"]
 [params]
 gcse = '006252023667590608831:yopsgewhz5y'
 mainSections = ["post", "game"]
-beian = '浙ICP备17004784号-1'
 # disqusBaseURL = "https://blog.iany.me/"
 
 [params.listing]
