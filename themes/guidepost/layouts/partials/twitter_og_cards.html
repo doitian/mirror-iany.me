@@ -3,7 +3,7 @@
 {{- $description := .Description | default $summary -}}
 <!-- Twitter Cards -->
 <meta name="twitter:title" content="{{ $title }}">
-{{ with .Site.Author.social.twitter -}}
+{{ with .Site.Params.Author.social.twitter -}}
 <meta name="twitter:creator" content="{{ . }}">
 {{ end -}}
 {{ with $description -}}

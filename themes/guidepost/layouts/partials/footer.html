@@ -12,16 +12,16 @@
               {{ range .Site.Menus.social -}}
               <li class="social-link"><a href="{{ .URL }}" class="tippy" aria-label="{{ .Name }}" data-tippy-content="{{ .Name }}">{{ .Pre }}</a></li>
               {{ end -}}
-              {{ with .Site.Author.social.github -}}
+              {{ with .Site.Params.Author.social.github -}}
               <li class="social-link"><a href="https://github.com/{{ . }}" class="tippy" aria-label="{{ . }} on GitHub" data-tippy-content="{{ . }} on GitHub"><i aria-hidden="true" class="fab fa-github"></i></a></li>
               {{ end -}}
-              {{ with .Site.Author.social.vimeo -}}
+              {{ with .Site.Params.Author.social.vimeo -}}
               <li class="social-link"><a href="https://vimeo.com/{{ . }}" class="tippy" aria-label="{{ . }} on Vimeo" data-tippy-content="{{ . }} on Vimeo"><i aria-hidden="true" class="fab fa-vimeo"></i></a></li>
               {{ end -}}
-              {{ with .Site.Author.social.twitter -}}
+              {{ with .Site.Params.Author.social.twitter -}}
               <li class="social-link"><a href="https://x.com/{{ . }}" class="tippy" aria-label="@{{ . }} on X.com" data-tippy-content="@{{ . }} on X.com"><i aria-hidden="true" class="fab fa-twitter"></i></a></li>
               {{ end -}}
-              {{ with .Site.Author.social.raindrop -}}
+              {{ with .Site.Params.Author.social.raindrop -}}
               <li class="social-link"><a href="https://raindrop.io/{{ . }}" class="tippy" aria-label="{{ . }} on Raindrop.io" data-tippy-content="{{ . }} on Raindrop.io"><i aria-hidden="true" class="fas fa-bookmark"></i></a></li>
               {{ end -}}
               <li class="social-link"><a href="{{ "index.xml" | relLangURL }}" class="tippy" aria-label="{{ T "subscribe" }} {{ $.Site.Title }}" data-tippy-content="{{ T "subscribe" }} {{ $.Site.Title }}"><i aria-hidden="true" class="fas fa-rss"></i></a></li>

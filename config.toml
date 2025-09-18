@@ -16,26 +16,14 @@ codeFences = false
 unsafe = true
 
 [permalinks]
-post = "/:year/:month/:filename/"
-life = "/life/:year/:month/:filename/"
-game = "/games/:year/:month/:filename/"
-journal = "/journal/:year/:month/:filename/"
+post = "/:year/:month/:contentbasename/"
+life = "/life/:year/:month/:contentbasename/"
+game = "/games/:year/:month/:contentbasename/"
+journal = "/journal/:year/:month/:contentbasename/"
 
 [taxonomies]
 tag = "tags"
 series = "series"
-
-[author]
-name = "Ian Yang"
-avatar = "/avatar-96x96.png"
-givenName = "Ian"
-familyName = "Yang"
-email = "me@iany.me"
-
-[author.social]
-github = "doitian"
-twitter = "doitian"
-raindrop = "doitian"
 
 [related]
 includeNewer = true
@@ -64,6 +52,18 @@ mainSections = ["post", "game"]
 [params.listing]
 post = 12
 journal = 3
+
+[params.Author]
+name = "Ian Yang"
+avatar = "/avatar-96x96.png"
+givenName = "Ian"
+familyName = "Yang"
+email = "me@iany.me"
+
+[params.Author.social]
+github = "doitian"
+twitter = "doitian"
+raindrop = "doitian"
 
 [languages]
 [languages.en]

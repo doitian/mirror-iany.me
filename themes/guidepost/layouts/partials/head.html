@@ -33,7 +33,7 @@
     {{ end }}
 
     {{/* Rich Meta */}}
-    {{ with .Site.Author.name -}}
+    {{ with .Site.Params.Author.name -}}
     <meta name="author" content="{{ . }}">
     {{ end -}}
     {{ $summary := default ((trim (.Summary | plainify) " \t\n\r") | htmlUnescape) -}}
