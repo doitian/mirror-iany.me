@@ -11,6 +11,7 @@
             {{ with index $.Site.Params.listing .Section }}
                 {{ $amount = . }}
             {{ end }}
+            {{ if gt (len .Pages) 0 -}}
         <article id="section-{{ .Section }}" class="tag-card">
             <div class="tag-card-inner">
                 <h3 class="tag-card-title"><a href="{{ .RelPermalink }}">{{ T (print "title." .Title) | default .Title }}</a></h3>
@@ -24,14 +25,11 @@
                 </div>
 
                 <a href="{{ .RelPermalink }}" class="tag-card-read-more">
-                    {{ if gt (len .Pages) 0 -}}
                     {{ T "readMore" (len .Pages) }} →
-                    {{ else -}}
-                    {{ T "readMoreEmpty" }}
-                    {{ end -}}
                 </a>
             </div>
         </article>
+            {{ end -}}
         {{ end -}}
     </div>
 </main>
