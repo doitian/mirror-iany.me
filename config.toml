@@ -8,6 +8,7 @@ copyright = '<a rel="license" href="https://creativecommons.org/licenses/by-sa/4
 footnoteReturnLinkContents = "↩︎"
 summaryLength = 33
 enableGitInfo = true
+disableHugoGeneratorInject = true
 
 [markup.highlight]
 codeFences = false
