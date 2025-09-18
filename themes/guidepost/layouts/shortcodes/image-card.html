@@ -59,6 +59,8 @@ sizes="(max-width: 819px) 100vw, {{ $img.Width }}px"
 sizes="(max-width: 552px) 100vw, {{ $img.Width }}px"
 {{- else if ge $img.Width 200 }}
 sizes="(max-width: 200px) 100vw, {{ $img.Width }}px"
+{{- else }}
+sizes="{{ $img.Width }}px"
 {{- end }}
 srcset="
 {{- if gt $img.Width 200 }}{{- $thumb := $img.Resize "200x" -}}
