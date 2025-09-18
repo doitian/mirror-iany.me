@@ -53,5 +53,4 @@ jobs:
           rclone copy public/ r2:"${R2_BUCKET}" \
             --checksum \
             --no-traverse \
-            --verbose \
-            --progress
+            --verbose
