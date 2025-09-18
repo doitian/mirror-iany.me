@@ -54,5 +54,4 @@ jobs:
             --checksum \
             --no-traverse \
             --verbose \
-            --progress \
-            --dry-run
+            --progress
