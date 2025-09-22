@@ -29,6 +29,7 @@ src="{{ $src }}"
 
 src="{{ $img.RelPermalink }}"
 
+{{- if ne $img.MediaType.SubType "svg" }}
 {{- if ge $img.Width 2400 }}
 sizes="(max-width: 2400px) 100vw, {{ $img.Width }}px"
 {{- else if ge $img.Width 2396 }}
@@ -94,6 +95,7 @@ srcset="
 {{- if gt $img.Width 2400 }}{{- $thumb := $img.Resize "2400x" -}}
 {{ $thumb.RelPermalink }} 2400w, {{ end -}}
 {{ $img.RelPermalink }} {{ $img.Width }}w"
+{{- end }}
 
 {{- end }}{{ range $k, $v := .Params -}}
 {{- if not (in $attrsBlacklist $k) }} {{$k}}="{{$v}}"{{ end -}}
