@@ -4,8 +4,8 @@ description: I like the feature to Insert all completions in bash, and I can get
 lastmod: '2017-01-19'
 summary: I like the feature to Insert all completions in bash, and I can get this feature in zsh now
 tags:
-- zsh
 - console
+- zsh
 title: Select multiple zsh completions item
 ---
 

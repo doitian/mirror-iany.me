@@ -2,9 +2,9 @@
 date: '2011-05-18'
 description: How Mendeley manages documents and citations.
 tags:
-- utility
 - productivity
-- app
+- reference-management
+- software
 title: 'Mendeley: Cross Platform Research Management Tool'
 ---
 

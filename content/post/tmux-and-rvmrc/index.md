@@ -3,10 +3,9 @@ date: '2011-06-27'
 description: Force rvm to load the file by appending cd .
 lastmod: '2015-10-15'
 tags:
-- tmux
-- rvm
-- ruby
 - console
+- ruby
+- tmux
 title: '[Outdated] Tmux And Rvmrc'
 ---
 

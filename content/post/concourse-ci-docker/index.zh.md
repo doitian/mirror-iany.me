@@ -5,8 +5,8 @@ description: ''
 katex: false
 share: true
 tags:
-- docker
 - ci
+- docker
 title: 使用 Docker 部署 Concourse CI
 ---
 

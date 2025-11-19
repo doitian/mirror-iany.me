@@ -5,6 +5,7 @@ date: 2021-02-06T20:06:11+0800
 feature: big-sur.jpg
 tags:
 - macos
+- system-admin
 title: Install macOS Big Sur in 2021
 ---
 

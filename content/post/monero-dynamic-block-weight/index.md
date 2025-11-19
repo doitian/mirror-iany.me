@@ -2,6 +2,8 @@
 date: 2020-09-05T17:52:10+0800
 tags:
 - blockchain
+- cryptoeconomics
+- monero
 title: Monero Dynamic Block Weight
 ---
 

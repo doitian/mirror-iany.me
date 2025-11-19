@@ -5,7 +5,9 @@ description: ZFS 查看文件错误并修复
 katex: false
 share: true
 tags:
+- file-system
 - system-admin
+- zfs
 title: ZFS 文件恢复
 ---
 

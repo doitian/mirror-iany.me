@@ -5,8 +5,10 @@ description: 如何解密 Rails Cookie，从而跨服务跨语言共享 Rails se
 katex: false
 share: true
 tags:
-- rails
 - encryption
+- golang
+- rails
+- ruby
 title: Rails Cookie 如何解密
 toc: true
 ---

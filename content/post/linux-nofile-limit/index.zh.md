@@ -6,6 +6,8 @@ katex: false
 share: true
 tags:
 - linux
+- performance
+- system-admin
 title: Linux nofile 限制
 ---
 

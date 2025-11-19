@@ -5,6 +5,7 @@ description: Use marks as a stack in Vim
 katex: false
 share: true
 tags:
+- productivity
 - vim
 title: Vim Marks Stack
 ---

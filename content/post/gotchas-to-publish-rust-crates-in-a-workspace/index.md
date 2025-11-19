@@ -2,6 +2,7 @@
 date: 2020-10-11T12:03:32+0800
 draft: false
 tags:
+- cargo
 - rust
 title: Gotchas to Publish Rust Crates in a Workspace
 ---

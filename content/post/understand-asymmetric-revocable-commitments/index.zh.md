@@ -6,6 +6,8 @@ katex: false
 share: true
 tags:
 - blockchain
+- cryptography
+- payment-channel
 title: 理解 Asymmetric Revocable Commitments
 ---
 

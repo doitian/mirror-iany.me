@@ -7,6 +7,8 @@ series:
 - macOS Automation
 share: true
 tags:
+- automation
+- javascript
 - macos
 title: 使用 macOS Javascript 自动化来集成各种 App 的任务收集
 ---

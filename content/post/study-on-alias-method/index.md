@@ -4,6 +4,7 @@ description: A study on alias method, an algorithm that generates a descrete ran
 katex: true
 tags:
 - algorithm
+- math
 - probability
 title: Study on Alias Method
 toc: true

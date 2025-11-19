@@ -5,8 +5,8 @@ description: I'll share my detailed reading workflow and the IFTTT applets used 
 katex: false
 share: true
 tags:
-- productivity
 - knowledge-management
+- productivity
 title: My Reading Workflow and IFTTT Applets
 ---
 

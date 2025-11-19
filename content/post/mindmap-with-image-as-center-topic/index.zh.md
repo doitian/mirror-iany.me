@@ -6,6 +6,7 @@ katex: false
 share: true
 tags:
 - diagram
+- productivity
 title: OmniGraffle 绘制图片作为中心的思维导图
 ---
 

@@ -8,6 +8,8 @@ series:
 share: true
 tags:
 - blockchain
+- consensus
+- cryptocurrency
 title: Decred Review
 ---
 

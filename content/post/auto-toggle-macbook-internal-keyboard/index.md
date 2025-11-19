@@ -5,8 +5,9 @@ date: '2014-01-17'
 description: Automate disable/enable internal keyboard when an external keyboard is attached/detacched.
 feature: keyboard-on-mac.png
 tags:
+- automation
+- keyboard-maestro
 - macos
-- power-tool
 title: Auto Toggle MacBook Internal Keyboard
 ---
 

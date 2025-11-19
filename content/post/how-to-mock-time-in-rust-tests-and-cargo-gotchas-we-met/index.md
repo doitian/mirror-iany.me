@@ -5,8 +5,8 @@ description: I'm working in a team developing a big Rust project recently. The p
 katex: false
 share: true
 tags:
-- rust
 - cargo
+- rust
 title: How to Mock Time in Rust Tests and Cargo Gotchas We Met
 ---
 

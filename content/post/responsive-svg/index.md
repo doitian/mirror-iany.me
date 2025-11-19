@@ -2,6 +2,8 @@
 date: '2013-06-16'
 description: Introduction to make SVG responsive.
 tags:
+- css
+- frontend
 - svg
 title: Responsive SVG
 ---

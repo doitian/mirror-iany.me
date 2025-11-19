@@ -7,8 +7,8 @@ series:
 - Centralized Logs Using Graylog
 share: true
 tags:
-- graylog
 - devops
+- graylog
 title: Graylog 集中日志管理 - 安装
 ---
 

@@ -1,7 +1,10 @@
 ---
 date: '2016-11-27'
 tags:
-- power-tool
+- automation
+- macos
+- markdown
+- note-taking
 title: Convert Web Page to Markdown using Ulysses or Bear
 ---
 

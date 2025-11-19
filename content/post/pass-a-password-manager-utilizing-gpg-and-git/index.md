@@ -1,7 +1,10 @@
 ---
 date: 2020-05-03T22:50:53+0800
 tags:
-- app
+- git
+- gpg
+- password-manager
+- security
 title: Pass, A Password Manager Utilizing GPG and Git
 ---
 

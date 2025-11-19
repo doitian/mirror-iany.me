@@ -2,6 +2,8 @@
 date: '2013-08-23'
 description: Post about the differences of includes and preload
 tags:
+- active-record
+- performance
 - rails
 title: ActiveRecord includes and preload
 ---

@@ -1,6 +1,8 @@
 ---
 date: 2020-06-20T16:39:57+0800
 tags:
+- productivity
+- tool
 - windows
 title: Minimize any window into system tray in Windows
 ---

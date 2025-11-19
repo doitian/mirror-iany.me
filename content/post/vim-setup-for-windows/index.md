@@ -1,6 +1,7 @@
 ---
 date: 2020-05-05T10:28:26+0800
 tags:
+- vim
 - windows
 title: Vim Setup for Windows
 ---

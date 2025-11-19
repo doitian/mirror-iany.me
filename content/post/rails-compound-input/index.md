@@ -2,6 +2,8 @@
 date: '2013-01-19'
 description: How to use multiple HTML input controllers for a single field in model.
 tags:
+- form
+- frontend
 - rails
 title: Rails Compound Input
 ---

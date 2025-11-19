@@ -7,6 +7,8 @@ series:
 - macOS Automation
 share: true
 tags:
+- automation
+- javascript
 - macos
 title: Capture Anything using macOS Javascript automation
 ---

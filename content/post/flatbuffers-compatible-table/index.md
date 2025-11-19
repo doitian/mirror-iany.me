@@ -6,6 +6,7 @@ katex: false
 share: true
 summary: How various flatbuffers types are compatible when one is used as child in another
 tags:
+- flatbuffers
 - serialization
 title: Flatbuffers Compatible Table
 ---

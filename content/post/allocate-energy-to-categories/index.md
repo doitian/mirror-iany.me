@@ -5,6 +5,7 @@ description: I group my objectives into categories, and allocate my time into th
 katex: false
 share: true
 tags:
+- life-management
 - productivity
 title: Allocate Energy to Categories
 ---

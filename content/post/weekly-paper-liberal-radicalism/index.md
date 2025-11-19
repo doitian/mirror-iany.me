@@ -7,8 +7,8 @@ series:
 - Weekly Paper
 share: true
 tags:
-- governance
 - economics
+- governance
 title: 'Weekly Paper: Liberal Radicalism'
 ---
 

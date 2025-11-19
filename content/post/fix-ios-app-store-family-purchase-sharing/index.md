@@ -1,6 +1,7 @@
 ---
 date: 2020-03-22T19:01:28+0800
 tags:
+- app-store
 - ios
 title: Fix iOS App Store Family Purchase Sharing
 ---

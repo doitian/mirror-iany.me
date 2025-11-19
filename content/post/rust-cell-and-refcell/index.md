@@ -5,6 +5,7 @@ description: Talk about the differences between Cell and RefCell in Rust, and ho
 katex: false
 share: true
 tags:
+- memory-management
 - rust
 title: Rust Cell and RefCell
 ---

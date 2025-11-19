@@ -5,6 +5,7 @@ description: 个人总结提升效率的一些习惯
 katex: false
 share: true
 tags:
+- habit
 - productivity
 title: 个人习惯总结
 ---

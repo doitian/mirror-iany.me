@@ -2,6 +2,8 @@
 date: '2013-07-16'
 description: Gotcha of the three functions uniq, count and distince
 tags:
+- active-record
+- database
 - rails
 title: ActiveRecord uniq, count and distinct
 ---

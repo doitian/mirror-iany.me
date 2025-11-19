@@ -4,6 +4,8 @@ draft: false
 obsidian_aliases:
 - Resolve the Annoying Shift + Space Shortcut in Windows Chinese Input Methods
 tags:
+- ime
+- shortcut
 - windows
 title: 解决 Windows 中文输入法下 Shift + Space 快捷键的困扰
 ---

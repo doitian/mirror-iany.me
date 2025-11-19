@@ -5,6 +5,9 @@ description: 简单介绍各种 Key 格式，以及如何在 Ruby 中读取
 katex: false
 share: true
 tags:
+- cryptography
+- openssl
+- rsa
 - ruby
 title: Ruby 中读取各种 RSA Keys
 ---

@@ -4,9 +4,9 @@ draft: false
 obsidian_aliases:
 - 'Transforming Markdown to Attractive PDFs: A Guide to Using Pandoc with Xelatex'
 tags:
+- latex
 - markdown
 - pdf
-- latex
 title: 'Transforming Markdown to Attractive PDFs: A Guide to Using Pandoc with Xelatex'
 ---
 

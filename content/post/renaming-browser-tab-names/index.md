@@ -4,7 +4,9 @@ draft: false
 obsidian_aliases:
 - Renaming Browser Tab Names
 tags:
+- browser
 - javascript
+- productivity
 title: Renaming Browser Tab Names
 ---
 

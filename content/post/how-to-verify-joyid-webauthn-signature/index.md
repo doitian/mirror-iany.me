@@ -4,6 +4,8 @@ description: This post shows how to verify the signature from the method signCha
 draft: false
 tags:
 - cryptography
+- javascript
+- webauthn
 title: How to Verify JoyID WebAuthn Signature
 ---
 

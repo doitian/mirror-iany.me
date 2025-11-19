@@ -2,6 +2,8 @@
 date: 2020-03-01T09:29:40+0800
 tags:
 - async-programming
+- nodejs
+- rust
 title: Blocking Stdout
 ---
 

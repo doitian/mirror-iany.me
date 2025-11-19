@@ -1,6 +1,7 @@
 ---
 date: 2020-05-03T22:03:22+0800
 tags:
+- dev-environment
 - windows
 title: My Windows Environment Setup
 ---

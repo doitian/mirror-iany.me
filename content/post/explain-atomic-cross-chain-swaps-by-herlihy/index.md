@@ -8,6 +8,7 @@ obsidian_aliases:
 tags:
 - blockchain
 - cryptography
+- distributed-system
 title: Explain Atomic Cross-Chain Swaps by Herlihy
 ---
 

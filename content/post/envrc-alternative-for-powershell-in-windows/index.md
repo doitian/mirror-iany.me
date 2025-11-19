@@ -4,6 +4,8 @@ draft: false
 obsidian_aliases:
 - Envrc Alternative for PowerShell in Windows
 tags:
+- environment-variables
+- powershell
 - windows
 title: Envrc Alternative for PowerShell in Windows
 ---

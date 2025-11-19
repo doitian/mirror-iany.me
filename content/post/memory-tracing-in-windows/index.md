@@ -1,8 +1,8 @@
 ---
 date: 2020-06-27T16:52:48+0800
 tags:
-- windows
 - performance
+- windows
 title: Memory Tracing in Windows
 ---
 

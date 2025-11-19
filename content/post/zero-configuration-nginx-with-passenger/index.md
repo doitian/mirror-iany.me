@@ -2,12 +2,9 @@
 date: '2011-12-09'
 description: Use named captures in Nginx to serve multiple Passenger apps in different directories.
 tags:
+- nginx
 - rails
 - ruby
-- rack
-- nginx
-- passenger
-- pow
 title: Zero Configuration Nginx With Passenger
 ---
 
