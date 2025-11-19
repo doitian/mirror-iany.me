@@ -47,6 +47,8 @@ Quotient space is a set of sets. There are duplicates for each `$v \in V$` becau
 
 A quotient space `$V/U$` is formed by "collapsing" a subspace `$U$` to zero within a larger vector space `$V$`. This construction is based on an equivalence relation where two vectors `$x, y \in V$` are considered equivalent if their difference lies in `$U$`—that is, `$x \sim y$` if and only if `$x - y \in U$`. [wikipedia](https://en.wikipedia.org/wiki/Quotient_space_(linear_algebra))
 
+
+
 ## Lemmas
 
 {{< callout type="definition" icon="fas fa-book" title="3.101 *two translates of a subspace are equal or disjoint*" fold="" >}}
@@ -83,6 +85,10 @@ We can write that
 \pi(v_1) = \pi(v_2) \iff v_1 - v_2 \in U
 \]
 ```
+
+The quotient map has two essential properties:
+*   The **null space** of `$\pi$` is exactly the subspace `$U$`, because `$v+U=0+U \iff v-0 \in U \iff v \in U$`
+*   The **range** of `$\pi$` is the entire quotient space `$V/U$`
 
 ## Quotient Space Is a Vector Space
 
@@ -137,6 +143,20 @@ This applies to scalar multiplication as well:
 
 We must show that `$(\lambda v_1) + U = (\lambda v_2) + U$`.
 
+## Dimension
+
+The dimension of the quotient space is given by a simple subtraction, relating the dimension of `$V/U$` to the "lost" dimension of `$U$`:
+
+{{< callout type="definition" icon="fas fa-book" title="3.105 *dimension of quotient space*" fold="" >}}
+
+
+Suppose `$V$` is finite-dimensional and `$U$` is a subspace of V. Then
+``` katex
+\[\text{dim } V/U = \text{dim }V - \text{dim }U.\]
+```
+
+{{< /callout >}}
+
 ## Linear Map from V/(null T) to W
 
 {{< callout type="definition" icon="fas fa-book" title="3.106 notation: $\\widetilde{T}$" fold="" >}}
@@ -160,8 +180,11 @@ A linear map is invertible if and only if it is injective and surjective.
 
 3.63 shows us that `$\widetilde{T}$` is invertible, and according to the definition of isomorphic, `$V/(\mathrm{null}\, T)$` and `$\mathrm{range}\,T$` are isomorphic vector spaces and `$\widetilde{T}$` is their isomorphism.
 
-{{< callout type="definition" icon="fas fa-book" title="definition: *isomorphism, isomorphic*" fold="" >}}
+{{< callout type="definition" icon="fas fa-book" title="3.69 definition: *isomorphism, isomorphic*" fold="" >}}
 
 - An *isomorphism* is an invertible linear map.
 - Two vector spaces are called isomorphic if there is an isomorphism from one vector space onto the other one.
+
 {{< /callout >}}
+
+One of the key uses of `$\widetilde{T}$` is demonstrating a canonical isomorphism. For any linear map `$T \in \mathcal{L}(V, W)$`, the quotient space `$V/(\text{null } T)$` is isomorphic to the image space `$\text{range } T$`. This shows that the quotient space `$V/(\text{null } T)$` serves as a way to "mod out" the non-injective part of `$T$`.
