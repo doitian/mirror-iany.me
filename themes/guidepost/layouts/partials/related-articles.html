@@ -13,7 +13,7 @@
                     <div class="tag-card-content">
                         <ul>
                             {{ range $links }}
-                                {{ $page := site.GetPage .source_path }}
+                                {{ $page := site.GetPage . }}
                             <li><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
                             {{ end }}
                         </ul>

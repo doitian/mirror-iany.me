@@ -1,408 +1,148 @@
 {
   "game/shenzhen-io/index.zh.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-02-12/index.md",
-      "source_title": "What I Touched This Week 2017-02-12",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-02-12/index.md"
   ],
   "post/lua-c-api-intro/index.zh.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-02-20/index.md",
-      "source_title": "What I Touched This Week 2017-02-20",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-02-20/index.md"
   ],
   "post/mindmap-with-image-as-center-topic/index.zh.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-04-09/index.md",
-      "source_title": "What I Touched This Week 2017-04-09",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-04-09/index.md"
   ],
   "post/cocos2d-x-ttf/index.zh.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-05-13/index.md",
-      "source_title": "What I Touched This Week 2017-05-13",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-05-13/index.md"
   ],
   "post/resource-bundle-in-intellij-tornadofx-gradle-project/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-06-03/index.md",
-      "source_title": "What I Touched This Week 2017-06-03",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-06-03/index.md"
   ],
   "post/redis-write-buffer/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-09-03/index.md",
-      "source_title": "What I Touched This Week 2017-09-03",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-09-03/index.md"
   ],
   "post/nginx-udp-load-balance/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-09-03/index.md",
-      "source_title": "What I Touched This Week 2017-09-03",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-09-03/index.md"
   ],
   "post/rails-cookie-encryption/index.zh.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-09-24/index.md",
-      "source_title": "What I Touched This Week 2017-09-24",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-09-24/index.md"
   ],
   "post/centralized-logs-using-graylog-collecting/index.zh.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-10-08/index.md",
-      "source_title": "What I Touched This Week 2017-10-08",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-10-08/index.md"
   ],
   "post/centralized-logs-using-graylog-processing/index.zh.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-10-08/index.md",
-      "source_title": "What I Touched This Week 2017-10-08",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-10-08/index.md"
   ],
   "post/centralized-logs-using-graylog-output/index.zh.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-10-14/index.md",
-      "source_title": "What I Touched This Week 2017-10-14",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-10-14/index.md"
   ],
   "post/lua-c-api-userdata/index.zh.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-10-29/index.md",
-      "source_title": "What I Touched This Week 2017-10-29",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-10-29/index.md"
   ],
   "post/read-various-rsa-keys-in-ruby/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-11-26/index.md",
-      "source_title": "What I Touched This Week 2017-11-26",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-11-26/index.md"
   ],
   "post/zfs-file-restore/index.zh.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-11-26/index.md",
-      "source_title": "What I Touched This Week 2017-11-26",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-11-26/index.md"
   ],
   "post/personal-habits-summary/index.zh.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2017-11-26/index.md",
-      "source_title": "What I Touched This Week 2017-11-26",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2017-11-26/index.md"
   ],
   "post/vim-marks-stack/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2018-06-24/index.md",
-      "source_title": "What I Touched This Week 2018-06-24",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2018-06-24/index.md"
   ],
   "post/decred-review/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2018-07-22/index.md",
-      "source_title": "What I Touched This Week 2018-07-22",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2018-07-22/index.md"
   ],
   "post/flatbuffers-compatible-table/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2018-11-04/index.md",
-      "source_title": "What I Touched This Week 2018-11-04",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2018-11-04/index.md"
   ],
   "post/weekly-paper-helix/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2018-11-11/index.md",
-      "source_title": "What I Touched This Week 2018-11-11",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2018-11-11/index.md"
   ],
   "post/weekly-paper-hayek-the-use-of-knowledge-in-society/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2018-11-25/index.md",
-      "source_title": "What I Touched This Week 2018-11-25",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2018-11-25/index.md"
   ],
   "post/weekly-paper-liberal-radicalism/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2018-12-02/index.md",
-      "source_title": "What I Touched This Week 2018-12-02",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2018-12-02/index.md"
   ],
   "post/my-reading-workflow-and-ifttt-applets/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2019-01-13/index.md",
-      "source_title": "What I Touched This Week 2019-01-13",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2019-01-13/index.md"
   ],
   "post/rust-cell-and-refcell/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2019-03-02/index.md",
-      "source_title": "What I Touched This Week 2019-03-02",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2019-03-02/index.md"
   ],
   "post/how-to-mock-time-in-rust-tests-and-cargo-gotchas-we-met/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2019-03-31/index.md",
-      "source_title": "What I Touched This Week 2019-03-31",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2019-03-31/index.md"
   ],
   "post/download-only-gmail-inbox/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-02-09/index.md",
-      "source_title": "What I Touched This Week 2020-02-09",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-02-09/index.md"
   ],
   "post/vim-iterm-launcher/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-02-09/index.md",
-      "source_title": "What I Touched This Week 2020-02-09",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-02-09/index.md"
   ],
   "post/bitcoin-core-network-event-loops/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-02-16/index.md",
-      "source_title": "What I Touched This Week 2020-02-16",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-02-16/index.md"
   ],
   "post/excel-as-diagram-maker/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-02-29/index.md",
-      "source_title": "What I Touched This Week 2020-02-29",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-02-29/index.md"
   ],
   "post/blocking-stdout/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-03-07/index.md",
-      "source_title": "What I Touched This Week 2020-03-07",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-03-07/index.md"
   ],
   "post/save-web-articles-via-inoreader/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-03-15/index.md",
-      "source_title": "What I Touched This Week 2020-03-15",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-03-15/index.md"
   ],
   "post/fix-ios-app-store-family-purchase-sharing/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-03-22/index.md",
-      "source_title": "What I Touched This Week 2020-03-22",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    },
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-03-29/index.md",
-      "source_title": "What I Touched This Week 2020-03-29",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-03-22/index.md",
+    "journal/what-i-touched-this-week-2020-03-29/index.md"
   ],
   "post/rust-pin/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-04-12/index.md",
-      "source_title": "What I Touched This Week 2020-04-12",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-04-12/index.md"
   ],
   "post/working-on-ios-experience-report/index.zh.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-04-26/index.md",
-      "source_title": "What I Touched This Week 2020-04-26",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-04-26/index.md"
   ],
   "post/write-to-any-ios-files-location-via-working-copy/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-04-26/index.md",
-      "source_title": "What I Touched This Week 2020-04-26",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    },
-    {
-      "source_path": "post/working-on-ios-experience-report/index.zh.md",
-      "source_title": "使用 iOS 工作体验报告",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "post/working-on-ios-experience-report/index.zh.md",
+    "journal/what-i-touched-this-week-2020-04-26/index.md"
   ],
   "post/pass-a-password-manager-utilizing-gpg-and-git/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-05-10/index.md",
-      "source_title": "What I Touched This Week 2020-05-10",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-05-10/index.md"
   ],
   "post/my-windows-environment-setup/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-05-10/index.md",
-      "source_title": "What I Touched This Week 2020-05-10",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    },
-    {
-      "source_path": "post/vim-setup-for-windows/index.md",
-      "source_title": "Vim Setup for Windows",
-      "target_anchor": "#foo",
-      "target_anchor_title": "Foo"
-    }
+    "post/vim-setup-for-windows/index.md",
+    "journal/what-i-touched-this-week-2020-05-10/index.md"
   ],
   "post/vim-setup-for-windows/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-05-10/index.md",
-      "source_title": "What I Touched This Week 2020-05-10",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-05-10/index.md"
   ],
   "post/minimize-any-window-into-system-tray-in-windows/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-06-21/index.md",
-      "source_title": "What I Touched This Week 2020-06-21",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-06-21/index.md"
   ],
   "post/memory-tracing-in-windows/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-06-27/index.md",
-      "source_title": "What I Touched This Week 2020-06-27",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-06-27/index.md"
   ],
   "post/move-wsl-to-another-drive/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-06-27/index.md",
-      "source_title": "What I Touched This Week 2020-06-27",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-06-27/index.md"
   ],
   "post/podman-on-windows-via-wsl2/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-06-27/index.md",
-      "source_title": "What I Touched This Week 2020-06-27",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-06-27/index.md"
   ],
   "post/yubico-for-windows/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-07-12/index.md",
-      "source_title": "What I Touched This Week 2020-07-12",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    },
-    {
-      "source_path": "post/ssh-authentication-using-a-yubikey-on-windows-and-the-openssh-client/index.md",
-      "source_title": "SSH Authentication Using a YubiKey on Windows And the OpenSSH Client",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "post/ssh-authentication-using-a-yubikey-on-windows-and-the-openssh-client/index.md",
+    "journal/what-i-touched-this-week-2020-07-12/index.md"
   ],
   "post/bitcoin-core-fee-estimate-algorithm/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-08-22/index.md",
-      "source_title": "What I Touched This Week 2020-08-22",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-08-22/index.md"
   ],
   "post/monero-dynamic-block-weight/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2020-09-05/index.md",
-      "source_title": "What I Touched This Week 2020-09-05",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2020-09-05/index.md"
   ],
   "post/install-macos-big-sur-in-2021/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2021-02-21/index.md",
-      "source_title": "What I Touched This Week 2021-02-21",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "journal/what-i-touched-this-week-2021-02-21/index.md"
   ],
   "post/ssh-authentication-using-a-yubikey-on-windows-and-the-openssh-client/index.md": [
-    {
-      "source_path": "journal/what-i-touched-this-week-2021-02-21/index.md",
-      "source_title": "What I Touched This Week 2021-02-21",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    },
-    {
-      "source_path": "post/yubico-for-windows/index.md",
-      "source_title": "Yubico for Windows",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "post/yubico-for-windows/index.md",
+    "journal/what-i-touched-this-week-2021-02-21/index.md"
   ],
   "post/nginx-udp-load-balance/index.zh.md": [
-    {
-      "source_path": "post/centralized-logs-using-graylog-collecting/index.zh.md",
-      "source_title": "Graylog 集中日志管理 - 收集日志",
-      "target_anchor": "",
-      "target_anchor_title": ""
-    }
+    "post/centralized-logs-using-graylog-collecting/index.zh.md"
   ]
 }
