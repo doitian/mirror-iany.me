@@ -13,14 +13,17 @@
                     <div class="tag-card-content">
                         <ul>
                             {{ range $links }}
-                                {{ $page := site.GetPage . }}
-                            <li><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+                                {{ $site := index (where $.Sites "Language.Lang" .lang) 0 }}
+                                {{ $page := $site.GetPage .path }}
+                                {{ with $page }}
+                            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                                {{ end }}
                             {{ end }}
                         </ul>
-                        {{ end }}
                     </div>
-                        {{ if (.Site.RegularPages.Related .) }}
+                            {{ if (.Site.RegularPages.Related .) }}
                     <br />
+                            {{ end }}
                         {{ end }}
                     {{ end }}
 
