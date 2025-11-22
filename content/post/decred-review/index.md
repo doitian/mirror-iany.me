@@ -9,7 +9,7 @@ share: true
 tags:
 - blockchain
 - consensus
-- cryptocurrency
+- crypto-currency
 title: Decred Review
 ---
 
