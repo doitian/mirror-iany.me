@@ -4,6 +4,9 @@ other = 'Home'
 [relatedArticles]
 other = 'Related articles'
 
+[linkedMentions]
+other = 'Linked mentions'
+
 [search]
 other = 'Search'
 

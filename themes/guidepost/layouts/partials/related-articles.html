@@ -1,10 +1,31 @@
 <aside class="related-articles">
     <div class="container">
         <div class="read-next-feed">
-            {{ $related := .Site.RegularPages.Related . | first 5 }}
-            {{ with $related }}
             <article {{ with $.File }}id="related-articles-of-{{ .UniqueID }}" {{ end }}class="tag-card">
                 <div class="tag-card-inner">
+                    {{ if site.Data.backlinks }}
+                        {{ $path := .File.Path }}
+                        {{ $path = replace $path "\\" "/" }}
+                        {{ $links := index site.Data.backlinks $path }}
+                        {{ if $links }}
+                    <h3 class="tag-card-title">{{ T "linkedMentions" }}</h3>
+
+                    <div class="tag-card-content">
+                        <ul>
+                            {{ range $links }}
+                                {{ $page := site.GetPage .source_path }}
+                            <li><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+                            {{ end }}
+                        </ul>
+                        {{ end }}
+                    </div>
+                        {{ if (.Site.RegularPages.Related .) }}
+                    <br />
+                        {{ end }}
+                    {{ end }}
+
+                    {{ $related := .Site.RegularPages.Related . | first 5 }}
+                    {{ with $related }}
                     <h3 class="tag-card-title">{{ T "relatedArticles" }}</h3>
 
                     <div class="tag-card-content">
@@ -14,9 +35,9 @@
                             {{ end }}
                         </ul>
                     </div>
+                    {{ end }}
                 </div>
             </article>
-            {{ end }}
         </div>
     </div>
 </aside>

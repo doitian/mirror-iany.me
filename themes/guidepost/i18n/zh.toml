@@ -4,6 +4,9 @@ other = '主页'
 [relatedArticles]
 other = '相关文章'
 
+[linkedMentions]
+other = '反向链接'
+
 [search]
 other = '搜索'
 
@@ -69,4 +72,3 @@ other = "标签"
 
 ["title.Series"]
 other = "系列"
-
