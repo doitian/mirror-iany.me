@@ -40,6 +40,12 @@ other = "RSA"
 ["title.Svg"]
 other = "SVG"
 
+["title.Cocos2dx"]
+other = "Cocos2d-x"
+
+["title.Ime"]
+other = "IME"
+
 ["title.lang/en"]
 other = "English"
 
