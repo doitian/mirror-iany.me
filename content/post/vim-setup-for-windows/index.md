@@ -61,8 +61,3 @@ set renderoptions=type:directx
 " Fix the ugly cursor color
 hi Cursor guibg=#005f87 guifg=#eeeeee
 ```
-
-## Linked mentions
-
-
-- ➫ [♯ What I Touched This Week 2020-05-10]({{< relref path="/journal/what-i-touched-this-week-2020-05-10.md" lang="en" >}})
