@@ -1,65 +1,44 @@
-["title.api"]
-other = "API"
-
-["title.cocos2dx"]
-other = "Cocos2d-x"
-
-["title.gfw"]
-other = "GFW"
-
-["title.sop"]
-other = "SOP"
-
-["title.Wikis"]
-other = "Wiki"
-
-["title.ssh"]
-other = "SSH"
-
-["title.svg"]
-other = "SVG"
-
-["title.gpg"]
-other = "GPG"
-
-["title.ios"]
-other = "iOS"
-
-["title.ipad"]
-other = "iPad"
-
-["title.b-tree"]
-other = "B-tree"
-
-["title.uriProtocol"]
-other = "URI Protocol"
-
-["title.yubikey"]
-other = "YubiKey"
-
-["title.rvm"]
-other = "RVM"
-
-["title.macos"]
-other = "macOS"
-
-["title.devops"]
-other = "DevOps"
-
-["title.wsl"]
-other = "WSL"
-
-["title.pow"]
-other = "POW"
-
-["title.javascript"]
+["title.Javascript"]
 other = "JavaScript"
 
-["title.pdf"]
+["title.Css"]
+other = "CSS"
+
+["title.Ci"]
+other = "CI"
+
+["title.Ios"]
+other = "iOS"
+
+["title.Wsl"]
+other = "WSL"
+
+["title.Yubikey"]
+other = "YubiKey"
+
+["title.Cpp"]
+other = "C++"
+
+["title.Gpg"]
+other = "GPG"
+
+["title.Latex"]
+other = "LaTeX"
+
+["title.Nodejs"]
+other = "Node.js"
+
+["title.Openssl"]
+other = "OpenSSL"
+
+["title.Pdf"]
 other = "PDF"
 
-["title.latex"]
-other = "LaTeX"
+["title.Rsa"]
+other = "RSA"
+
+["title.Svg"]
+other = "SVG"
 
 ["title.lang/en"]
 other = "English"
