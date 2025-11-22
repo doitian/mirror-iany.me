@@ -1,5 +1,7 @@
 ---
 date: 2020-06-26T16:51:34+0800
+obsidianFiles:
+- para/lets/w/Windows/LxRunOffline
 tags:
 - windows
 - wsl
@@ -63,7 +65,7 @@ Use `wsl -l -v` to check whether the new created instance use WSL2. The command 
 wsl -d Ubuntu
 ```
 
-An alternative solution is using the tool [LxRunOffline].
+An alternative solution is using the tool [LxRunOffline](https://kb.iany.me/para/lets/w/Windows/LxRunOffline).
 
 ## Alternative Step 2 for WSL1
 
@@ -94,5 +96,3 @@ Command explanation:
 - `wsl --import Ubuntu Ubuntu ubuntu.tar`: The first `Ubuntu` is the new created instance name. The second `Ubuntu` is the instance saved location. The last parameter is the file created by `wsl --export`. This will import `ubuntu.tar` and use `D:\WSL\Ubuntu` to save the WSL instance data.
 
 Now it is also OK to uninstall Ubuntu in the store and continue to the **Step 3**.
-
-[LxRunOffline]: https://kb.iany.me/para/lets/w/Windows/LxRunOffline

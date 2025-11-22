@@ -1,7 +1,7 @@
 ---
 date: 2024-04-06T08:55:34+0800
 draft: false
-obsidian_aliases:
+obsidianAliases:
 - Envrc Alternative for PowerShell in Windows
 tags:
 - environment-variables

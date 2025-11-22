@@ -1,7 +1,7 @@
 ---
 date: 2023-04-27T21:22:30+0800
 draft: false
-obsidian_aliases:
+obsidianAliases:
 - The Ultimate Guide to Customizing Obsidian Vim Mode via QuickAdd
 tags:
 - obsidian

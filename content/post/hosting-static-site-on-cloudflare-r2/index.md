@@ -2,7 +2,7 @@
 allowFullDomainLink: true
 date: 2025-10-22T18:46:38+0800
 draft: false
-obsidian_aliases:
+obsidianAliases:
 - Hosting Static Site on Cloudflare R2
 tags:
 - ci

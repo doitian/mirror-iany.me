@@ -3,7 +3,7 @@ banner: featured-river-flowing-with-maple-leaves-on-the-rocks.jpg
 banner_y: 0.54093
 date: '2022-10-03T19:26:38+08:00'
 feature: featured-river-flowing-with-maple-leaves-on-the-rocks.jpg
-obsidian_aliases:
+obsidianAliases:
 - Practice Autofocus Method in Todoist
 tags:
 - productivity

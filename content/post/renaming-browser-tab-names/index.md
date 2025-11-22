@@ -1,7 +1,7 @@
 ---
 date: 2023-07-21T20:31:59+0800
 draft: false
-obsidian_aliases:
+obsidianAliases:
 - Renaming Browser Tab Names
 tags:
 - browser

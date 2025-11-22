@@ -2,7 +2,7 @@
 date: 2025-11-18T21:23:25+0800
 draft: false
 katex: true
-obsidian_aliases:
+obsidianAliases:
 - Study on Quotient Spaces
 - Quotient Spaces
 tags:

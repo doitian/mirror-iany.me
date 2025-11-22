@@ -1,7 +1,7 @@
 ---
 date: 2024-04-10T19:32:40+0800
 draft: false
-obsidian_aliases:
+obsidianAliases:
 - Resolve the Annoying Shift + Space Shortcut in Windows Chinese Input Methods
 tags:
 - ime

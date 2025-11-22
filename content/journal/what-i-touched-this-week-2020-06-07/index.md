@@ -1,6 +1,8 @@
 ---
 date: 2020-06-07
 description: My weekly review report.
+obsidianFiles:
+- para/lets/y/Yubikey/Yubico on Fedora
 series:
 - What I Touched
 title: What I Touched This Week 2020-06-07
@@ -20,7 +22,7 @@ There are several major issues to use Linux on surface:
 
 * [Using YubiKey Neo as gpg smartcard for SSH authentication - stafwag Blog](https://stafwag.github.io/blog/blog/2015/06/16/using-yubikey-neo-as-gpg-smartcard-for-ssh-authentication/)
 
-    This article helped me setting up the Yubico key in Fedora. [→ Wiki][Yubico on Fedora]
+    This article helped me setting up the Yubico key in Fedora. [→ Wiki](https://kb.iany.me/para/lets/y/Yubikey/Yubico+on+Fedora)
 
 * [gnupg-agent: gpg agent refusing ssh agent work - Debian Bug report logs](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=835394)
 
@@ -77,5 +79,3 @@ There are several major issues to use Linux on surface:
 * [FiloSottile/age: A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability.](https://github.com/FiloSottile/age)
 * [schollz/croc: Easily and securely send things from one computer to another](https://github.com/schollz/croc)
 * [Firefox Send](https://send.firefox.com/)
-
-[Yubico on Fedora]: https://kb.iany.me/para/lets/y/Yubikey/Yubico+on+Fedora

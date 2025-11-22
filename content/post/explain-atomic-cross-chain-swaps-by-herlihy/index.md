@@ -3,7 +3,7 @@ date: 2025-09-19T22:26:46+0800
 description: A study on the paper Atomic Cross-Chain Swaps by Herlihy
 draft: false
 katex: true
-obsidian_aliases:
+obsidianAliases:
 - Explain Atomic Cross-Chain Swaps by Herlihy
 tags:
 - blockchain

@@ -1,7 +1,7 @@
 ---
 date: 2023-04-29T21:43:02+0800
 draft: false
-obsidian_aliases:
+obsidianAliases:
 - 'Transforming Markdown to Attractive PDFs: A Guide to Using Pandoc with Xelatex'
 tags:
 - latex
