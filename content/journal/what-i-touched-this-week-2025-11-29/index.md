@@ -1,0 +1,61 @@
+---
+date: 2025-11-29
+description: My weekly review report.
+obsidianFiles:
+- robot/Readwise Library/Articles/Alexey Kladov - Code Review Can Be Better (Highlights)
+- robot/Readwise Library/Articles/Alexey Kladov - Tracking Time Without Clock (Highlights)
+- robot/Readwise Library/Articles/Dominik Tornow - The Write Last, Read First Rule (Highlights)
+- robot/Readwise Library/Articles/Alex Kladov - Size Matters (Highlights)
+- robot/Readwise Library/Articles/Sylvan Wang - 谈谈不自律的良好生活 (Highlights)
+- robot/Readwise Library/Articles/Polymath Investor - How to Remember Everything You Read (Highlights)
+series:
+- What I Touched
+title: What I Touched This Week 2025-11-29
+---
+
+<!--more-->
+## Software Design Insights from TigerBeetle
+
+This week I went deep into several articles from Alexey Kladov (matklad) and TigerBeetle's engineering blog. The collection offers practical wisdom on building robust systems.
+
+- **Code Review Workflow**: Instead of reviewing diffs in a web UI, pull the branch locally, soft-reset to the base, then navigate through the diff using magit. Use the git staging area to mark files you've reviewed—treating the review process like authoring the code yourself.
+- **Clockless Time Tracking**: Rather than injecting a `Clock` dependency, push time into the system at fixed cadence via a `tick` method. For single-instant needs, use Call Site Dependency Injection by passing `now: Instant` directly to methods.
+- **Write Last, Read First**: When dealing with systems of record (source of truth) and systems of reference (derived data), write to the system of reference first, then write to the system of record last. Read in reverse order. This maintains application-level consistency.
+- **Function Shape Matters**: Functions should have an "inverted hourglass" shape—large implementations relative to their interfaces. Hourglass-shaped functions (small body, large interface) are a code smell. The 100-column limit exists so you can fit two files side-by-side on modern displays. Functions should fit on a screen (~60-70 lines).
+
+**Sources**:
+- [Code Review Can Be Better](https://tigerbeetle.com/blog/2025-08-04-code-review-can-be-better)
+- [Clockless Time](https://tigerbeetle.com/blog/2025-10-21-clockless-time)
+- [Write Last, Read First](https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule)
+- [Size Matters](https://matklad.github.io/2025/11/28/size-matters.html)
+
+## Self-Consistency Over Self-Discipline
+
+An essay on achieving a good life without rigid self-discipline ("谈谈不自律的良好生活") resonated with me this week. The author argues for balance over brute-force willpower.
+
+- **Balanced Love**: Drawing from Fromm's *The Art of Loving*, healthy self-regard requires combining unconditional and conditional love. Pure unconditional love becomes indulgence; pure conditional love becomes self-attack.
+- **Understanding Over Judgment**: When you break a diet for your favorite ice cream, the productive response isn't self-criticism—it's understanding *why* you acted that way. Change requires awareness, care, creativity, and patience rather than pure constraint.
+- **Goals as Direction**: Goals shouldn't be used to judge or lock down your future. A proper goal is merely a direction—like pointing at a distant peak and saying "I want to go there." This supports [Don't Set a Goal For 2026 Until You Watch This](https://www.youtube.com/watch?v=aAk9zvROJFk).
+- **Life's Balance**: Abstract learning (philosophy) without grounding becomes detached from life's simple pleasures. All socializing without solitude leaves no room for reflection and creativity. Life needs all five flavors, both meat and vegetables.
+
+**Source**: [谈谈不自律的良好生活](https://sspai.com/post/103819)
+
+## Effective Reading Strategies
+
+A practical guide on retaining what you read offered some actionable techniques worth implementing.
+
+- **Preview First**: Spend 5-10 minutes per chapter skimming the table of contents, headings, introduction, and summary before diving into details. This builds a mental scaffold.
+- **Question-Driven Reading**: Before reading a section, convert the heading into a question (e.g., "What is X?") and read to find the answer. This active approach improves engagement and retention.
+- **Concise Personal Notes**: Rather than transcribing passages verbatim, write brief paraphrases or bullet points in your own words. The act of reformulation strengthens memory.
+
+**Source**: [How to Remember Everything You Read](https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/how-to-remember-everything-you/1031.pdf)
+
+---
+
+## Obsidian Links
+- [Alexey Kladov - Code Review Can Be Better (Highlights)](https://kb.iany.me/robot/Readwise+Library/Articles/Alexey+Kladov+-+Code+Review+Can+Be+Better+%28Highlights%29)
+- [Alexey Kladov - Tracking Time Without Clock (Highlights)](https://kb.iany.me/robot/Readwise+Library/Articles/Alexey+Kladov+-+Tracking+Time+Without+Clock+%28Highlights%29)
+- [Dominik Tornow - The Write Last, Read First Rule (Highlights)](https://kb.iany.me/robot/Readwise+Library/Articles/Dominik+Tornow+-+The+Write+Last%2C+Read+First+Rule+%28Highlights%29)
+- [Alex Kladov - Size Matters (Highlights)](https://kb.iany.me/robot/Readwise+Library/Articles/Alex+Kladov+-+Size+Matters+%28Highlights%29)
+- [Sylvan Wang - 谈谈不自律的良好生活 (Highlights)](https://kb.iany.me/robot/Readwise+Library/Articles/Sylvan+Wang+-+%E8%B0%88%E8%B0%88%E4%B8%8D%E8%87%AA%E5%BE%8B%E7%9A%84%E8%89%AF%E5%A5%BD%E7%94%9F%E6%B4%BB+%28Highlights%29)
+- [Polymath Investor - How to Remember Everything You Read (Highlights)](https://kb.iany.me/robot/Readwise+Library/Articles/Polymath+Investor+-+How+to+Remember+Everything+You+Read+%28Highlights%29)
