@@ -1,8 +1,0 @@
-#!/bin/bash
-
-set -e
-set -u
-[ -n "${DEBUG:-}" ] && set -x || true
-
-git push
-git push github master
