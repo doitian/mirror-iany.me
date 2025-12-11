@@ -54,7 +54,7 @@ other = "{{ .Count }} words"
 other = "min read"
 
 [recentContentIn]
-other = "Recent content in {{ .Title }}"
+other = "Recent content in {{ . }}"
 
 [shareViaEmail]
 other = "Share via Email"

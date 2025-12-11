@@ -55,7 +55,7 @@
   {{ else }}
   {{ with .OutputFormats.Get "RSS" }}
   <ul class="social-links">
-      <li class="social-link"><a href="{{ "index.xml" | relLangURL }}" class="tippy" aria-label="{{ T "subscribe" }} {{ $title }}" data-tippy-content="{{ T "subscribe" }} {{ $title }}"><i aria-hidden="true" class="fas fa-rss"></i></a></li>
+      <li class="social-link"><a href="{{ .RelPermalink }}" class="tippy" aria-label="{{ T "subscribe" }} {{ $title }}" data-tippy-content="{{ T "subscribe" }} {{ $title }}"><i aria-hidden="true" class="fas fa-rss"></i></a></li>
   </ul>
   {{ end }}
   {{ end }}

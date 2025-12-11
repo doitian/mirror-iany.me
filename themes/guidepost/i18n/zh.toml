@@ -46,6 +46,9 @@ other = "更新于"
 [minRead]
 other = "分钟读完"
 
+[recentContentIn]
+other = "{{ . }}的最新内容"
+
 [wordCount]
 other = "{{ .Count }} 个字"
 
