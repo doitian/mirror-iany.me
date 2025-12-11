@@ -9,7 +9,7 @@ tags:
 - cursor
 - shell
 - zsh
-- '#vibe-coding'
+- vibe-coding
 title: How to Activate mise for Cursor When It Runs Shell Commands
 ---
 
