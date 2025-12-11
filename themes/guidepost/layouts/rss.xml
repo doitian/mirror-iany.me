@@ -42,7 +42,7 @@
   <channel>
     <title>{{ site.Title }} {{ $title }}</title>
     <link>{{ .Permalink }}</link>
-    <description>{{ T "recentContentIn" $title }} ({{ site.Title }})</description>
+    <description>{{ T "recentContentIn" $title }} «{{ site.Title }}»</description>
     <language>{{ site.Language.LanguageCode }}</language>{{ with $authorEmail }}
     <managingEditor>{{.}}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>{{end}}{{ with .Site.Params.Author.email }}
     <webMaster>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
