@@ -46,6 +46,9 @@ other = "Cocos2d-x"
 ["title.Ime"]
 other = "IME"
 
+["title.Macos"]
+other = "macOS"
+
 ["title.lang/en"]
 other = "English"
 
