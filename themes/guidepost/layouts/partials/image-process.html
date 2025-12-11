@@ -1,0 +1,31 @@
+{{- /*
+    Processes an image resource.
+    Input: .img (resource), .queryParams (string)
+    Output: Returns dict with .img (processed resource)
+*/ -}}
+{{- $img := .img -}}
+{{- $queryParams := .queryParams -}}
+{{- $processed := false -}}
+
+{{- /* Process query parameters if any */ -}}
+{{- with $queryParams -}}
+    {{- range $pair := split . "&" -}}
+        {{- $kv := split $pair "=" -}}
+        {{- if eq (index $kv 0) "resize" }}{{ $img = $img.Resize (index $kv 1) }}{{ $processed = true }}{{ end -}}
+        {{- if eq (index $kv 0) "fit" }}{{ $img = $img.Fit (index $kv 1) }}{{ $processed = true }}{{ end -}}
+        {{- if eq (index $kv 0) "fill" }}{{ $img = $img.Fill (index $kv 1) }}{{ $processed = true }}{{ end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* Process resource if not already processed to ensure it's an image resource */ -}}
+{{- if and $img (eq $img.MediaType.MainType "image") (ne $img.MediaType.SubType "svg") -}}
+    {{- if and $img.Width $img.Height -}}
+        {{- if not $processed -}}
+            {{- $img = $img.Resize (print $img.Width "x") -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* Return values via dict */ -}}
+{{- return (dict "img" $img "processed" $processed) -}}
+

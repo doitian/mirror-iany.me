@@ -26,6 +26,9 @@
                     {{- $banner := $.Resources.GetMatch . -}}
                     {{- $bannerY := $.Params.banner_y | default 0 -}}
 
+                    {{- /* Check if banner is an image (not SVG) */ -}}
+                    {{- $isImage := and $banner (eq $banner.MediaType.MainType "image") (ne $banner.MediaType.SubType "svg") -}}
+
                     {{- /* Define responsive breakpoints with optimized heights for better bandwidth usage */ -}}
                     {{- $breakpoints := slice
                         (dict "width" 1200 "height_1x" 150 "height_2x" 300)
@@ -35,20 +38,24 @@
                     -}}
 
                     {{- /* Process banner with banner_y positioning if specified */ -}}
-                    {{- if gt $bannerY 0 -}}
+                    {{- if and $isImage (gt $bannerY 0) -}}
                         {{- $cropHeight := math.Round (add 150 (sub $banner.Height (mul $bannerY $banner.Height))) -}}
                         {{- $banner = $banner.Crop (print "2400x" $cropHeight " Bottom") -}}
                         {{- $banner = $banner.Crop "2400x300 Top" -}}
-                    {{- else -}}
+                    {{- else if $isImage -}}
                         {{- $banner = $banner.Crop "2400x300 Center" -}}
                     {{- end -}}
 
                     {{- /* Generate base/default images (for 1200px+ screens) */ -}}
-                    {{- $base1x := $banner.Resize "x150" -}}
+                    {{- $base1x := $banner -}}
                     {{- $base2x := $banner -}}
+                    {{- if and $isImage $banner.Width -}}
+                        {{- $base1x = $banner.Resize "x150" -}}
+                    {{- end -}}
 
                     {{- /* Build srcset for responsive images */ -}}
                     {{- $srcsetParts := slice -}}
+                    {{- if and $isImage $banner.Width -}}
                     {{- range $breakpoints -}}
                         {{- $bpWidth := .width -}}
                         {{- $bpHeight1x := .height_1x -}}
@@ -63,15 +70,18 @@
                     {{- end -}}
                     {{- $srcsetParts = $srcsetParts | append (print $base1x.RelPermalink " 1200w") -}}
                     {{- $srcsetParts = $srcsetParts | append (print $base2x.RelPermalink " 2400w") -}}
+                    {{- end -}}
 
+                    {{- if $isImage -}}
                     <img
                         alt=""
                         role="presentation"
                         src="{{ $base1x.RelPermalink }}"
-                        srcset="{{ delimit $srcsetParts ", " }}"
+                        {{- if gt (len $srcsetParts) 0 }} srcset="{{ delimit $srcsetParts ", " }}"{{ end }}
                         sizes="(max-width: 600px) 600px, (max-width: 768px) 768px, (max-width: 992px) 992px, (max-width: 1200px) 1200px, 2400px"
                         loading="eager"
                     />
+                    {{- end -}}
                 {{- end -}}
             </section>
 

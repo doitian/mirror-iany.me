@@ -1,0 +1,29 @@
+{{- /*
+    Renders img tags with responsive srcset.
+    Input: .img (resource), .srcsetParts (slice), .sizesAttr (string), .alt (string),
+           .loading (string), .class (string), .width (int), .height (int), .extraAttrs (dict)
+*/ -}}
+{{- $img := .img -}}
+{{- $srcsetParts := .srcsetParts | default slice -}}
+{{- $sizesAttr := .sizesAttr | default "" -}}
+{{- $alt := .alt | default "" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $class := .class | default "" -}}
+{{- $width := .width -}}
+{{- $height := .height -}}
+{{- $extraAttrs := .extraAttrs | default dict -}}
+
+{{- /* Add wrapper class if image has inline class - wrap in picture for CSS targeting */ -}}
+{{- $pictureClass := "" -}}
+{{- if and $class (in $class "img-inline") -}}
+    {{- $pictureClass = "img-inline-wrapper" -}}
+{{- end -}}
+
+{{- if $pictureClass -}}
+<picture class="{{ $pictureClass }}">
+    <img{{ if $alt }} alt="{{ $alt }}"{{ end }}{{ if $class }} class="{{ $class }}"{{ end }} loading="{{ $loading }}"{{ if and $width $height }} width="{{ $width }}" height="{{ $height }}"{{ end }} src="{{ $img.RelPermalink }}"{{ if and $img.Width (gt (len $srcsetParts) 1) }} srcset="{{ delimit $srcsetParts ", " }}"{{ if $sizesAttr }} sizes="{{ $sizesAttr }}"{{ end }}{{ end }}{{ range $k, $v := $extraAttrs }} {{ $k | safeHTMLAttr }}="{{ $v }}"{{ end }} />
+</picture>
+{{- else -}}
+<img{{ if $alt }} alt="{{ $alt }}"{{ end }}{{ if $class }} class="{{ $class }}"{{ end }} loading="{{ $loading }}"{{ if and $width $height }} width="{{ $width }}" height="{{ $height }}"{{ end }} src="{{ $img.RelPermalink }}"{{ if and $img.Width (gt (len $srcsetParts) 1) }} srcset="{{ delimit $srcsetParts ", " }}"{{ if $sizesAttr }} sizes="{{ $sizesAttr }}"{{ end }}{{ end }}{{ range $k, $v := $extraAttrs }} {{ $k | safeHTMLAttr }}="{{ $v }}"{{ end }} />
+{{- end -}}
+

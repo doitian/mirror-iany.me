@@ -1,0 +1,38 @@
+{{- /*
+    Generates srcset and sizes attributes for responsive images.
+    Input: .img (resource)
+    Output: Returns dict with srcsetParts, sizesAttr
+*/ -}}
+{{- $img := .img -}}
+
+{{- $breakpoints := slice 400 800 1200 1600 2000 -}}
+{{- $srcsetParts := slice -}}
+{{- $sizesAttr := "" -}}
+
+{{- if and (ne $img.MediaType.SubType "svg") $img.Width -}}
+    {{- range $breakpoints -}}
+        {{- $bpWidth := . -}}
+        {{- if gt $img.Width $bpWidth -}}
+            {{- $resized := $img.Resize (print $bpWidth "x") -}}
+            {{- $srcsetParts = $srcsetParts | append (print $resized.RelPermalink " " $bpWidth "w") -}}
+        {{- end -}}
+    {{- end -}}
+    {{- $srcsetParts = $srcsetParts | append (print $img.RelPermalink " " $img.Width "w") -}}
+    {{- /* Compute sizes attribute once */ -}}
+    {{- if ge $img.Width 2000 -}}
+        {{- $sizesAttr = print "(max-width: 2000px) 100vw, " $img.Width "px" -}}
+    {{- else if ge $img.Width 1600 -}}
+        {{- $sizesAttr = print "(max-width: 1600px) 100vw, " $img.Width "px" -}}
+    {{- else if ge $img.Width 1200 -}}
+        {{- $sizesAttr = print "(max-width: 1200px) 100vw, " $img.Width "px" -}}
+    {{- else if ge $img.Width 800 -}}
+        {{- $sizesAttr = print "(max-width: 800px) 100vw, " $img.Width "px" -}}
+    {{- else if ge $img.Width 400 -}}
+        {{- $sizesAttr = print "(max-width: 400px) 100vw, " $img.Width "px" -}}
+    {{- else -}}
+        {{- $sizesAttr = print $img.Width "px" -}}
+    {{- end -}}
+{{- end -}}
+
+{{- return (dict "srcsetParts" $srcsetParts "sizesAttr" $sizesAttr) -}}
+

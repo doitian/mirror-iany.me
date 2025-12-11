@@ -8,60 +8,50 @@
 {{ end -}}
 {{ $loading := .Get "loading" | default "lazy" -}}
 <figure class="kg-image-card{{ with .Get "kg-width"}} kg-width-{{.}}{{ end }}">
+    {{ if or (in $src "://") (hasPrefix $src "/") -}}
     <img class="{{ delimit $classNames " " }}"
          alt="{{ .Get "alt" | default (.Get "caption") | default ($basename | title) }}"
          loading="{{ $loading }}"
-         {{ if or (in $src "://") (hasPrefix $src "/") -}}
-
-src="{{ $src }}"
-
-{{- else -}}
+         src="{{ $src }}"{{ range $k, $v := .Params -}}
+{{- if not (in $attrsBlacklist $k) }} {{$k}}="{{$v}}"{{ end -}}
+{{ end }} />
+    {{- else -}}
 
 {{- $srcParts := split $src "?" }}
 {{- $img := $.Page.Resources.GetMatch (index $srcParts 0) -}}
 {{- if not $img -}}{{ errorf "fail to find %s" (index $srcParts 0) }}{{- end -}}
-{{- with (index $srcParts 1) -}}
-    {{- range $pair := split . "&" -}}
-        {{- $kv := split . "=" -}}
-        {{- if eq (index $kv 0) "resize" }}{{ $img = $img.Resize (index $kv 1) }}{{ end -}}
-        {{- if eq (index $kv 0) "fit" }}{{ $img = $img.Fit (index $kv 1) }}{{ end -}}
-        {{- if eq (index $kv 0) "fill" }}{{ $img = $img.FIll (index $kv 1) }}{{ end -}}
+{{- $queryParams := index $srcParts 1 | default "" -}}
+
+{{- /* Process image */ -}}
+{{- $processed := partial "image-process.html" (dict "img" $img "queryParams" $queryParams) -}}
+{{- $img = $processed.img -}}
+
+{{- /* Generate srcset and sizes */ -}}
+{{- $srcsetData := partial "image-srcset.html" (dict "img" $img) -}}
+{{- $srcsetParts := $srcsetData.srcsetParts -}}
+{{- $sizesAttr := $srcsetData.sizesAttr -}}
+
+{{- /* Build extra attributes dict */ -}}
+{{- $extraAttrs := dict -}}
+{{- range $k, $v := .Params -}}
+    {{- if not (in $attrsBlacklist $k) -}}
+        {{- $extraAttrs = merge $extraAttrs (dict $k $v) -}}
     {{- end -}}
 {{- end -}}
 
-src="{{ $img.RelPermalink }}"
-
-{{- if ne $img.MediaType.SubType "svg" }}
-{{- $breakpoints := slice 400 800 1200 1600 2000 -}}
-{{- $srcsetParts := slice -}}
-{{- range $breakpoints -}}
-    {{- if gt $img.Width . -}}
-        {{- $resized := $img.Resize (print . "x") -}}
-        {{- $srcsetParts = $srcsetParts | append (print $resized.RelPermalink " " . "w") -}}
-    {{- end -}}
-{{- end -}}
-{{- $srcsetParts = $srcsetParts | append (print $img.RelPermalink " " $img.Width "w") -}}
-{{- if gt (len $srcsetParts) 1 -}}
-srcset="{{ delimit $srcsetParts ", " }}"
-{{- if ge $img.Width 2000 }}
-sizes="(max-width: 2000px) 100vw, {{ $img.Width }}px"
-{{- else if ge $img.Width 1600 }}
-sizes="(max-width: 1600px) 100vw, {{ $img.Width }}px"
-{{- else if ge $img.Width 1200 }}
-sizes="(max-width: 1200px) 100vw, {{ $img.Width }}px"
-{{- else if ge $img.Width 800 }}
-sizes="(max-width: 800px) 100vw, {{ $img.Width }}px"
-{{- else if ge $img.Width 400 }}
-sizes="(max-width: 400px) 100vw, {{ $img.Width }}px"
-{{- else }}
-sizes="{{ $img.Width }}px"
-{{- end }}
-{{- end }}
-{{- end }}
-
-{{- end }}{{ range $k, $v := .Params -}}
+{{- /* Render image with class */ -}}
+{{- if and (ne $img.MediaType.SubType "svg") $img.Width -}}
+    {{- partial "image-render.html" (dict "img" $img "srcsetParts" $srcsetParts "sizesAttr" $sizesAttr "alt" (.Get "alt" | default (.Get "caption") | default ($basename | title)) "loading" $loading "class" (delimit $classNames " ") "extraAttrs" $extraAttrs) -}}
+{{- else -}}
+    <img class="{{ delimit $classNames " " }}"
+         alt="{{ .Get "alt" | default (.Get "caption") | default ($basename | title) }}"
+         loading="{{ $loading }}"
+         src="{{ $img.RelPermalink }}"{{ range $k, $v := .Params -}}
 {{- if not (in $attrsBlacklist $k) }} {{$k}}="{{$v}}"{{ end -}}
 {{ end }} />
+{{- end }}
+
+{{- end }}
     {{- with .Get "caption" }}
     <figcaption >{{ . | markdownify }}</figcaption>
     {{- end }}

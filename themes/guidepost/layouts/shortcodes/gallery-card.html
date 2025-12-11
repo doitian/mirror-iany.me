@@ -27,90 +27,38 @@
             {{ $basename := path.Base (index $srcParts 0) -}}
             {{ $basename = substr $basename 0 (sub (len $basename) (len (path.Ext $basename))) -}}
             <div class="kg-gallery-image">
+                {{- if or (in $src "://") (hasPrefix $src "/") -}}
                 <img alt="{{ index $tooltipSplits 1 | default ($basename | title) }}" {{ with (index $tooltipSplits 1) -}}
-                 class="tippy" data-tippy-content="{{.}}" {{ end }}{{ if or (in $src "://") (hasPrefix $src "/") -}}
-
-                 src="{{ $src }}"
-
-                 {{- else -}}
+                 class="tippy" data-tippy-content="{{.}}" {{ else -}}
+                 class="tippy" data-tippy-content="{{ $basename | title }}" {{ end }}src="{{ $src }}" />
+                {{- else -}}
 
                  {{- $img := $.Page.Resources.GetMatch (index $srcParts 0) -}}
-                 {{- with (index $srcParts 1) -}}
-                 {{- range $pair := split . "&" -}}
-                 {{- $kv := split . "=" -}}
-                 {{- if eq (index $kv 0) "resize" }}{{ $img = $img.Resize (index $kv 1) }}{{ end -}}
-                 {{- if eq (index $kv 0) "fit" }}{{ $img = $img.Fit (index $kv 1) }}{{ end -}}
-                 {{- if eq (index $kv 0) "fill" }}{{ $img = $img.FIll (index $kv 1) }}{{ end -}}
+                 {{- $queryParams := index $srcParts 1 | default "" -}}
+
+                 {{- /* Process image */ -}}
+                 {{- $processed := partial "image-process.html" (dict "img" $img "queryParams" $queryParams) -}}
+                 {{- $img = $processed.img -}}
+
+                 {{- /* Generate srcset and sizes */ -}}
+                 {{- $srcsetData := partial "image-srcset.html" (dict "img" $img) -}}
+                 {{- $srcsetParts := $srcsetData.srcsetParts -}}
+                 {{- $sizesAttr := $srcsetData.sizesAttr -}}
+
+                 {{- /* Build extra attributes dict with tooltip */ -}}
+                 {{- $extraAttrs := dict -}}
+                 {{- $tooltipClass := "tippy" -}}
+                 {{- $tooltipText := index $tooltipSplits 1 | default ($basename | title) -}}
+                 {{- $extraAttrs = merge $extraAttrs (dict "data-tippy-content" $tooltipText) -}}
+
+                 {{- /* Render image with width/height */ -}}
+                 {{- if and (ne $img.MediaType.SubType "svg") $img.Width -}}
+                     {{- partial "image-render.html" (dict "img" $img "srcsetParts" $srcsetParts "sizesAttr" $sizesAttr "alt" (index $tooltipSplits 1 | default ($basename | title)) "class" $tooltipClass "width" $img.Width "height" $img.Height "extraAttrs" $extraAttrs) -}}
+                 {{- else -}}
+                     <img alt="{{ index $tooltipSplits 1 | default ($basename | title) }}" class="tippy" data-tippy-content="{{ $tooltipText }}" src="{{ $img.RelPermalink }}" />
                  {{- end -}}
+
                  {{- end -}}
-
-                 src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}"
-
-                 {{- if ge $img.Width 2400 }}
-                 sizes="(max-width: 2400px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 2396 }}
-                 sizes="(max-width: 2396px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 2283 }}
-                 sizes="(max-width: 2283px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 2157 }}
-                 sizes="(max-width: 2157px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 2098 }}
-                 sizes="(max-width: 2098px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 1944 }}
-                 sizes="(max-width: 1944px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 1789 }}
-                 sizes="(max-width: 1789px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 1634 }}
-                 sizes="(max-width: 1634px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 1481 }}
-                 sizes="(max-width: 1481px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 1320 }}
-                 sizes="(max-width: 1320px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 1148 }}
-                 sizes="(max-width: 1148px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 1016 }}
-                 sizes="(max-width: 1016px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 819 }}
-                 sizes="(max-width: 819px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 552 }}
-                 sizes="(max-width: 552px) 100vw, {{ $img.Width }}px"
-                 {{- else if ge $img.Width 200 }}
-                 sizes="(max-width: 200px) 100vw, {{ $img.Width }}px"
-                 {{- end }}
-                 srcset="
-                 {{- if gt $img.Width 200 }}{{- $thumb := $img.Resize "200x" -}}
-                 {{ $thumb.RelPermalink }} 200w, {{ end -}}
-                 {{- if gt $img.Width 552 }}{{- $thumb := $img.Resize "552x" -}}
-                 {{ $thumb.RelPermalink }} 552w, {{ end -}}
-                 {{- if gt $img.Width 819 }}{{- $thumb := $img.Resize "819x" -}}
-                 {{ $thumb.RelPermalink }} 819w, {{ end -}}
-                 {{- if gt $img.Width 1016 }}{{- $thumb := $img.Resize "1016x" -}}
-                 {{ $thumb.RelPermalink }} 1016w, {{ end -}}
-                 {{- if gt $img.Width 1148 }}{{- $thumb := $img.Resize "1148x" -}}
-                 {{ $thumb.RelPermalink }} 1148w, {{ end -}}
-                 {{- if gt $img.Width 1320 }}{{- $thumb := $img.Resize "1320x" -}}
-                 {{ $thumb.RelPermalink }} 1320w, {{ end -}}
-                 {{- if gt $img.Width 1481 }}{{- $thumb := $img.Resize "1481x" -}}
-                 {{ $thumb.RelPermalink }} 1481w, {{ end -}}
-                 {{- if gt $img.Width 1634 }}{{- $thumb := $img.Resize "1634x" -}}
-                 {{ $thumb.RelPermalink }} 1634w, {{ end -}}
-                 {{- if gt $img.Width 1789 }}{{- $thumb := $img.Resize "1789x" -}}
-                 {{ $thumb.RelPermalink }} 1789w, {{ end -}}
-                 {{- if gt $img.Width 1944 }}{{- $thumb := $img.Resize "1944x" -}}
-                 {{ $thumb.RelPermalink }} 1944w, {{ end -}}
-                 {{- if gt $img.Width 2098 }}{{- $thumb := $img.Resize "2098x" -}}
-                 {{ $thumb.RelPermalink }} 2098w, {{ end -}}
-                 {{- if gt $img.Width 2157 }}{{- $thumb := $img.Resize "2157x" -}}
-                 {{ $thumb.RelPermalink }} 2157w, {{ end -}}
-                 {{- if gt $img.Width 2283 }}{{- $thumb := $img.Resize "2283x" -}}
-                 {{ $thumb.RelPermalink }} 2283w, {{ end -}}
-                 {{- if gt $img.Width 2396 }}{{- $thumb := $img.Resize "2396x" -}}
-                 {{ $thumb.RelPermalink }} 2396w, {{ end -}}
-                 {{- if gt $img.Width 2400 }}{{- $thumb := $img.Resize "2400x" -}}
-                 {{ $thumb.RelPermalink }} 2400w, {{ end -}}
-                 {{ $img.RelPermalink }} {{ $img.Width }}w"
-
-                 {{- end -}} />
             </div>
             {{ end -}}
             {{ end }}
