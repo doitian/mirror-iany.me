@@ -22,6 +22,57 @@
                         {{ end -}}
                     </div>
                 </div>
+                {{- with .Params.banner -}}
+                    {{- $banner := $.Resources.GetMatch . -}}
+                    {{- $bannerY := $.Params.banner_y | default 0 -}}
+
+                    {{- /* Define responsive breakpoints with optimized heights for better bandwidth usage */ -}}
+                    {{- $breakpoints := slice
+                        (dict "width" 1200 "height_1x" 150 "height_2x" 300)
+                        (dict "width" 992 "height_1x" 125 "height_2x" 250)
+                        (dict "width" 768 "height_1x" 110 "height_2x" 220)
+                        (dict "width" 600 "height_1x" 90 "height_2x" 180)
+                    -}}
+
+                    {{- /* Process banner with banner_y positioning if specified */ -}}
+                    {{- if gt $bannerY 0 -}}
+                        {{- $cropHeight := math.Round (add 150 (sub $banner.Height (mul $bannerY $banner.Height))) -}}
+                        {{- $banner = $banner.Crop (print "2400x" $cropHeight " Bottom") -}}
+                        {{- $banner = $banner.Crop "2400x300 Top" -}}
+                    {{- else -}}
+                        {{- $banner = $banner.Crop "2400x300 Center" -}}
+                    {{- end -}}
+
+                    {{- /* Generate base/default images (for 1200px+ screens) */ -}}
+                    {{- $base1x := $banner.Resize "x150" -}}
+                    {{- $base2x := $banner -}}
+
+                    {{- /* Build srcset for responsive images */ -}}
+                    {{- $srcsetParts := slice -}}
+                    {{- range $breakpoints -}}
+                        {{- $bpWidth := .width -}}
+                        {{- $bpHeight1x := .height_1x -}}
+                        {{- $bpHeight2x := .height_2x -}}
+                        {{- $img2xWidth := mul $bpWidth 2 -}}
+                        {{- if and (ge $banner.Width $img2xWidth) (ge $banner.Height $bpHeight2x) -}}
+                            {{- $img2x := $banner.Crop (print $img2xWidth "x" $bpHeight2x " Center") -}}
+                            {{- $img1x := $img2x.Resize (print $bpWidth "x" $bpHeight1x) -}}
+                            {{- $srcsetParts = $srcsetParts | append (print $img1x.RelPermalink " " $bpWidth "w") -}}
+                            {{- $srcsetParts = $srcsetParts | append (print $img2x.RelPermalink " " (mul $bpWidth 2) "w") -}}
+                        {{- end -}}
+                    {{- end -}}
+                    {{- $srcsetParts = $srcsetParts | append (print $base1x.RelPermalink " 1200w") -}}
+                    {{- $srcsetParts = $srcsetParts | append (print $base2x.RelPermalink " 2400w") -}}
+
+                    <img
+                        alt=""
+                        role="presentation"
+                        src="{{ $base1x.RelPermalink }}"
+                        srcset="{{ delimit $srcsetParts ", " }}"
+                        sizes="(max-width: 600px) 600px, (max-width: 768px) 768px, (max-width: 992px) 992px, (max-width: 1200px) 1200px, 2400px"
+                        loading="eager"
+                    />
+                {{- end -}}
             </section>
 
             {{- block "main" . }}{{ end -}}

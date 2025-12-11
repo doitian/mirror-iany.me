@@ -55,52 +55,7 @@
     <meta name="theme-color" content="#ffffff">
 
     {{/* Stylesheets */}}
-    <link rel="stylesheet" href="{{ "css/styles.min-32b9b3ee1211769c06c5d3e9fa29326d.css" | relURL }}">
-    {{ with .Params.banner }}
-    <style>
-        {{- $banner := $.Resources.GetMatch . -}}
-        {{- with $.Params.banner_y }}
-            {{- if gt . 0 }}
-                {{- $banner = $banner.Crop (print "2400x" (math.Round (add 150 (sub $banner.Height (mul . $banner.Height)))) " Bottom") -}}
-            {{- end }}
-            {{- $banner = $banner.Crop "2400x300 Top" -}}
-        {{- else }}
-            {{- $banner = $banner.Crop "2400x300 Center" -}}
-        {{- end }}
-        {{- $banner1x := $banner.Resize "x150" -}}
-
-        .responsive-title-img {
-            background-image: url({{ $banner.RelPermalink }});
-            background-image: -webkit-image-set(
-                url({{ $banner1x.RelPermalink }}) 1x,
-                url({{ $banner.RelPermalink }}) 2x
-            );
-            background-image: image-set(
-                url({{ $banner1x.RelPermalink }}) 1x,
-                url({{ $banner.RelPermalink }}) 2x
-            );
-        }
-        {{- range (slice 1200 992 768 600) }}
-            {{- if gt $banner.Width (mul . 2) }}
-            {{- $img2x := $banner.Crop (print (mul . 2) "x300 Center") }}
-            {{- $img1x := $img2x.Resize (print . "x150") }}
-        @media(max-width: {{ . }}px) {
-            .responsive-title-img {
-                background-image: url({{ $img2x.RelPermalink }});
-                background-image: -webkit-image-set(
-                    url({{ $img1x.RelPermalink }}) 1x,
-                    url({{ $img2x.RelPermalink }}) 2x
-                );
-                background-image: image-set(
-                    url({{ $img1x.RelPermalink }}) 1x,
-                    url({{ $img2x.RelPermalink }}) 2x
-                );
-            }
-        }
-            {{- end }}
-        {{- end }}
-    </style>
-    {{ end -}}
+    <link rel="stylesheet" href="{{ "css/styles.min-15002e38e8db368721b16a3c29823972.css" | relURL }}">
     {{ if eq .Params.katex true -}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.css" integrity="sha384-WcoG4HRXMzYzfCgiyfrySxx90XSl2rxY5mnVY5TwtWE6KLrArNKn0T/mOgNL0Mmi" crossorigin="anonymous">
     {{ end -}}
