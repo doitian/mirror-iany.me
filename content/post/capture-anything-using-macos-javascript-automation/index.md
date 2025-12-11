@@ -1,10 +1,8 @@
 ---
 comment: true
-date: '2017-03-19T17:54:08+08:00'
+date: 2017-03-19 17:54:08+08:00
 description: Share scripts to capture anything using macOS Javascript automation
 katex: false
-series:
-- macOS Automation
 share: true
 tags:
 - automation
