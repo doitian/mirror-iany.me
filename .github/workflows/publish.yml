@@ -55,7 +55,3 @@ jobs:
             --checksum \
             --no-traverse \
             --verbose
-
-      - name: Ping Google Search Console
-        run: |
-          curl 'https://www.google.com/ping?sitemap=https://blog.iany.me/sitemap.xml'
