@@ -26,15 +26,15 @@ I also did several years web development for POS and payments system, as well as
 
 - Email: [GPG](https://u.iany.me/gpg)
 - GitHub: [doitian][github]
-- Twitter: [@doitian][twitter]
+- X: [@doitian][twitter]
 - Readwise: [doitian][readwise]
 - Vimeo: [doitian][vimeo]
 - LinkedIn: [Ian Yang][linkedin]
 
 I intentionally removed the comment system from the site. Please contact me directly if you want to discuss with me, or join this [Discord Server](https://discord.gg/zJsgYE4).
 
-[readwise]:	https://www.notion.so/doitian/Readwise-56c2132435bd444bab6f9c65d639e337
-[twitter]:	https://twitter.com/doitian
+[readwise]:	https://doitian.notion.site/Readwise-ebffe8dd1dcf4349b77d6ddf23a3f8e2
+[twitter]:	https://x.com/doitian
 [vimeo]:	https://vimeo.com/doitian
 [github]:	https://github.com/doitian
 [linkedin]:	https://www.linkedin.com/in/ianyang
