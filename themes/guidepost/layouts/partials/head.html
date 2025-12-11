@@ -32,6 +32,10 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType .Permalink $title | safeHTML }}
     {{ end }}
 
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://cse.google.com">
+    <link rel="preload" href="{{ "css/styles.min-15002e38e8db368721b16a3c29823972.css" | relURL }}" as="style">
+
     {{/* Rich Meta */}}
     {{ with .Site.Params.Author.name -}}
     <meta name="author" content="{{ . }}">
@@ -57,7 +61,8 @@
     {{/* Stylesheets */}}
     <link rel="stylesheet" href="{{ "css/styles.min-15002e38e8db368721b16a3c29823972.css" | relURL }}">
     {{ if eq .Params.katex true -}}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.css" integrity="sha384-WcoG4HRXMzYzfCgiyfrySxx90XSl2rxY5mnVY5TwtWE6KLrArNKn0T/mOgNL0Mmi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.css" integrity="sha384-WcoG4HRXMzYzfCgiyfrySxx90XSl2rxY5mnVY5TwtWE6KLrArNKn0T/mOgNL0Mmi" crossorigin="anonymous" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.css" integrity="sha384-WcoG4HRXMzYzfCgiyfrySxx90XSl2rxY5mnVY5TwtWE6KLrArNKn0T/mOgNL0Mmi" crossorigin="anonymous"></noscript>
     {{ end -}}
 
 </head>

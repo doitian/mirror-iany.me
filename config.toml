@@ -45,6 +45,11 @@ weight = 10
 date = [":default", ":git", ":fileModTime"]
 publishDate = [":default", ":git", ":fileModTime"]
 
+[imaging]
+resampleFilter = "box"
+quality = 75
+anchor = "smart"
+
 [params]
 gcse = '006252023667590608831:yopsgewhz5y'
 mainSections = ["post", "game"]
