@@ -3,7 +3,6 @@ date: 2025-12-13
 description: My weekly review report.
 obsidianFiles:
 - robot/Readwise Library/Articles/Pieter Hintjens - Social Architecture (Highlights)
-- robot/Readwise Library/Articles/Lorenzo Maturano - Async Payments on the Lightning Network (Highlights)
 - robot/Readwise Library/Articles/Scott Young - 5 Strategies to Learn Better With AI (Highlights)
 - robot/Readwise Library/Articles/Armin Ronacher - Agent Design Is Still Hard (Highlights)
 - robot/Readwise Library/Articles/Kyle Mistele - Writing a good CLAUDE.md (Highlights)
@@ -54,7 +53,6 @@ I published a blog post about backing up ignored files using Git remote branches
 ## Obsidian Links
 
 - [Pieter Hintjens - Social Architecture (Highlights)](https://kb.iany.me/robot/Readwise+Library/Articles/Pieter+Hintjens+-+Social+Architecture+%28Highlights%29)
-- [Lorenzo Maturano - Async Payments on the Lightning Network (Highlights)](https://kb.iany.me/robot/Readwise+Library/Articles/Lorenzo+Maturano+-+Async+Payments+on+the+Lightning+Network+%28Highlights%29)
 - [Scott Young - 5 Strategies to Learn Better With AI (Highlights)](https://kb.iany.me/robot/Readwise+Library/Articles/Scott+Young+-+5+Strategies+to+Learn+Better+With+AI+%28Highlights%29)
 - [Armin Ronacher - Agent Design Is Still Hard (Highlights)](https://kb.iany.me/robot/Readwise+Library/Articles/Armin+Ronacher+-+Agent+Design+Is+Still+Hard+%28Highlights%29)
 - [Kyle Mistele - Writing a good CLAUDE.md (Highlights)](https://kb.iany.me/robot/Readwise+Library/Articles/Kyle+Mistele+-+Writing+a+good+CLAUDE.md+%28Highlights%29)
