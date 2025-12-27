@@ -4,9 +4,11 @@
         <i aria-hidden="true" class="kg-callout-type {{ .Get "icon" }}"></i>
         {{ .Get "title" | markdownify }}
     </summary>
+{{ with .Inner | strings.TrimSpace }}
     <div class="kg-callout-content">
 
-{{ .Inner | markdownify }}
+{{ . | markdownify }}
 
     </div>
+{{ end }}
 </details>
