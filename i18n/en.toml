@@ -49,6 +49,9 @@ other = "IME"
 ["title.Macos"]
 other = "macOS"
 
+["title.Powershell"]
+other = "PowerShell"
+
 ["title.lang/en"]
 other = "English"
 
