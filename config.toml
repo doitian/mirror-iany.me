@@ -53,6 +53,8 @@ anchor = "smart"
 [params]
 gcse = '006252023667590608831:yopsgewhz5y'
 mainSections = ["post", "game"]
+# URL prefix for "view source" link (post markdown in GitHub).
+sourceLinkPrefix = "https://github.com/doitian/mirror-iany.me/blob/master/content/"
 # disqusBaseURL = "https://blog.iany.me/"
 
 [params.listing]
