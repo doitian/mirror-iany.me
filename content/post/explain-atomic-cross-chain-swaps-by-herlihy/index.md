@@ -59,6 +59,7 @@ A = \{ \\
 ```
 
 {{< image-card src="atomic-swap-complex-connected-graph.excalidraw.svg" >}}
+
 ### Leaders Selection
 
 The protocol must select a Feedback Vertex Set of the directed graph as leaders. A feedback vertex set is a subset of `$V$` that once removed from the graph, there will be no loops in the graph. For example, `$(B, D)$` is a feedback vertex set of the example above. When there are multiple candidates, choose an arbitrary set.
@@ -105,6 +106,7 @@ Let's see two examples.
 The first example is the payment from a leader: `$(B, C)$`.
 
 {{< image-card src="atomic-swap-complex-connected-graph-b-c-contract.excalidraw.svg" >}}
+
 There are three candidate path `$p$` from the payee `$C$` to a leader either `$B$` or `$D$`:
 
 1. `$(C, A, B)$`
@@ -120,6 +122,7 @@ There are three candidate path `$p$` from the payee `$C$` to a leader either `$B
 The second example is the payment from a follower: `$(C, A)$`.
 
 {{< image-card src="atomic-swap-complex-connected-graph-c-a-contract.excalidraw.svg" >}}
+
 `$C$` can choose the path `$(A, B)$` and publish the contract:
 
 - The hash lock is `$H(s_B)$`.
