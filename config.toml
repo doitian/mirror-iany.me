@@ -1,6 +1,6 @@
 baseURL = "https://blog.iany.me/"
-languageCode = "en-US"
-languageName = "English"
+locale = "en-US"
+label = "English"
 defaultContentLanguage = "en"
 hasCJKLanguage = false
 theme = "guidepost"
@@ -76,9 +76,9 @@ raindrop = "doitian"
 [languages]
 [languages.en]
 title = "~iany/"
-languageCode = "en-US"
+locale = "en-US"
 hasCJKLanguage = false
-languageName = "English"
+label = "English"
 weight = 10
 # disqusUsername = "ianyblog"
 
@@ -112,9 +112,9 @@ title = "Email"
 
 [languages.zh]
 title = "~iany/"
-languageCode = "zh-CN"
+locale = "zh-CN"
 hasCJKLanguage = true
-languageName = "中文"
+label = "中文"
 weight = 20
 # disqusUsername = "ianyblogcn"
 

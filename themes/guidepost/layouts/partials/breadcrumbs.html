@@ -51,7 +51,7 @@
       {{ end -}}
       {{ if .IsTranslated }}
       {{ range .Translations }}
-      <li class="social-link tippy" data-tippy-content="{{ T (print "translatedTo." .Lang) | default .Language.LanguageName | default .Language }}">
+      <li class="social-link tippy" data-tippy-content="{{ T (print "translatedTo." .Lang) | default .Language.Label | default .Language }}">
           <a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">
               {{ T (print "langCode." .Lang) | default (.Lang | title) }}
           </a>
@@ -64,7 +64,7 @@
   <ul class="social-links">
       {{ if $.IsTranslated }}
       {{ range $.Translations }}
-      <li class="social-link tippy" data-tippy-content="{{ T (print "translatedTo." .Lang) | default .Language.LanguageName | default .Language }}">
+      <li class="social-link tippy" data-tippy-content="{{ T (print "translatedTo." .Lang) | default .Language.Label | default .Language }}">
           <a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">
               {{ T (print "langCode." .Lang) | default (.Lang | title) }}
           </a>

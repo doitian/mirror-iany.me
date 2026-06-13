@@ -3,17 +3,17 @@
         <div class="read-next-feed">
             <article {{ with $.File }}id="related-articles-of-{{ .UniqueID }}" {{ end }}class="tag-card">
                 <div class="tag-card-inner">
-                    {{ if site.Data.backlinks }}
+                    {{ if hugo.Data.backlinks }}
                         {{ $path := .File.Path }}
                         {{ $path = replace $path "\\" "/" }}
-                        {{ $links := index site.Data.backlinks $path }}
+                        {{ $links := index hugo.Data.backlinks $path }}
                         {{ if $links }}
                     <h3 class="tag-card-title">{{ T "linkedMentions" }}</h3>
 
                     <div class="tag-card-content">
                         <ul>
                             {{ range $links }}
-                                {{ $site := index (where $.Sites "Language.Lang" .lang) 0 }}
+                                {{ $site := index (where hugo.Sites "Language.Lang" .lang) 0 }}
                                 {{ $page := $site.GetPage .path }}
                                 {{ with $page }}
                             <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>

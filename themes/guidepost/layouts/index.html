@@ -39,10 +39,10 @@
     <div class="container">
         <ul class="languages-list">
             <li><i class="fas fa-globe"></i></li>
-            {{ range .Sites }}
+            {{ range hugo.Sites }}
             <li{{ if eq .Language.Lang $.Lang }} class="nav-current"{{ end }}>
                 <a rel="alternate" href="{{ .Home.RelPermalink }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}">
-                    {{ .Language.LanguageName | default .Language.Lang }}
+                    {{ .Language.Label | default .Language.Lang }}
                 </a>
             </li>
             {{ end }}

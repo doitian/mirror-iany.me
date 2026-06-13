@@ -3,7 +3,7 @@
   <channel>
     <title>{{ .Title }}</title>
     <link>{{ .Permalink }}</link>
-    <description>{{ T "recentContentIn" .Title }}</description>{{ with .Site.LanguageCode }}
+    <description>{{ T "recentContentIn" .Title }}</description>{{ with .Site.Language.Locale }}
     <language>{{.}}</language>{{end}}{{ with .Site.Params.Author.email }}
     <managingEditor>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Params.Author.email }}
     <webMaster>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
