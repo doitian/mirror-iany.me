@@ -9,6 +9,10 @@
     {
       "path": "journal/what-i-touched-this-week-2026-08-01/index.md",
       "lang": "en"
+    },
+    {
+      "path": "post/my-ai-assisted-development-workflow/index.md",
+      "lang": "en"
     }
   ],
   "post/backup-ignored-files-with-git-remote-branch/index.md": [
