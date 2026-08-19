@@ -1,7 +1,14 @@
 <span class="lastmod-time">
+    {{ if .showPublished }}
+    {{ T "published" }}
+    <time class="post-full-meta-date" datetime="{{ .Page.Date.Format "2006-01-02" }}">
+        {{ .Page.Date.Format (T "dateFormat") }}
+    </time>
+    &nbsp;&bull;&nbsp;
+    {{ end }}
     {{ with .Page.Lastmod | default now }}
     {{ T "updated" }}
-    <time class="post-full-meta-date">
+    <time class="post-full-meta-date" datetime="{{ .Format "2006-01-02" }}">
         {{ .Format (T "dateFormat") }}
     </time>
     {{ end }}

@@ -43,6 +43,21 @@ other = "总共有 {{ .Count }} 个标签"
 [updated]
 other = "更新于"
 
+[published]
+other = "发布于"
+
+[availableIn]
+other = "其他语言"
+
+[tableOfContents]
+other = "目录"
+
+[openInObsidian]
+other = "在 Obsidian 中打开"
+
+[partOfSeries]
+other = "{{ .Series }}系列第 {{ .Position }}/{{ .Count }} 篇"
+
 [minRead]
 other = "分钟读完"
 

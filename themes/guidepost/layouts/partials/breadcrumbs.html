@@ -33,8 +33,8 @@
           </a>
       </li>
       {{ end }}
-      <li class="social-link tippy" id="edit-button" style="display: none" data-tippy-content="Edit">
-          <a href="obsidian://open?vault=Brain&file=%C2%A7%20{{ $title }}" aria-label="{{ T "shareViaEmail" }}">
+      <li class="social-link tippy" id="edit-button" style="display: none" data-tippy-content="{{ T "openInObsidian" }}">
+          <a href="obsidian://open?vault=Brain&file=%C2%A7%20{{ $title }}" aria-label="{{ T "openInObsidian" }}">
               <i aria-hidden="true" class="fas fa-edit"></i>
           </a>
       </li>
@@ -44,9 +44,9 @@
           </a>
       </li>
       <li class="social-link tippy" data-tippy-content="{{ T "printThisPage" }}">
-          <a href="javascript:;" class="print-page" aria-label="{{ T "printThisPage" }}">
+          <button type="button" class="print-page" aria-label="{{ T "printThisPage" }}">
               <i aria-hidden="true" class="fas fa-print"></i>
-          </a>
+          </button>
       </li>
       {{ end -}}
       {{ if .IsTranslated }}

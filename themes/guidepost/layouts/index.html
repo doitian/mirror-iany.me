@@ -19,7 +19,16 @@
                 <div class="tag-card-content">
                     <ul>
                         {{ range first $amount .Pages -}}
-                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                        <li class="home-list-item">
+                            <a href="{{ .RelPermalink }}">
+                                <span class="home-list-title">{{ .Title }}</span>
+                                <span class="home-list-meta">
+                                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (T "dateFormat") }}</time>
+                                    {{ with .Params.tags }}<span aria-hidden="true">&bull;</span> {{ index . 0 }}{{ end }}
+                                </span>
+                                {{ with .Description }}<span class="home-list-description">{{ . | plainify | truncate 130 }}</span>{{ end }}
+                            </a>
+                        </li>
                         {{ end -}}
                     </ul>
                 </div>

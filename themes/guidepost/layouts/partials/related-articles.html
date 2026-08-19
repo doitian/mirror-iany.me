@@ -31,12 +31,14 @@
                     {{ with $related }}
                     <h3 class="tag-card-title">{{ T "relatedArticles" }}</h3>
 
-                    <div class="tag-card-content">
-                        <ul>
-                            {{ range . }}
-                            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                            {{ end }}
-                        </ul>
+                    <div class="related-article-grid">
+                        {{ range . }}
+                        <a class="related-article-card" href="{{ .RelPermalink }}">
+                            <strong>{{ .Title }}</strong>
+                            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (T "dateFormat") }}</time>
+                            {{ with .Description }}<span>{{ . | plainify | truncate 120 }}</span>{{ end }}
+                        </a>
+                        {{ end }}
                     </div>
                     {{ end }}
                 </div>

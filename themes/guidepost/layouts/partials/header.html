@@ -1,6 +1,6 @@
 <header class="site-header">
     <nav class="site-nav container">
-        <a href="{{ "/" | relLangURL }}" class="site-logo">
+        <a href="{{ "/" | relLangURL }}" class="site-logo" aria-label="{{ .Site.Title }} — {{ T "home" }}">
             {{ with $.Site.Params.logo -}}
             <img src="{{ . }}" alt="{{ $.Site.Title }}" />
             {{ else -}}
@@ -9,7 +9,7 @@
             {{ end -}}
             {{ end -}}
         </a>
-        <span class="nav-toggle" aria-describedby="site-main-menu">{{ T "menu" }} <i class="fas fa-chevron-down"></i></span>
+        <button type="button" class="nav-toggle" aria-controls="site-main-menu" aria-expanded="false">{{ T "menu" }} <i aria-hidden="true" class="fas fa-chevron-down"></i></button>
         {{- partial "navigation.html" . -}}
     </nav>
 </header>

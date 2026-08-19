@@ -1,8 +1,21 @@
-<ul id="site-main-menu" class="nav" role="menu">
+<ul id="site-main-menu" class="nav">
     {{ $currentPage := . -}}
     {{ range .Site.Menus.main -}}
-    <li class="{{ if $currentPage.HasMenuCurrent "main" . }} nav-current{{ end }}" role="menuitem">
+    <li class="{{ if $currentPage.HasMenuCurrent "main" . }} nav-current{{ end }}">
         <a href="{{ .URL }}">{{ .Name }}</a>
     </li>
+    {{ end -}}
+    {{ if hugo.IsMultilingual -}}
+        {{ if .IsTranslated -}}
+            {{ range .Translations -}}
+    <li class="nav-language"><a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.Label | default (.Lang | upper) }}</a></li>
+            {{ end -}}
+        {{ else -}}
+            {{ range hugo.Sites -}}
+                {{ if ne .Language.Lang $currentPage.Lang -}}
+    <li class="nav-language"><a rel="alternate" href="{{ .Home.RelPermalink }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}">{{ .Language.Label | default (.Language.Lang | upper) }}</a></li>
+                {{ end -}}
+            {{ end -}}
+        {{ end -}}
     {{ end -}}
 </ul>

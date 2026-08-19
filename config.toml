@@ -58,8 +58,8 @@ sourceLinkPrefix = "https://github.com/doitian/mirror-iany.me/blob/master/conten
 # disqusBaseURL = "https://blog.iany.me/"
 
 [params.listing]
-post = 12
-journal = 3
+post = 7
+journal = 4
 
 [params.Author]
 name = "Ian Yang"
@@ -83,18 +83,32 @@ weight = 10
 # disqusUsername = "ianyblog"
 
 [[languages.en.menu.main]]
+identifier = "posts"
+name = "Posts"
+title = "Posts"
+url = "/post/"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "journals"
+name = "Journals"
+title = "Journals"
+url = "/journal/"
+weight = 2
+
+[[languages.en.menu.main]]
 identifier = "series"
 name = "Series"
 title = "Articles in Series"
 url = "/series/"
-weight = 2
+weight = 3
 
 [[languages.en.menu.main]]
 identifier = "tags"
 name = "Tags"
 title = "Tags"
 url = "/tags/"
-weight = 3
+weight = 4
 
 [[languages.en.menu.social]]
 identifier = "about"
@@ -119,18 +133,32 @@ weight = 20
 # disqusUsername = "ianyblogcn"
 
 [[languages.zh.menu.main]]
+identifier = "posts"
+name = "文章"
+title = "文章"
+url = "/zh/post/"
+weight = 1
+
+[[languages.zh.menu.main]]
+identifier = "journals"
+name = "周记"
+title = "周记"
+url = "/zh/journal/"
+weight = 2
+
+[[languages.zh.menu.main]]
 identifier = "series"
 name = "系列"
 title = "系列文章"
 url = "/zh/series/"
-weight = 2
+weight = 3
 
 [[languages.zh.menu.main]]
 identifier = "tags"
 name = "标签"
 title = "标签"
 url = "/zh/tags/"
-weight = 3
+weight = 4
 
 [[languages.zh.menu.social]]
 identifier = "about"

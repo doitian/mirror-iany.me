@@ -47,6 +47,21 @@ other = "A collection of {{ .Count }} tags"
 [updated]
 other = "Updated"
 
+[published]
+other = "Published"
+
+[availableIn]
+other = "Also available in"
+
+[tableOfContents]
+other = "Table of Contents"
+
+[openInObsidian]
+other = "Open in Obsidian"
+
+[partOfSeries]
+other = "Part {{ .Position }} of {{ .Count }} in {{ .Series }}"
+
 [wordCount]
 other = "{{ .Count }} words"
 
