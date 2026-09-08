@@ -1,5 +1,5 @@
 ---
-date: 2026-09-08T21:00:00+0800
+date: 2026-09-08T09:00:00+0800
 description: One binary forwards mako and Windows toasts to Pushover. Linux needs one hook line; Windows needs a signed sparse-identity MSIX.
 draft: false
 obsidianAliases:
