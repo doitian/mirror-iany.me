@@ -215,6 +215,12 @@
       "lang": "en"
     }
   ],
+  "post/resolve-the-annoying-shift-space-shortcut-in-windows-chinese-input-methods/index.zh.md": [
+    {
+      "path": "post/trigger-windows-ime-voice-input-from-an-english-keyboard-layout/index.md",
+      "lang": "zh"
+    }
+  ],
   "post/resource-bundle-in-intellij-tornadofx-gradle-project/index.md": [
     {
       "path": "journal/what-i-touched-this-week-2017-06-03/index.md",
