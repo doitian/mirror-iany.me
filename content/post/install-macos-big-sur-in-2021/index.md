@@ -1,6 +1,6 @@
 ---
 banner: big-sur.jpg
-banner_y: 0.4463
+bannerPosition: 44
 date: 2021-02-06T20:06:11+0800
 feature: big-sur.jpg
 tags:
