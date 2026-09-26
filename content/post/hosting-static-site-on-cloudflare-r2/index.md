@@ -1,6 +1,5 @@
 ---
 allowFullDomainLink: true
-created: '[[2025-10-22]]'
 date: 2025-10-22T18:46:38+0800
 draft: false
 obsidianAliases:
@@ -8,8 +7,6 @@ obsidianAliases:
 tags:
 - ci
 - automation
-- x
-- zettel/permanent
 title: Hosting Static Site on Cloudflare R2
 ---
 

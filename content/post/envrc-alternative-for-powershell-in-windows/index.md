@@ -1,5 +1,4 @@
 ---
-created: '[[2024-04-06]]'
 date: 2024-04-06T08:55:34+0800
 draft: false
 obsidianAliases:
@@ -8,8 +7,6 @@ tags:
 - environment-variables
 - powershell
 - windows
-- x
-- zettel/permanent
 title: Envrc Alternative for PowerShell in Windows
 ---
 

@@ -1,5 +1,4 @@
 ---
-created: '[[2026-01-10]]'
 date: 2026-01-10
 description: My weekly review report.
 obsidianFiles:
@@ -13,8 +12,6 @@ series:
 - What I Touched
 tags:
 - ai-generated
-- x
-- zettel/permanent
 title: What I Touched This Week 2026-01-10
 ---
 

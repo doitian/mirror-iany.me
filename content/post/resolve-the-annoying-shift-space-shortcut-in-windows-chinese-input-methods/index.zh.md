@@ -1,5 +1,4 @@
 ---
-created: '[[2024-04-10]]'
 date: 2024-04-10T19:32:40+0800
 draft: false
 obsidianAliases:
@@ -8,8 +7,6 @@ tags:
 - ime
 - shortcut
 - windows
-- x
-- zettel/permanent
 title: 解决 Windows 中文输入法下 Shift + Space 快捷键的困扰
 ---
 

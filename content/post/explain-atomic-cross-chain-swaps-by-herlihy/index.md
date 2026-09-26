@@ -1,5 +1,4 @@
 ---
-created: '[[2025-09-19]]'
 date: 2025-09-19T22:26:46+0800
 description: A study on the paper Atomic Cross-Chain Swaps by Herlihy
 draft: false
@@ -10,8 +9,6 @@ tags:
 - blockchain
 - cryptography
 - distributed-system
-- x
-- zettel/permanent
 title: Explain Atomic Cross-Chain Swaps by Herlihy
 ---
 

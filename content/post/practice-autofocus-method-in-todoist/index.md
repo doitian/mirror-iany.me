@@ -1,7 +1,6 @@
 ---
 banner: '[[featured-river-flowing-with-maple-leaves-on-the-rocks.jpg]]'
 bannerPosition: 54
-created: '[[2022-10-03]]'
 date: 2022-10-03 19:26:38+08:00
 feature: featured-river-flowing-with-maple-leaves-on-the-rocks.jpg
 obsidianAliases:
@@ -9,8 +8,6 @@ obsidianAliases:
 tags:
 - productivity
 - todoist
-- x
-- zettel/permanent
 title: Practice Autofocus Method in Todoist
 ---
 

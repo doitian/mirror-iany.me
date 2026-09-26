@@ -1,5 +1,4 @@
 ---
-created: '[[2026-02-07]]'
 date: 2026-02-07T00:00:00+0800
 description: 'Cross-platform shell scripting with Bun on Windows: avoid shebangs and WSL/Git-bash setup, with single-file executables and a built-in shell.'
 draft: false
@@ -13,8 +12,6 @@ tags:
 - script
 - windows
 - dev-environment
-- x
-- zettel/permanent
 title: Use Bun for Shell Scripts
 ---
 

@@ -1,5 +1,4 @@
 ---
-created: '[[2026-09-23]]'
 date: 2026-09-23T00:45:26+0800
 description: 微信输入法激活后会注册真正的全局语音快捷键，但英文键盘下识别的文字只能放到剪贴板。把它和 AutoHotkey 的快捷键分开，就能自动切到中文输入、再次按键结束后切回英文。
 draft: false
@@ -10,8 +9,6 @@ tags:
 - ime
 - shortcut
 - windows
-- x
-- zettel/permanent
 title: 让 Windows 输入法的语音快捷键在英文键盘下也能触发
 ---
 

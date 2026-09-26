@@ -1,5 +1,4 @@
 ---
-created: '[[2023-04-27]]'
 date: 2023-04-27T21:22:30+0800
 draft: false
 obsidianAliases:
@@ -7,8 +6,6 @@ obsidianAliases:
 tags:
 - obsidian
 - vim
-- x
-- zettel/permanent
 title: The Ultimate Guide to Customizing Obsidian Vim Mode via QuickAdd
 ---
 

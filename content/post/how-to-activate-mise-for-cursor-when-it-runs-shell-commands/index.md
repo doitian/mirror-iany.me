@@ -1,5 +1,4 @@
 ---
-created: '[[2025-11-26]]'
 date: 2025-11-26T11:31:37+0800
 description: Learn how to configure mise to work with Cursor's non-login shell environment by activating it in .zshenv when CURSOR_AGENT is detected.
 draft: false
@@ -11,8 +10,6 @@ tags:
 - shell
 - zsh
 - vibe-coding
-- x
-- zettel/permanent
 title: How to Activate mise for Cursor When It Runs Shell Commands
 ---
 

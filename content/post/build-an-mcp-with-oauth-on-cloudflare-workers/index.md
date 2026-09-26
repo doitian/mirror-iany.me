@@ -1,5 +1,4 @@
 ---
-created: '[[2026-07-24]]'
 date: 2026-07-24T19:48:12+0800
 description: Wrap an IFTTT webhook as an MCP on Cloudflare Workers, protect it with Cloudflare Access OAuth, and create Google Tasks without a Workspace license or exposed secrets.
 draft: false
@@ -11,8 +10,6 @@ tags:
 - javascript
 - security
 - tool
-- x
-- zettel/permanent
 title: Build an MCP with OAuth on Cloudflare Workers
 ---
 

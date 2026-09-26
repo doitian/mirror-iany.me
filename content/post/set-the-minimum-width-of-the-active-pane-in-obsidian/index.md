@@ -1,5 +1,4 @@
 ---
-created: '[[2022-09-23]]'
 date: 2022-09-23T16:44:51+0800
 obsidianAliases:
 - Set the Minimum Width of the Active Pane in Obsidian
@@ -7,8 +6,6 @@ tags:
 - css
 - obsidian
 - productivity
-- x
-- zettel/permanent
 title: Set the Minimum Width of the Active Pane in Obsidian
 ---
 

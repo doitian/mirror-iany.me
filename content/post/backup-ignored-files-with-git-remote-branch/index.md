@@ -1,5 +1,4 @@
 ---
-created: '[[2025-12-12]]'
 date: 2025-12-12T03:22:58+0800
 draft: false
 obsidianAliases:
@@ -8,8 +7,6 @@ tags:
 - git
 - automation
 - backup
-- x
-- zettel/permanent
 title: Backup Ignored Files with Git Remote Branch
 ---
 

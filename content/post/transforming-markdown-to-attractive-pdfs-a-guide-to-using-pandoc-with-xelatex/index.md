@@ -1,5 +1,4 @@
 ---
-created: '[[2023-04-29]]'
 date: 2023-04-29T21:43:02+0800
 draft: false
 obsidianAliases:
@@ -8,8 +7,6 @@ tags:
 - latex
 - markdown
 - pdf
-- x
-- zettel/permanent
 title: 'Transforming Markdown to Attractive PDFs: A Guide to Using Pandoc with Xelatex'
 ---
 
