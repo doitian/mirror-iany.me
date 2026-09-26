@@ -1,4 +1,5 @@
 ---
+created: '[[2023-07-21]]'
 date: 2023-07-21T20:31:59+0800
 draft: false
 obsidianAliases:
@@ -7,6 +8,8 @@ tags:
 - browser
 - javascript
 - productivity
+- x
+- zettel/permanent
 title: Renaming Browser Tab Names
 ---
 

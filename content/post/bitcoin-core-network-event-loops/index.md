@@ -1,5 +1,5 @@
 ---
-banner: two-loops.png
+banner: '[[two-loops.png]]'
 bannerPosition: 26
 comment: true
 date: 2020-02-12 20:22:00+08:00

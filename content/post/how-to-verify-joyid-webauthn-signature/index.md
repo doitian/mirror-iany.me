@@ -1,4 +1,5 @@
 ---
+created: '[[2023-12-17]]'
 date: 2023-12-17T17:35:33+0800
 description: This post shows how to verify the signature from the method signChallenge of the `@joyid/ckb` package using using the OpenSSL command line and the Python library PyCryptodome
 draft: false
@@ -6,6 +7,8 @@ tags:
 - cryptography
 - javascript
 - webauthn
+- x
+- zettel/permanent
 title: How to Verify JoyID WebAuthn Signature
 ---
 

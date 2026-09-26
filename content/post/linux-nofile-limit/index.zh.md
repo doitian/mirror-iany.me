@@ -1,6 +1,6 @@
 ---
 comment: true
-date: '2017-04-09T20:03:10+08:00'
+date: 2017-04-09 20:03:10+08:00
 description: 开发服务端程序，nofile 是很重要的配置。它限制了一个进程最多能够打开的文件数量
 katex: false
 share: true

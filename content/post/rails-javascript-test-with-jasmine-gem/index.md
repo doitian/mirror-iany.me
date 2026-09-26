@@ -1,5 +1,5 @@
 ---
-date: '2013-01-31'
+date: 2013-01-31
 tags:
 - javascript
 - rails

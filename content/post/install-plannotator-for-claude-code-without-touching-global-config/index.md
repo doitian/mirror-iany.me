@@ -1,4 +1,5 @@
 ---
+created: '[[2026-09-22]]'
 date: 2026-09-22T17:09:27+0800
 description: Install the Plannotator CLI with --minimal, then its plugin and skills into a single project with --scope local and a subdirectory skills spec, so nothing lands in ~/.claude.
 draft: false
@@ -9,6 +10,8 @@ tags:
 - tool
 - automation
 - programming
+- i
+- zettel/permanent
 title: Install Plannotator for Claude Code Without Touching Global Config
 ---
 

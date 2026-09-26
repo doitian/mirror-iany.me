@@ -1,4 +1,5 @@
 ---
+created: '[[2026-09-08]]'
 date: 2026-09-08T09:00:00+0800
 description: One binary forwards mako and Windows toasts to Pushover. Linux needs one hook line; Windows needs a signed sparse-identity MSIX.
 draft: false
@@ -11,6 +12,8 @@ tags:
 - linux
 - script
 - windows
+- x
+- zettel/permanent
 title: Forwarding Desktop Notifications to Pushover
 ---
 

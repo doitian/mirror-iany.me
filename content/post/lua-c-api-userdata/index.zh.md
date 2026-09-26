@@ -1,5 +1,5 @@
 ---
-date: '2017-10-29T16:58:27+08:00'
+date: 2017-10-29 16:58:27+08:00
 description: 介绍 Lua C API 中的 userdata 和 light userdata
 series:
 - Lua C API

@@ -1,5 +1,5 @@
 ---
-date: '2011-12-09'
+date: 2011-12-09
 description: Use named captures in Nginx to serve multiple Passenger apps in different directories.
 tags:
 - nginx

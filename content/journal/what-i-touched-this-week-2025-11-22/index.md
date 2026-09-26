@@ -1,4 +1,5 @@
 ---
+created: '[[2025-11-22]]'
 date: 2025-11-22
 description: My weekly review report.
 obsidianFiles:

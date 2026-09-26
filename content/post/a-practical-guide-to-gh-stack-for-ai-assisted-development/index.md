@@ -1,4 +1,5 @@
 ---
+created: '[[2026-07-30]]'
 date: 2026-07-30T07:19:53+0800
 description: Use gh-stack with one worktree per stack, agent-planned focused branches, gh stack rebase --upstack, and AI-assisted JSON sync after squash or amend.
 draft: false
@@ -10,6 +11,8 @@ tags:
 - tool
 - programming
 - productivity
+- x
+- zettel/permanent
 title: A Practical Guide to gh-stack for AI-Assisted Development
 ---
 

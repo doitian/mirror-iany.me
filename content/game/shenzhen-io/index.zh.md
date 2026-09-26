@@ -1,13 +1,14 @@
 ---
-banner: ConceptOS.jpg
+banner: '[[ConceptOS.jpg]]'
 bannerPosition: 22
 copyright: game
-date: '2017-02-11T22:38:38+08:00'
+date: 2017-02-11 22:38:38+08:00
 description: 分享 Shengzhen IO，一款需要使用汇编写代码的游戏。
 feature: ConceptOS.jpg
 tags:
 - steam
 - puzzle
+thumb: '[[ConceptOS.jpg]]'
 title: Shenzhen IO
 ---
 

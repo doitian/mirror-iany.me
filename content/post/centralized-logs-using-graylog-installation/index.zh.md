@@ -1,6 +1,6 @@
 ---
 comment: true
-date: '2017-09-17T19:28:47+08:00'
+date: 2017-09-17 19:28:47+08:00
 description: Graylog 安装说明和可能出现的问题
 katex: false
 series:

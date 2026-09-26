@@ -1,4 +1,5 @@
 ---
+created: '[[2025-11-22]]'
 date: 2025-11-22T23:17:05+0800
 description: 'Experience the best of both worlds in PowerShell: temporarily switch to Vi command mode with a keybinding while keeping Emacs as your default editing mode. Learn how to configure PSReadLine for seamless Vi/Emacs mode toggling.'
 draft: false
@@ -9,6 +10,8 @@ tags:
 - vim
 - emacs
 - console
+- x
+- zettel/permanent
 title: Temporary Vi Mode in PowerShell
 ---
 

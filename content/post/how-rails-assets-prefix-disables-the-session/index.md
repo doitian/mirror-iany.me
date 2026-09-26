@@ -1,5 +1,5 @@
 ---
-date: '2013-04-28'
+date: 2013-04-28
 description: Introduce how we fix a bug, and what we learned about sprockets internals.
 tags:
 - rails

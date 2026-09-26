@@ -1,5 +1,5 @@
 ---
-date: '2016-11-27'
+date: 2016-11-27
 tags:
 - automation
 - macos

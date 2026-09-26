@@ -1,5 +1,5 @@
 ---
-banner: cartograph-cf.png
+banner: '[[cartograph-cf.png]]'
 date: 2021-09-11T21:21:30+0800
 feature: cartograph-cf.png
 tags:

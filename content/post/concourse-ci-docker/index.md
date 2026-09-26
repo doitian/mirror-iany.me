@@ -1,6 +1,6 @@
 ---
 comment: true
-date: '2017-02-25T18:46:03+08:00'
+date: 2017-02-25 18:46:03+08:00
 description: ''
 katex: false
 share: true

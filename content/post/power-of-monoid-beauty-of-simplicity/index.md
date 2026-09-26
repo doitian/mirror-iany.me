@@ -1,4 +1,5 @@
 ---
+created: '[[2026-02-19]]'
 date: 2026-02-20T00:00:00+0800
 description: 'Why the monoid—a set with an associative binary operation and identity—is both simple and surprisingly powerful: divide-and-conquer, finger trees, and the art of choosing the right abstraction.'
 draft: false
@@ -11,6 +12,8 @@ tags:
 - algorithm
 - math
 - programming
+- x
+- zettel/permanent
 title: Power of Monoid, Beauty of Simplicity
 ---
 

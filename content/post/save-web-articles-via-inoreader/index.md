@@ -1,6 +1,6 @@
 ---
-banner: evernote-saved-articles-squashed.png
-bannerPosition: 16
+banner: '[[evernote-saved-articles-squashed.png]]'
+bannerPosition: 14
 date: 2020-03-14T17:02:25+0800
 feature: evernote-saved-articles-squashed.png
 tags:

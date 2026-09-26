@@ -1,5 +1,5 @@
 ---
-date: '2017-02-18T05:35:59+08:00'
+date: 2017-02-18 05:35:59+08:00
 description: 介绍 Lua C API 使用方法，详细说明了 Lua 栈的操作
 series:
 - Lua C API

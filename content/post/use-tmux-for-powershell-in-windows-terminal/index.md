@@ -1,4 +1,5 @@
 ---
+created: '[[2026-01-29]]'
 date: 2026-01-29T23:30:42+0800
 description: Run tmux from WSL in Windows Terminal with PowerShell as the default shell.
 draft: false
@@ -9,6 +10,8 @@ tags:
 - powershell
 - wsl
 - windows-terminal
+- x
+- zettel/permanent
 title: Use tmux for PowerShell in Windows Terminal
 ---
 

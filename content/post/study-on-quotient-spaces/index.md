@@ -1,4 +1,5 @@
 ---
+created: '[[2025-11-18]]'
 date: 2025-11-18T21:23:25+0800
 draft: false
 katex: true
@@ -8,6 +9,8 @@ obsidianAliases:
 tags:
 - math
 - linear-algebra
+- x
+- zettel/permanent
 title: Study on Quotient Spaces
 ---
 
