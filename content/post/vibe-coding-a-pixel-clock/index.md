@@ -1,5 +1,5 @@
 ---
-banner: '[[ulanzi-tc002-feature.png]]'
+banner: ulanzi-tc002-feature.png
 date: 2026-09-09T23:38:12+0800
 description: 'A Ulanzi TC002 pixel clock, a vibe-coded HTTP server, and two everyday uses: timely animated pixel art and a portable coding-agent status display.'
 draft: false

@@ -1,5 +1,5 @@
 ---
-banner: '[[ConceptOS.jpg]]'
+banner: ConceptOS.jpg
 bannerPosition: 22
 copyright: game
 date: 2017-02-11 22:38:38+08:00
