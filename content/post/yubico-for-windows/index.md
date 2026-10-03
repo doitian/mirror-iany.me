@@ -4,6 +4,8 @@ tags:
 - windows
 - yubikey
 title: Yubico for Windows
+topics:
+- '[[♯ Yubikey]]'
 ---
 
 This post records how I set up Yubico Key in Windows, so I’ll not delve into too much details. I have the model YubiKey 5 NFC. I frequently use 2 GPG keys stored in the key, one for encryption, another for SSH authentication.

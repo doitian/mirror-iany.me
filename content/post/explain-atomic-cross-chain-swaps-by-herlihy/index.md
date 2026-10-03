@@ -5,6 +5,8 @@ draft: false
 katex: true
 obsidianAliases:
 - Explain Atomic Cross-Chain Swaps by Herlihy
+parent:
+- '[[Herlihy - Atomic Cross-Chain Swaps]]'
 tags:
 - blockchain
 - cryptography

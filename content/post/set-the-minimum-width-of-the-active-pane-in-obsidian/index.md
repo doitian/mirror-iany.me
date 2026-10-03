@@ -1,7 +1,12 @@
 ---
 date: 2022-09-23T16:44:51+0800
+friends:
+- '[[Obsidian Min Width Plugin]]'
 obsidianAliases:
 - Set the Minimum Width of the Active Pane in Obsidian
+reference:
+- '[[Obsidian QuickAdd Plugin]]'
+- '[[Obsidian Excalibrain Plugin]]'
 tags:
 - css
 - obsidian

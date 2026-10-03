@@ -5,6 +5,8 @@ date: 2022-10-03 19:26:38+08:00
 feature: featured-river-flowing-with-maple-leaves-on-the-rocks.jpg
 obsidianAliases:
 - Practice Autofocus Method in Todoist
+reference:
+- '[[Brett McKay et al. - Autofocus The Productivity System That Treats Your to-Do List Like a River (Highlights)]]'
 tags:
 - productivity
 - todoist

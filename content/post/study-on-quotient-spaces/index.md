@@ -1,10 +1,15 @@
 ---
 date: 2025-11-18T21:23:25+0800
 draft: false
+friends:
+- '[[NotebookLM - Quotient Spaces]]'
+- '[[§ Study on Quotient Spaces|Quotient Spaces]]'
 katex: true
 obsidianAliases:
 - Study on Quotient Spaces
 - Quotient Spaces
+parent:
+- '[[Axler - Linear Algebra Done Right]]'
 tags:
 - math
 - linear-algebra
