@@ -47,8 +47,14 @@ publishDate = [":default", ":git", ":fileModTime"]
 
 [imaging]
 resampleFilter = "box"
-quality = 75
 anchor = "smart"
+
+[imaging.jpeg]
+quality = 82
+
+[imaging.webp]
+quality = 80
+hint = "photo"
 
 [params]
 gcse = '006252023667590608831:yopsgewhz5y'
