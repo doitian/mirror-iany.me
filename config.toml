@@ -146,13 +146,6 @@ url = "/zh/post/"
 weight = 1
 
 [[languages.zh.menu.main]]
-identifier = "journals"
-name = "周记"
-title = "周记"
-url = "/zh/journal/"
-weight = 2
-
-[[languages.zh.menu.main]]
 identifier = "series"
 name = "系列"
 title = "系列文章"
