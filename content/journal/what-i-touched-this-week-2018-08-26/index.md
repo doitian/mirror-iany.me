@@ -1,6 +1,7 @@
 ---
 date: 2018-08-26
 description: My weekly review report.
+publish: false
 series:
 - What I Touched
 title: What I Touched This Week 2018-08-26
